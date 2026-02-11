@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-11T12:03:34.725Z",
+  "generatedAt": "2026-02-11T13:53:18.776Z",
   "weekday": 3,
   "menus": [
     {
@@ -12,13 +12,28 @@
       "items": [
         {
           "type": "main",
-          "name": "0,",
-          "price": 0
+          "name": "Uzená s kroupami a zeleninou",
+          "price": 38
         },
         {
           "type": "main",
-          "name": "( 1, 9 )",
-          "price": 38
+          "name": "Pečené kuřecí stehno, pestrá zelenina, dušená rýže",
+          "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Boloňské lasagne, rajčatová polpa",
+          "price": 175
+        },
+        {
+          "type": "main",
+          "name": "Rozpečený hermelín, vařené brambory, brusinková majonéza",
+          "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Grilovaná krkovice Duroc, rozmarýnové grenaile, cibulový džem se slaninou",
+          "price": 189
         }
       ]
     },
@@ -27,18 +42,110 @@
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
       "source": "live",
-      "status": "error",
-      "message": "Nepodařilo se rozpoznat položky menu.",
-      "items": []
+      "status": "ok",
+      "message": "Načteno.",
+      "items": [
+        {
+          "type": "main",
+          "name": "slow-simmered veal broth with root vegetables, meat and frittata noodles",
+          "price": 69
+        },
+        {
+          "type": "main",
+          "name": "pappardelle with chorizo, olive oil, garlic, artichokes, basil and parmesan",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "caprese piadina with grilled chicken breast, tomatoes, basil, stracciatella, rocket, lamb’s lettuce and balsamic reduction",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "grilled beef rump steak with roasted grenaille potatoes, truffle oil, demi-glace and small caesar salad",
+          "price": 220
+        },
+        {
+          "type": "main",
+          "name": "pizza on a tomato base with mozzarella, ham, mushrooms, onion, garlic and oregano",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "creamy italian risotto with pork tenderloin, mushrooms, peas, thyme and parmesan",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "chicken burrito with tomatoes, jasmine rice, jalapeños, oregano, cheddar and three salsas",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "grilled turkey breast with alla cacciatore sauce and buttery couscous",
+          "price": 210
+        },
+        {
+          "type": "soup",
+          "name": "frankfurter sausage soup with potatoes and cream",
+          "price": 69
+        },
+        {
+          "type": "main",
+          "name": "capellini aglio olio with prawns, chilli, parsley and parmesan",
+          "price": 190
+        },
+        {
+          "type": "main",
+          "name": "spinach pancakes with pulled pork, caramelised onion, leaf salad and tomatoes, baked with cheddar, yoghurt dressing with garlic and chives",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "grilled wild boar tenderloin with red wine sauce and mashed potatoes with spring onion",
+          "price": 210
+        }
+      ]
     },
     {
       "id": "smichovna",
       "name": "Smíchovna",
       "url": "https://www.smichovna.cz/tydenni-nabidka",
       "source": "live",
-      "status": "error",
-      "message": "Nepodařilo se rozpoznat položky menu.",
-      "items": []
+      "status": "ok",
+      "message": "Načteno.",
+      "items": [
+        {
+          "type": "main",
+          "name": "Staročeská kulajda s houbami a vejci",
+          "price": 45
+        },
+        {
+          "type": "main",
+          "name": "Bramborové noky s vepřovou panenkou, smetanou, anglickou slaninou, česnekem, baby špenátem a sýrem Gran Moravia",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Cikánská hovězí pečeně s jasmínovou rýží",
+          "price": 199
+        },
+        {
+          "type": "main",
+          "name": "Grilované medailonky z argentinského hovězího ořechu s pepřovou omáčkou a šťouchaným bramborem",
+          "price": 219
+        },
+        {
+          "type": "main",
+          "name": "Caesar burger – kuřecí prso, listový salát, rajče, slanina, čedar a caesar dresink, hranolky",
+          "price": 239
+        },
+        {
+          "type": "main",
+          "name": "Kynuté borůvkové knedlíky se zakysanou smetanou",
+          "price": 159
+        }
+      ]
     },
     {
       "id": "smichovska-formanka",
@@ -48,6 +155,11 @@
       "status": "ok",
       "message": "Načteno.",
       "items": [
+        {
+          "type": "soup",
+          "name": "cibulový krém s krutony",
+          "price": 45
+        },
         {
           "type": "main",
           "name": "Štěpánská hovězí pečeně, houskové knedlíky / rýže",
@@ -102,11 +214,6 @@
           "type": "main",
           "name": "Hovězí cheeseburger s čedarem a chilli majonézou, hranolky",
           "price": 195
-        },
-        {
-          "type": "main",
-          "name": "kulajda s vejcem",
-          "price": 45
         }
       ]
     },
@@ -114,10 +221,26 @@
       "id": "u-mamlasu",
       "name": "U Mámy Lásu",
       "url": "https://www.umamlasu.cz/denni-menu-praha",
-      "source": "live",
-      "status": "no-menu-for-today",
-      "message": "Na stránce není menu pro dnešní den.",
-      "items": []
+      "status": "ok",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Na stránce není menu pro dnešní den.).",
+      "items": [
+        {
+          "type": "soup",
+          "name": "Česnečka se sýrem",
+          "price": 49
+        },
+        {
+          "type": "main",
+          "name": "Vídeňský řízek z vepřové kýty, bramborová kaše",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Penne arrabbiata",
+          "price": 169
+        }
+      ]
     }
   ]
 }
