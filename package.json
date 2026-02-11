@@ -1,0 +1,13 @@
+{
+  "name": "menicka",
+  "version": "1.0.0",
+  "description": "Statický agregátor poledních menu pro GitHub Pages",
+  "type": "module",
+  "scripts": {
+    "update-menu": "node scripts/fetch-menu.mjs",
+    "check": "node --check scripts/fetch-menu.mjs && node --check public/app.js"
+  },
+  "dependencies": {
+    "cheerio": "file:vendor/cheerio"
+  }
+}
