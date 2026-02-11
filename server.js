@@ -189,19 +189,21 @@ async function fetchHtml(url) {
 
 function parseSimpleDailyPage(html, { today }) {
   const lines = extractTextLines(html);
-
-  const hasAnotherDay = lines.some((line) => {
-    const idx = weekdayFromLine(line);
-    return idx !== null && idx !== today;
-  });
-
-  if (hasAnotherDay && !lines.some((line) => weekdayFromLine(line) === today)) {
-    return { status: 'no-menu-for-today', message: 'Na stránce není menu pro dnešní den.', items: [] };
-  }
-
   const items = parseMenuLines(lines);
+
   if (!items.length) {
     return { status: 'error', message: 'Nepodařilo se rozpoznat položky menu.', items: [] };
+  }
+
+  const foundWeekdays = lines.map((line) => weekdayFromLine(line)).filter((value) => value !== null);
+  const hasCurrentDay = foundWeekdays.includes(today);
+
+  if (foundWeekdays.length && !hasCurrentDay) {
+    return {
+      status: 'ok',
+      message: 'Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).',
+      items
+    };
   }
 
   return { status: 'ok', message: 'Načteno.', items };

@@ -8,7 +8,7 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "main",
@@ -219,7 +219,7 @@
     },
     {
       "id": "u-mamlasu",
-      "name": "U Mámy Lásu",
+      "name": "U Mamlasů",
       "url": "https://www.umamlasu.cz/denni-menu-praha",
       "status": "ok",
       "source": "fallback",

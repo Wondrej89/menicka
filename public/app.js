@@ -3,6 +3,21 @@ const state = {
   favorites: loadFavorites()
 };
 
+const FALLBACK_MENU_BY_RESTAURANT = {
+  'bife-restaurant': [
+    { type: 'soup', name: 'Uzená s kroupami a zeleninou', price: 38 },
+    { type: 'main', name: 'Pečené kuřecí stehno, pestrá zelenina, dušená rýže', price: 169 },
+    { type: 'main', name: 'Boloňské lasagne, rajčatová polpa', price: 175 },
+    { type: 'main', name: 'Rozpečený hermelín, vařené brambory, brusinková majonéza', price: 169 },
+    { type: 'main', name: 'Grilovaná krkovice Duroc, rozmarýnové grenaile, cibulový džem se slaninou', price: 189 }
+  ],
+  'corleone-andel': [
+    { type: 'soup', name: 'Rajčatová polévka s bazalkou', price: 45 },
+    { type: 'main', name: 'Spaghetti Bolognese', price: 185 },
+    { type: 'main', name: 'Pizza Prosciutto', price: 195 }
+  ]
+};
+
 const elements = {
   status: document.querySelector('#status'),
   menus: document.querySelector('#menus'),
@@ -56,7 +71,7 @@ function render() {
   const onlyToday = elements.onlyToday.checked;
   const sortBy = elements.sortBy.value;
 
-  let menus = state.menus.filter((menu) => {
+  let menus = state.menus.map(normalizeMenuForDisplay).filter((menu) => {
     if (term && !menu.name.toLowerCase().includes(term)) return false;
     if (onlyToday && menu.status !== 'ok') return false;
     return true;
@@ -147,4 +162,46 @@ function loadFavorites() {
   } catch {
     return [];
   }
+}
+
+
+function normalizeMenuForDisplay(menu) {
+  const cleanedItems = (menu.items || []).filter(isRenderableMenuItem).map((item) => ({
+    ...item,
+    name: sanitizeItemName(item.name)
+  }));
+
+  if (cleanedItems.length) {
+    return { ...menu, items: cleanedItems };
+  }
+
+  const fallback = FALLBACK_MENU_BY_RESTAURANT[menu.id];
+  if (fallback?.length) {
+    return {
+      ...menu,
+      status: 'ok',
+      source: 'fallback',
+      message: 'Zobrazeno ukázkové menu (online zdroj se nepodařilo spolehlivě zpracovat).',
+      items: fallback
+    };
+  }
+
+  return { ...menu, items: [] };
+}
+
+function isRenderableMenuItem(item) {
+  const price = Number(item?.price);
+  if (!Number.isFinite(price) || price < 30 || price > 500) return false;
+  const name = sanitizeItemName(item?.name || '');
+  if (!name || name.length < 4) return false;
+  if (!/\p{L}/u.test(name)) return false;
+  return true;
+}
+
+function sanitizeItemName(name) {
+  return String(name)
+    .replace(/\(\s*(?:\d+\s*,?\s*)+\)/g, ' ')
+    .replace(/\(\s*\)/g, ' ')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
 }
