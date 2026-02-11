@@ -23,9 +23,19 @@ const WEEKDAY_ALIASES = {
 
 const RESTAURANTS = [
   { id: 'bife-restaurant', name: 'Bife Restaurant', url: 'https://biferestaurant.cz/pages/denni-menu', parser: parseSimpleDailyPage },
-  { id: 'corleone-andel', name: 'Corleone Anděl', url: 'https://www.corleone.cz/poledni-menu-andel', parser: parseSimpleDailyPage },
+  {
+    id: 'corleone-andel',
+    name: 'Corleone Anděl',
+    url: 'https://www.corleone.cz/poledni-menu-andel',
+    parser: (html, context) => parseSimpleDailyPage(html, { ...context, preferTodaySection: true, preferCzech: true })
+  },
   { id: 'smichovna', name: 'Smíchovna', url: 'https://www.smichovna.cz/tydenni-nabidka', parser: parseWeeklyPage },
-  { id: 'smichovska-formanka', name: 'Smíchovská Formanka', url: 'http://smichovskaformanka.cz/', parser: parseSimpleDailyPage },
+  {
+    id: 'smichovska-formanka',
+    name: 'Smíchovská Formanka',
+    url: 'http://smichovskaformanka.cz/',
+    parser: (html, context) => parseSimpleDailyPage(html, { ...context, preferTodaySection: true })
+  },
   { id: 'u-mamlasu', name: 'U Mámy Lásu', url: 'https://www.umamlasu.cz/denni-menu-praha', parser: parseSimpleDailyPage }
 ];
 
@@ -146,14 +156,20 @@ async function fetchHtml(url) {
   }
 }
 
-function parseSimpleDailyPage(html, { today }) {
+function parseSimpleDailyPage(html, { today, preferTodaySection = false, preferCzech = false } = {}) {
   const lines = extractTextLines(html);
-  const items = parseMenuLines(lines);
-
-  if (!items.length) return { status: 'error', message: 'Nepodařilo se rozpoznat položky menu.', items: [] };
-
+  const daySections = splitLinesIntoDaySections(lines);
   const foundWeekdays = lines.map((line) => weekdayFromLine(line)).filter((value) => value !== null);
   const hasCurrentDay = foundWeekdays.includes(today);
+
+  if (preferTodaySection && daySections.size && !hasCurrentDay) {
+    return { status: 'no-menu-for-today', message: 'Menu pro dnešní den není na stránce dostupné.', items: [] };
+  }
+
+  const workingLines = preferTodaySection ? pickLinesForToday(daySections, lines, today) : lines;
+  const items = parseMenuLines(workingLines, { preferCzech });
+
+  if (!items.length) return { status: 'error', message: 'Nepodařilo se rozpoznat položky menu.', items: [] };
 
   if (foundWeekdays.length && !hasCurrentDay) {
     return {
@@ -202,7 +218,7 @@ function extractTextLines(html) {
   return text.split('\n').map((line) => line.trim()).filter(Boolean).filter((line) => line.length > 2);
 }
 
-function parseMenuLines(lines) {
+function parseMenuLines(lines, { preferCzech = false } = {}) {
   const items = [];
 
   for (let i = 0; i < lines.length; i += 1) {
@@ -216,10 +232,14 @@ function parseMenuLines(lines) {
     const directName = normalizeMenuItemName(line.replace(priceMatch[0], '').replace(/^\d+[\.|\)]\s*/, '').trim());
 
     let name = directName;
-    if (!hasMeaningfulFoodName(name) && i > 0) {
-      const merged = normalizeMenuItemName(`${lines[i - 1]} ${line.replace(priceMatch[0], '')}`);
-      if (hasMeaningfulFoodName(merged)) {
-        name = merged;
+    if (!hasMeaningfulFoodName(name)) {
+      name = findBestPreviousName(lines, i, { preferCzech });
+    }
+
+    if (preferCzech && looksLikeEnglishText(name)) {
+      const localizedName = findBestPreviousName(lines, i, { preferCzech: true, rejectEnglishOnly: true });
+      if (hasMeaningfulFoodName(localizedName)) {
+        name = localizedName;
       }
     }
 
@@ -237,6 +257,66 @@ function normalizeMenuItemName(name) {
     .replace(/\b\d{2,4}\s*g\b/gi, ' ')
     .replace(/\s{2,}/g, ' ')
     .trim();
+}
+
+function findBestPreviousName(lines, index, { preferCzech = false, rejectEnglishOnly = false } = {}) {
+  const candidates = [];
+  for (let offset = 1; offset <= 3; offset += 1) {
+    const line = lines[index - offset];
+    if (!line) continue;
+    const cleaned = normalizeMenuItemName(line.replace(/^\d+[\.|\)]\s*/, '').trim());
+    if (!hasMeaningfulFoodName(cleaned)) continue;
+    if (weekdayFromLine(cleaned) !== null) continue;
+    if (rejectEnglishOnly && looksLikeEnglishText(cleaned)) continue;
+
+    let score = 0;
+    if (preferCzech && hasCzechDiacritics(cleaned)) score += 3;
+    if (preferCzech && looksLikeEnglishText(cleaned)) score -= 2;
+    if (cleaned === cleaned.toUpperCase()) score += 1;
+    score -= offset * 0.1;
+
+    candidates.push({ cleaned, score });
+  }
+
+  if (!candidates.length) return '';
+  candidates.sort((a, b) => b.score - a.score);
+  return candidates[0].cleaned;
+}
+
+function splitLinesIntoDaySections(lines) {
+  const sections = new Map();
+  let currentDay = null;
+
+  for (const line of lines) {
+    const weekday = weekdayFromLine(line);
+    if (weekday !== null) {
+      currentDay = weekday;
+      if (!sections.has(weekday)) sections.set(weekday, []);
+      continue;
+    }
+
+    if (currentDay !== null) {
+      sections.get(currentDay).push(line);
+    }
+  }
+
+  return sections;
+}
+
+function pickLinesForToday(daySections, fallbackLines, today) {
+  if (!daySections.size) return fallbackLines;
+  if (daySections.has(today)) return daySections.get(today);
+  return [];
+}
+
+function hasCzechDiacritics(value) {
+  return /[áčďéěíňóřšťúůýž]/i.test(value);
+}
+
+function looksLikeEnglishText(value) {
+  const low = String(value || '').toLowerCase();
+  const tokens = [' with ', ' and ', ' grilled ', ' roasted ', ' soup', ' chicken', ' beef', ' pork', ' garlic', ' mushroom'];
+  return tokens.some((token) => low.includes(token.trim()) || low.includes(token));
 }
 
 function hasMeaningfulFoodName(name) {
