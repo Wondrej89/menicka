@@ -1,0 +1,148 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f6f7fb;
+  color: #1d2230;
+}
+
+.page-header,
+.controls,
+main,
+.favorites-panel {
+  width: min(1100px, 92vw);
+  margin: 0 auto;
+}
+
+.page-header {
+  padding: 2rem 0 1rem;
+}
+
+.controls,
+.favorites-panel {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: end;
+  background: #fff;
+  border: 1px solid #d8deed;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.favorites-panel {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.favorites-panel h2,
+.favorites-panel p {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-weight: 600;
+}
+
+input,
+select,
+button {
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #c8d1e8;
+  font: inherit;
+}
+
+button {
+  background: #2c59d1;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+
+.menus-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  padding: 1rem 0 2rem;
+}
+
+.restaurant-card {
+  background: white;
+  border: 1px solid #d8deed;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.restaurant-card header {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.6rem;
+  align-items: baseline;
+}
+
+.restaurant-name {
+  margin: 0;
+}
+
+.restaurant-link {
+  font-size: 0.9rem;
+}
+
+.menu-status {
+  margin: 0.6rem 0;
+  color: #495372;
+}
+
+.menu-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.menu-item {
+  padding: 0.6rem;
+  border-radius: 8px;
+  background: #f5f8ff;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 0.6rem;
+}
+
+.item-type {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: #53607f;
+}
+
+.item-price {
+  font-weight: 700;
+}
+
+.menu-item.favorite {
+  background: #fff4cf;
+  outline: 1px solid #f0c24a;
+}
+
+#status {
+  font-weight: 600;
+  color: #4d5570;
+  margin-bottom: 0.2rem;
+}
+
+
+.menu-status-error {
+  color: #a02222;
+  font-weight: 600;
+}

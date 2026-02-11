@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-02-11T11:39:30.554Z",
+  "sources": [
+    {
+      "id": "restaurace-xyz",
+      "name": "Restaurace XYZ",
+      "url": "https://example.com/menu",
+      "error": "fetch failed",
+      "items": []
+    }
+  ]
+}

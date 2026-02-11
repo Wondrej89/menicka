@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Polední nabídky restaurací</title>
+    <link rel="stylesheet" href="public/styles.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <h1>Polední nabídky restaurací</h1>
+      <p>Aktuální přehled obědových menu z vybraných podniků.</p>
+    </header>
+
+    <section class="controls">
+      <label>
+        Filtrovat restauraci
+        <input id="restaurantFilter" type="text" placeholder="např. Smíchovna" />
+      </label>
+    </section>
+
+    <section class="favorites-panel">
+      <h2>Oblíbená klíčová slova</h2>
+      <p>Zadej slova oddělená čárkou (např. svíčková, vídeňský řízek). Shoda se zvýrazní v menu.</p>
+      <input id="favoriteKeywords" type="text" placeholder="svíčková, vídeňský řízek" />
+      <button id="saveFavoritesBtn">Uložit</button>
+    </section>
+
+    <main>
+      <div id="status" aria-live="polite"></div>
+      <div id="menus" class="menus-grid"></div>
+    </main>
+
+    <script src="public/app.js"></script>
+  </body>
+</html>
