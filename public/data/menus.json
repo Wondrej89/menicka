@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-11T13:53:18.776Z",
+  "generatedAt": "2026-02-11T14:47:28.209Z",
   "weekday": 3,
   "menus": [
     {
@@ -12,28 +12,33 @@
       "items": [
         {
           "type": "main",
-          "name": "Uzená s kroupami a zeleninou",
+          "name": "Gulášová",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Pečené kuřecí stehno, pestrá zelenina, dušená rýže",
-          "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Boloňské lasagne, rajčatová polpa",
+          "name": "Kančí výpečky, červené zelí, bramborové knedlíky",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Rozpečený hermelín, vařené brambory, brusinková majonéza",
+          "name": "Filírovaný hovězí rump steak, čedarová omáčka, bramborové krokety",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Plněný paprikový lusk s tomatovou omáčkou, dušená rýže",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Grilovaná krkovice Duroc, rozmarýnové grenaile, cibulový džem se slaninou",
+          "name": "Filátka ze pstruha, pečené papriky s fenyklem, bramborová kaše s kapary",
           "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Smetana, mozzarella, anglická slanina, gorgonzola, chilli",
+          "price": 169
         }
       ]
     },
@@ -219,11 +224,11 @@
     },
     {
       "id": "u-mamlasu",
-      "name": "U Mamlasů",
+      "name": "U Mámy Lásu",
       "url": "https://www.umamlasu.cz/denni-menu-praha",
       "status": "ok",
       "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Na stránce není menu pro dnešní den.).",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
           "type": "soup",
