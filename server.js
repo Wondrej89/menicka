@@ -87,6 +87,22 @@ async function loadRestaurantMenu(restaurant, today) {
   try {
     const html = await fetchHtml(restaurant.url);
     const parsed = restaurant.parser(html, { today });
+
+    if (parsed.status !== 'ok') {
+      const fallback = getFallbackMenu(restaurant.id, today);
+      if (fallback) {
+        return {
+          id: restaurant.id,
+          name: restaurant.name,
+          url: restaurant.url,
+          status: 'ok',
+          source: 'fallback',
+          message: `Zobrazeno ukázkové menu (${parsed.message || 'menu na webu nešlo spolehlivě načíst'}).`,
+          items: fallback
+        };
+      }
+    }
+
     return { id: restaurant.id, name: restaurant.name, url: restaurant.url, source: 'live', ...parsed };
   } catch (error) {
     const fallback = getFallbackMenu(restaurant.id, today);
@@ -251,12 +267,25 @@ function parseMenuLines(lines) {
       .replace(/\s{2,}/g, ' ')
       .trim();
 
-    if (!name) continue;
+    if (!name || !hasMeaningfulFoodName(name) || !isValidMenuPrice(price)) continue;
 
     items.push({ type: isSoup(name) ? 'soup' : 'main', name, price });
   }
 
   return dedupeItems(items).slice(0, 12);
+}
+
+function hasMeaningfulFoodName(name) {
+  if (!/\p{L}/u.test(name)) return false;
+  const cleaned = name
+    .replace(/[()\[\],.:;+\-/*]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+  return cleaned.length >= 4;
+}
+
+function isValidMenuPrice(price) {
+  return price >= 40 && price <= 500;
 }
 
 function dedupeItems(items) {
