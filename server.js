@@ -212,7 +212,8 @@ function parseWeeklyPage(html, { today }) {
   let currentDay = null;
   const dayLines = [];
 
-  for (const line of lines) {
+  for (let i = 0; i < lines.length; i += 1) {
+    const line = lines[i];
     const weekday = weekdayFromLine(line);
     if (weekday !== null) {
       currentDay = weekday;
@@ -254,18 +255,23 @@ function extractTextLines(html) {
 function parseMenuLines(lines) {
   const items = [];
 
-  for (const line of lines) {
+  for (let i = 0; i < lines.length; i += 1) {
+    const line = lines[i];
     const priceMatch = line.match(/(\d{2,4})\s*(?:Kč|CZK)/i) || line.match(/(\d{2,4})\s*,-/);
     if (!priceMatch) continue;
 
     const price = Number(priceMatch[1]);
     if (!Number.isFinite(price)) continue;
 
-    const name = line
-      .replace(priceMatch[0], '')
-      .replace(/^\d+[\.|\)]\s*/, '')
-      .replace(/\s{2,}/g, ' ')
-      .trim();
+    const directName = normalizeMenuItemName(line.replace(priceMatch[0], '').replace(/^\d+[\.|\)]\s*/, '').trim());
+
+    let name = directName;
+    if (!hasMeaningfulFoodName(name) && i > 0) {
+      const merged = normalizeMenuItemName(`${lines[i - 1]} ${line.replace(priceMatch[0], '')}`);
+      if (hasMeaningfulFoodName(merged)) {
+        name = merged;
+      }
+    }
 
     if (!name || !hasMeaningfulFoodName(name) || !isValidMenuPrice(price)) continue;
 
@@ -273,6 +279,14 @@ function parseMenuLines(lines) {
   }
 
   return dedupeItems(items).slice(0, 12);
+}
+function normalizeMenuItemName(name) {
+  return name
+    .replace(/\(\s*(?:\d+\s*,?\s*)+\)/g, ' ')
+    .replace(/\(\s*\)/g, ' ')
+    .replace(/\b\d{2,4}\s*g\b/gi, ' ')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
 }
 
 function hasMeaningfulFoodName(name) {
@@ -285,7 +299,7 @@ function hasMeaningfulFoodName(name) {
 }
 
 function isValidMenuPrice(price) {
-  return price >= 40 && price <= 500;
+  return price >= 30 && price <= 500;
 }
 
 function dedupeItems(items) {
