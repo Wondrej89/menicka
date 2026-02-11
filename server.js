@@ -87,6 +87,22 @@ async function loadRestaurantMenu(restaurant, today) {
   try {
     const html = await fetchHtml(restaurant.url);
     const parsed = restaurant.parser(html, { today });
+
+    if (parsed.status !== 'ok') {
+      const fallback = getFallbackMenu(restaurant.id, today);
+      if (fallback) {
+        return {
+          id: restaurant.id,
+          name: restaurant.name,
+          url: restaurant.url,
+          status: 'ok',
+          source: 'fallback',
+          message: `Zobrazeno ukázkové menu (${parsed.message || 'menu na webu nešlo spolehlivě načíst'}).`,
+          items: fallback
+        };
+      }
+    }
+
     return { id: restaurant.id, name: restaurant.name, url: restaurant.url, source: 'live', ...parsed };
   } catch (error) {
     const fallback = getFallbackMenu(restaurant.id, today);
@@ -196,7 +212,8 @@ function parseWeeklyPage(html, { today }) {
   let currentDay = null;
   const dayLines = [];
 
-  for (const line of lines) {
+  for (let i = 0; i < lines.length; i += 1) {
+    const line = lines[i];
     const weekday = weekdayFromLine(line);
     if (weekday !== null) {
       currentDay = weekday;
@@ -238,25 +255,51 @@ function extractTextLines(html) {
 function parseMenuLines(lines) {
   const items = [];
 
-  for (const line of lines) {
+  for (let i = 0; i < lines.length; i += 1) {
+    const line = lines[i];
     const priceMatch = line.match(/(\d{2,4})\s*(?:Kč|CZK)/i) || line.match(/(\d{2,4})\s*,-/);
     if (!priceMatch) continue;
 
     const price = Number(priceMatch[1]);
     if (!Number.isFinite(price)) continue;
 
-    const name = line
-      .replace(priceMatch[0], '')
-      .replace(/^\d+[\.|\)]\s*/, '')
-      .replace(/\s{2,}/g, ' ')
-      .trim();
+    const directName = normalizeMenuItemName(line.replace(priceMatch[0], '').replace(/^\d+[\.|\)]\s*/, '').trim());
 
-    if (!name) continue;
+    let name = directName;
+    if (!hasMeaningfulFoodName(name) && i > 0) {
+      const merged = normalizeMenuItemName(`${lines[i - 1]} ${line.replace(priceMatch[0], '')}`);
+      if (hasMeaningfulFoodName(merged)) {
+        name = merged;
+      }
+    }
+
+    if (!name || !hasMeaningfulFoodName(name) || !isValidMenuPrice(price)) continue;
 
     items.push({ type: isSoup(name) ? 'soup' : 'main', name, price });
   }
 
   return dedupeItems(items).slice(0, 12);
+}
+function normalizeMenuItemName(name) {
+  return name
+    .replace(/\(\s*(?:\d+\s*,?\s*)+\)/g, ' ')
+    .replace(/\(\s*\)/g, ' ')
+    .replace(/\b\d{2,4}\s*g\b/gi, ' ')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}
+
+function hasMeaningfulFoodName(name) {
+  if (!/\p{L}/u.test(name)) return false;
+  const cleaned = name
+    .replace(/[()\[\],.:;+\-/*]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+  return cleaned.length >= 4;
+}
+
+function isValidMenuPrice(price) {
+  return price >= 30 && price <= 500;
 }
 
 function dedupeItems(items) {
