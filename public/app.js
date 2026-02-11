@@ -42,10 +42,10 @@ function bindEvents() {
 async function loadMenus() {
   elements.status.textContent = 'Načítám nabídky...';
   try {
-    const response = await fetch('/api/menus');
+    const response = await fetch('data/menus.json', { cache: 'no-store' });
     const data = await response.json();
     state.menus = data.menus;
-    elements.status.textContent = `Poslední aktualizace: ${new Date(data.generatedAt).toLocaleString('cs-CZ')}`;
+    elements.status.textContent = `Poslední aktualizace: ${new Date(data.generatedAt).toLocaleString('cs-CZ')}` + (data.menus?.some((m) => m.source === 'fallback') ? ' · některá data jsou offline ukázka' : '');
   } catch (error) {
     elements.status.textContent = `Chyba při načítání menu: ${error.message}`;
   }

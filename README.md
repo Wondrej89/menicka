@@ -1,40 +1,41 @@
-# Meníčka – agregátor poledních nabídek
+# Meníčka – statická aplikace pro GitHub Pages
 
-Jednoduchá webová aplikace, která:
+Aplikace je navržená tak, aby fungovala na **GitHub Pages** bez vlastního backendu.
 
-- načte menu vybraných restaurací z jejich webů,
-- sjednotí výstup na společný formát (polévka / hlavní jídla / cena),
-- ověřuje dostupnost dnešní nabídky (včetně týdenních menu),
-- umožní v prohlížeči filtrovat a řadit restaurace,
-- obsahuje základ pro budoucí práci s oblíbenými jídly přes klíčová slova,
-- při nedostupnosti online zdroje zobrazí ukázkové offline menu, aby stránka nebyla prázdná.
+## Jak to funguje
 
-## Spuštění
+- Frontend (`public/index.html`) je čistě statický.
+- Data se načítají z `public/data/menus.json`.
+- Soubor `menus.json` generuje skript `scripts/generate-menus.js`.
+- GitHub Action `.github/workflows/update-menus.yml` pravidelně obnovuje data a commituje změny zpět do repozitáře.
+
+Díky tomu stránka na GitHub Pages funguje bez Node serveru.
+
+## Spuštění lokálně
 
 ```bash
-npm install
-npm start
+node scripts/generate-menus.js
+python -m http.server 3000 -d public
 ```
 
-Aplikace poběží na `http://localhost:3000`.
+Pak otevři `http://localhost:3000`.
+
+## Nasazení na GitHub Pages
+
+1. Pushni repozitář na GitHub.
+2. V **Settings → Pages** nastav zdroj na větev (typicky `main`) a složku `/public`.
+3. Zapni workflow `Update menus data` (Permissions: Read and write).
 
 ## Přidání nové restaurace
 
-V souboru `server.js` přidejte položku do pole `RESTAURANTS`:
+V `scripts/generate-menus.js` přidej položku do `RESTAURANTS`:
 
 ```js
-{
-  id: 'unikatni-id',
-  name: 'Název restaurace',
-  url: 'https://...',
-  parser: parseSimpleDailyPage // nebo vlastní parser
-}
+{ id: 'unikatni-id', name: 'Název', url: 'https://...', parser: parseSimpleDailyPage }
 ```
 
-Pokud má restaurace specifický formát, vytvořte nový parser funkcí podobně jako `parseWeeklyPage`.
+Pokud má web jiný formát, přidej nový parser.
 
-## Poznámka
+## Poznámka k dostupnosti zdrojů
 
-Weby restaurací se mohou měnit. Pokud parser přestane fungovat, je potřeba jej upravit podle aktuální struktury stránky.
-
-Pokud není možné z online zdroje menu stáhnout (např. blokace sítě), API vrací ukázkové offline menu se `source: "fallback"`.
+Některé weby mohou blokovat automatické načítání. V takovém případě generátor použije ukázkové fallback menu, aby stránka nebyla prázdná.
