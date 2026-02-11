@@ -1,0 +1,11 @@
+{
+  "name": "menicka",
+  "version": "1.0.0",
+  "description": "Agregátor poledních menu restaurací",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js && node --check public/app.js"
+  }
+}
