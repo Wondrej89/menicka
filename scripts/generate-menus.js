@@ -22,6 +22,12 @@ const WEEKDAY_ALIASES = {
 };
 
 const RESTAURANTS = [
+  {
+    id: 'andel-restaurant',
+    name: 'Anděl Restaurant',
+    url: 'https://www.restauraceandel.cz/denni-nabidka',
+    parser: (html, context) => parseSimpleDailyPage(html, { ...context, preferTodaySection: true })
+  },
   { id: 'bife-restaurant', name: 'Bife Restaurant', url: 'https://biferestaurant.cz/pages/denni-menu', parser: parseSimpleDailyPage },
   {
     id: 'corleone-andel',
@@ -40,6 +46,11 @@ const RESTAURANTS = [
 ];
 
 const FALLBACK_MENU_BY_RESTAURANT = {
+  'andel-restaurant': [
+    { type: 'soup', name: 'Silný hovězí vývar s masem a nudlemi', price: 49 },
+    { type: 'main', name: 'Kuřecí steak s pepřovou omáčkou, hranolky', price: 189 },
+    { type: 'main', name: 'Smažený eidam, vařené brambory, tatarská omáčka', price: 175 }
+  ],
   'bife-restaurant': [
     { type: 'soup', name: 'Drůbeží vývar se zeleninou', price: 49 },
     { type: 'main', name: 'Kuřecí steak, pepřová omáčka, hranolky', price: 179 },
