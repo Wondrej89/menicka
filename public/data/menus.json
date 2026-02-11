@@ -1,0 +1,123 @@
+{
+  "generatedAt": "2026-02-11T12:03:34.725Z",
+  "weekday": 3,
+  "menus": [
+    {
+      "id": "bife-restaurant",
+      "name": "Bife Restaurant",
+      "url": "https://biferestaurant.cz/pages/denni-menu",
+      "source": "live",
+      "status": "ok",
+      "message": "Načteno.",
+      "items": [
+        {
+          "type": "main",
+          "name": "0,",
+          "price": 0
+        },
+        {
+          "type": "main",
+          "name": "( 1, 9 )",
+          "price": 38
+        }
+      ]
+    },
+    {
+      "id": "corleone-andel",
+      "name": "Corleone Anděl",
+      "url": "https://www.corleone.cz/poledni-menu-andel",
+      "source": "live",
+      "status": "error",
+      "message": "Nepodařilo se rozpoznat položky menu.",
+      "items": []
+    },
+    {
+      "id": "smichovna",
+      "name": "Smíchovna",
+      "url": "https://www.smichovna.cz/tydenni-nabidka",
+      "source": "live",
+      "status": "error",
+      "message": "Nepodařilo se rozpoznat položky menu.",
+      "items": []
+    },
+    {
+      "id": "smichovska-formanka",
+      "name": "Smíchovská Formanka",
+      "url": "http://smichovskaformanka.cz/",
+      "source": "live",
+      "status": "ok",
+      "message": "Načteno.",
+      "items": [
+        {
+          "type": "main",
+          "name": "Štěpánská hovězí pečeně, houskové knedlíky / rýže",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "Holandský řízek, bramborová kaše, okurkový salátek",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Kuřecí katův šleh, hranolky",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "Špagety s kuřecím masem, cuketou, česnekem a parmezánem",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Vepřový steak s hořčičnou omáčkou, americké brambory",
+          "price": 185
+        },
+        {
+          "type": "soup",
+          "name": "slepičí vývar s masem, nudlemi a zeleninou",
+          "price": 45
+        },
+        {
+          "type": "main",
+          "name": "Francouzské brambory s kyselou okurkou",
+          "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Krůtí guláš, houskové knedlíky",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Kuřecí steak s pestem ze sušených rajčat, krokety",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Gnocchi s vepřovou panenkou a omáčkou z modrého sýra",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Hovězí cheeseburger s čedarem a chilli majonézou, hranolky",
+          "price": 195
+        },
+        {
+          "type": "main",
+          "name": "kulajda s vejcem",
+          "price": 45
+        }
+      ]
+    },
+    {
+      "id": "u-mamlasu",
+      "name": "U Mámy Lásu",
+      "url": "https://www.umamlasu.cz/denni-menu-praha",
+      "source": "live",
+      "status": "no-menu-for-today",
+      "message": "Na stránce není menu pro dnešní den.",
+      "items": []
+    }
+  ]
+}

@@ -1,6 +1,5 @@
 const state = {
-  generatedAt: null,
-  sources: [],
+  menus: [],
   favorites: loadFavorites()
 };
 
@@ -8,8 +7,11 @@ const elements = {
   status: document.querySelector('#status'),
   menus: document.querySelector('#menus'),
   filter: document.querySelector('#restaurantFilter'),
+  onlyToday: document.querySelector('#onlyToday'),
+  sortBy: document.querySelector('#sortBy'),
   favoritesInput: document.querySelector('#favoriteKeywords'),
-  saveFavoritesBtn: document.querySelector('#saveFavoritesBtn')
+  saveFavoritesBtn: document.querySelector('#saveFavoritesBtn'),
+  template: document.querySelector('#restaurantCardTemplate')
 };
 
 elements.favoritesInput.value = state.favorites.join(', ');
@@ -24,6 +26,8 @@ async function init() {
 
 function bindEvents() {
   elements.filter.addEventListener('input', render);
+  elements.onlyToday.addEventListener('change', render);
+  elements.sortBy.addEventListener('change', render);
   elements.saveFavoritesBtn.addEventListener('click', () => {
     state.favorites = elements.favoritesInput.value
       .split(',')
@@ -37,117 +41,103 @@ function bindEvents() {
 
 async function loadMenus() {
   elements.status.textContent = 'Načítám nabídky...';
-
-  const base = new URL('.', window.location.href);
-  const menuUrl = new URL('../data/menu.json', base);
-
   try {
-    const response = await fetch(menuUrl, { cache: 'no-store' });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-
+    const response = await fetch('data/menus.json', { cache: 'no-store' });
     const data = await response.json();
-    state.generatedAt = data.generatedAt;
-    state.sources = Array.isArray(data.sources) ? data.sources : [];
-
-    elements.status.textContent = state.generatedAt
-      ? `Poslední aktualizace: ${new Date(state.generatedAt).toLocaleString('cs-CZ')}`
-      : 'Data načtena.';
+    state.menus = data.menus;
+    elements.status.textContent = `Poslední aktualizace: ${new Date(data.generatedAt).toLocaleString('cs-CZ')}` + (data.menus?.some((m) => m.source === 'fallback') ? ' · některá data jsou offline ukázka' : '');
   } catch (error) {
-    elements.status.textContent = `Nepodařilo se načíst data menu: ${error.message}`;
-    state.sources = [];
+    elements.status.textContent = `Chyba při načítání menu: ${error.message}`;
   }
 }
 
 function render() {
   const term = elements.filter.value.trim().toLowerCase();
-  let sources = state.sources;
+  const onlyToday = elements.onlyToday.checked;
+  const sortBy = elements.sortBy.value;
 
-  if (term) {
-    sources = sources.filter((source) => source.name.toLowerCase().includes(term));
-  }
+  let menus = state.menus.filter((menu) => {
+    if (term && !menu.name.toLowerCase().includes(term)) return false;
+    if (onlyToday && menu.status !== 'ok') return false;
+    return true;
+  });
+
+  menus = sortMenus(menus, sortBy);
 
   elements.menus.innerHTML = '';
-
-  for (const source of sources) {
-    elements.menus.append(createCard(source));
+  for (const menu of menus) {
+    elements.menus.append(createCard(menu));
   }
 
-  if (!sources.length) {
+  if (!menus.length) {
     elements.menus.innerHTML = '<p>Nebyla nalezena žádná menu podle zvoleného filtru.</p>';
   }
 }
 
-function createCard(source) {
-  const article = document.createElement('article');
-  article.className = 'restaurant-card';
+function createCard(menu) {
+  const fragment = elements.template.content.cloneNode(true);
 
-  const header = document.createElement('header');
-  const title = document.createElement('h3');
-  title.className = 'restaurant-name';
-  title.textContent = source.name;
+  fragment.querySelector('.restaurant-name').textContent = menu.name;
+  const link = fragment.querySelector('.restaurant-link');
+  link.href = menu.url;
 
-  const link = document.createElement('a');
-  link.className = 'restaurant-link';
-  link.href = source.url;
-  link.target = '_blank';
-  link.rel = 'noopener noreferrer';
-  link.textContent = 'Web restaurace';
+  const statusText = menu.status === 'ok' ? 'Dnešní nabídka' : menu.message || 'Bez nabídky';
+  const sourceSuffix = menu.source === 'fallback' ? ' (offline ukázka)' : '';
+  fragment.querySelector('.menu-status').textContent = `${statusText}${sourceSuffix}`;
 
-  header.append(title, link);
-  article.append(header);
+  const list = fragment.querySelector('.menu-items');
 
-  const status = document.createElement('p');
-  status.className = 'menu-status';
 
-  if (source.error) {
-    status.textContent = `Nepodařilo se načíst menu (${source.error})`;
-    status.classList.add('menu-status-error');
-  } else {
-    status.textContent = 'Nabídka';
-  }
-
-  article.append(status);
-
-  const list = document.createElement('ul');
-  list.className = 'menu-items';
-
-  const items = Array.isArray(source.items) ? source.items : [];
-  if (!items.length) {
+  if (!(menu.items || []).length) {
     const li = document.createElement('li');
     li.className = 'menu-item';
-    li.innerHTML = '<span class="item-type">Info</span><span class="item-name">Menu není dostupné.</span><span class="item-price">—</span>';
+    li.innerHTML = '<span class="item-type">Info</span><span class="item-name">Menu není aktuálně dostupné.</span><span class="item-price">—</span>';
     list.append(li);
   }
 
-  for (const item of items) {
+  for (const item of menu.items || []) {
     const li = document.createElement('li');
     li.className = 'menu-item';
 
-    if (isFavoriteItem(item.title || '')) {
+    if (isFavoriteItem(item.name)) {
       li.classList.add('favorite');
     }
 
     li.innerHTML = `
-      <span class="item-type">${isSoup(item.title || '') ? 'Polévka' : 'Jídlo'}</span>
-      <span class="item-name">${item.title || ''}${item.note ? ` (${item.note})` : ''}</span>
-      <span class="item-price">${item.price || '—'}</span>
+      <span class="item-type">${item.type === 'soup' ? 'Polévka' : 'Jídlo'}</span>
+      <span class="item-name">${item.name}</span>
+      <span class="item-price">${item.price} Kč</span>
     `;
 
     list.append(li);
   }
 
-  article.append(list);
-  return article;
+  return fragment;
 }
 
 function isFavoriteItem(name) {
-  const value = (name || '').toLowerCase();
+  const value = name.toLowerCase();
   return state.favorites.some((keyword) => value.includes(keyword));
 }
 
-function isSoup(name) {
-  const low = (name || '').toLowerCase();
-  return ['polévka', 'polevka', 'soup', 'vývar', 'vyvar', 'krém', 'krem'].some((token) => low.includes(token));
+function sortMenus(menus, mode) {
+  const cloned = [...menus];
+  if (mode === 'name') {
+    return cloned.sort((a, b) => a.name.localeCompare(b.name, 'cs'));
+  }
+
+  return cloned.sort((a, b) => {
+    const getPrice = (menu) => {
+      const prices = (menu.items || []).map((item) => item.price);
+      if (!prices.length) return mode === 'priceAsc' ? Number.MAX_SAFE_INTEGER : 0;
+      return mode === 'priceAsc' ? Math.min(...prices) : Math.max(...prices);
+    };
+
+    const aPrice = getPrice(a);
+    const bPrice = getPrice(b);
+
+    return mode === 'priceAsc' ? aPrice - bPrice : bPrice - aPrice;
+  });
 }
 
 function loadFavorites() {

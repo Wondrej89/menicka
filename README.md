@@ -1,37 +1,41 @@
-# Meníčka (GitHub Pages + automatická aktualizace dat)
+# Meníčka – statická aplikace pro GitHub Pages
 
-Tento projekt je statický web pro GitHub Pages.
+Aplikace je navržená tak, aby fungovala na **GitHub Pages** bez vlastního backendu.
 
-- Frontend běží jako statické soubory v `public/`.
-- Data se generují skriptem `scripts/fetch-menu.mjs`.
-- Výstup je v `data/menu.json` (+ `data/menu.meta.json`).
-- GitHub Actions workflow `.github/workflows/update-menu.yml` data pravidelně aktualizuje a commituje.
+## Jak to funguje
 
-## Struktura
+- Frontend (`public/index.html`) je čistě statický.
+- Data se načítají z `public/data/menus.json`.
+- Soubor `menus.json` generuje skript `scripts/generate-menus.js`.
+- GitHub Action `.github/workflows/update-menus.yml` pravidelně obnovuje data a commituje změny zpět do repozitáře.
 
-- `scripts/fetch-menu.mjs` – stažení + parsování + normalizace menu
-- `data/menu.json` – data pro frontend
-- `public/index.html`, `public/app.js`, `public/styles.css` – statický frontend
-- `.github/workflows/update-menu.yml` – plánovaná aktualizace dat
+Díky tomu stránka na GitHub Pages funguje bez Node serveru.
 
-## Lokální spuštění
+## Spuštění lokálně
 
 ```bash
-npm ci
-npm run update-menu
-python -m http.server 3000
+node scripts/generate-menus.js
+python -m http.server 3000 -d public
 ```
 
-Pak otevři:
-- `http://localhost:3000/` (preferováno)
-- alternativně `http://localhost:3000/public/index.html`
+Pak otevři `http://localhost:3000`.
 
-## Konfigurace zdrojů
+## Nasazení na GitHub Pages
 
-Ve `scripts/fetch-menu.mjs` uprav pole `SOURCES` (URL + CSS selektory).
+1. Pushni repozitář na GitHub.
+2. V **Settings → Pages** nastav zdroj na větev (typicky `main`) a složku `/public`.
+3. Zapni workflow `Update menus data` (Permissions: Read and write).
 
-## Poznámky
+## Přidání nové restaurace
 
-- Skript má timeout, retry a je odolný proti chybě jednotlivého zdroje.
-- Při chybě zdroje se zapíše `error` a `items: []`, ale běh pokračuje.
-- Pokud se `data/menu.json` nezmění, soubor se nepřepíše.
+V `scripts/generate-menus.js` přidej položku do `RESTAURANTS`:
+
+```js
+{ id: 'unikatni-id', name: 'Název', url: 'https://...', parser: parseSimpleDailyPage }
+```
+
+Pokud má web jiný formát, přidej nový parser.
+
+## Poznámka k dostupnosti zdrojů
+
+Některé weby mohou blokovat automatické načítání. V takovém případě generátor použije ukázkové fallback menu, aby stránka nebyla prázdná.
