@@ -1,0 +1,9 @@
+{
+  "name": "menicka",
+  "version": "1.0.0",
+  "description": "Agregátor poledních menu pro GitHub Pages",
+  "scripts": {
+    "check": "node --check scripts/generate-menus.js && node --check public/app.js",
+    "generate:data": "node scripts/generate-menus.js"
+  }
+}
