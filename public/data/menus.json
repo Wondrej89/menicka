@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-11T14:47:28.209Z",
+  "generatedAt": "2026-02-11T15:01:51.097Z",
   "weekday": 3,
   "menus": [
     {
@@ -51,64 +51,29 @@
       "message": "Načteno.",
       "items": [
         {
-          "type": "main",
-          "name": "slow-simmered veal broth with root vegetables, meat and frittata noodles",
+          "type": "soup",
+          "name": "DLOUZE TAŽENÝ TELECÍ VÝVAR S KOŘENOVOU ZELENINOU, MASEM A FRITÁTOVÝMI NUDLEMI",
           "price": 69
         },
         {
           "type": "main",
-          "name": "pappardelle with chorizo, olive oil, garlic, artichokes, basil and parmesan",
+          "name": "PAPARDELLE S CHORIZEM, OLIVOVÝM OLEJEM, ČESNEKEM, ARTYČOKY, BAZALKOU A PARMEZÁNEM",
           "price": 185
         },
         {
           "type": "main",
-          "name": "caprese piadina with grilled chicken breast, tomatoes, basil, stracciatella, rocket, lamb’s lettuce and balsamic reduction",
+          "name": "PIADINA CAPRESE S GRILOVANÝM KUŘECÍM PRSÍČKEM, RAJČATY, BAZALKOU, STRACCIATELLOU, RUKOLOU, POLNÍČKEM A REDUKCÍ BALSAMICO",
           "price": 185
         },
         {
           "type": "main",
-          "name": "grilled beef rump steak with roasted grenaille potatoes, truffle oil, demi-glace and small caesar salad",
+          "name": "HOVĚZÍ RUMPSTEAK NA GRILU S PEČENÝMI GRENAILLEMI, LANÝŽOVÝM OLEJEM, DEMI GLACE A MALÝM CAESAR SALÁTKEM",
           "price": 220
         },
         {
           "type": "main",
-          "name": "pizza on a tomato base with mozzarella, ham, mushrooms, onion, garlic and oregano",
+          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, ŠUNKOU, ŽAMPIONY, CIBULÍ, ČESNEKEM A OREGÁNEM",
           "price": 185
-        },
-        {
-          "type": "main",
-          "name": "creamy italian risotto with pork tenderloin, mushrooms, peas, thyme and parmesan",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "chicken burrito with tomatoes, jasmine rice, jalapeños, oregano, cheddar and three salsas",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "grilled turkey breast with alla cacciatore sauce and buttery couscous",
-          "price": 210
-        },
-        {
-          "type": "soup",
-          "name": "frankfurter sausage soup with potatoes and cream",
-          "price": 69
-        },
-        {
-          "type": "main",
-          "name": "capellini aglio olio with prawns, chilli, parsley and parmesan",
-          "price": 190
-        },
-        {
-          "type": "main",
-          "name": "spinach pancakes with pulled pork, caramelised onion, leaf salad and tomatoes, baked with cheddar, yoghurt dressing with garlic and chives",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "grilled wild boar tenderloin with red wine sauce and mashed potatoes with spring onion",
-          "price": 210
         }
       ]
     },
@@ -189,36 +154,6 @@
           "type": "main",
           "name": "Vepřový steak s hořčičnou omáčkou, americké brambory",
           "price": 185
-        },
-        {
-          "type": "soup",
-          "name": "slepičí vývar s masem, nudlemi a zeleninou",
-          "price": 45
-        },
-        {
-          "type": "main",
-          "name": "Francouzské brambory s kyselou okurkou",
-          "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Krůtí guláš, houskové knedlíky",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí steak s pestem ze sušených rajčat, krokety",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Gnocchi s vepřovou panenkou a omáčkou z modrého sýra",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Hovězí cheeseburger s čedarem a chilli majonézou, hranolky",
-          "price": 195
         }
       ]
     },
