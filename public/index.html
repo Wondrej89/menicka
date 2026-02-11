@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Polední nabídky restaurací</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
     <header class="page-header">
@@ -17,6 +17,20 @@
         Filtrovat restauraci
         <input id="restaurantFilter" type="text" placeholder="např. Smíchovna" />
       </label>
+
+      <label>
+        Jen restaurace s dnešním menu
+        <input id="onlyToday" type="checkbox" />
+      </label>
+
+      <label>
+        Řazení
+        <select id="sortBy">
+          <option value="name">Podle názvu</option>
+          <option value="priceAsc">Nejlevnější jídlo</option>
+          <option value="priceDesc">Nejdražší jídlo</option>
+        </select>
+      </label>
     </section>
 
     <section class="favorites-panel">
@@ -27,10 +41,21 @@
     </section>
 
     <main>
-      <div id="status" aria-live="polite"></div>
+      <div id="status"></div>
       <div id="menus" class="menus-grid"></div>
     </main>
 
-    <script src="app.js"></script>
+    <template id="restaurantCardTemplate">
+      <article class="restaurant-card">
+        <header>
+          <h3 class="restaurant-name"></h3>
+          <a class="restaurant-link" target="_blank" rel="noopener noreferrer">Web restaurace</a>
+        </header>
+        <p class="menu-status"></p>
+        <ul class="menu-items"></ul>
+      </article>
+    </template>
+
+    <script src="/app.js"></script>
   </body>
 </html>
