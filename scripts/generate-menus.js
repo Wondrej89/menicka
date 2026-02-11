@@ -22,6 +22,12 @@ const WEEKDAY_ALIASES = {
 };
 
 const RESTAURANTS = [
+  {
+    id: 'andel-restaurant',
+    name: 'Anděl Restaurant',
+    url: 'https://www.restauraceandel.cz/denni-nabidka',
+    parser: parseAndelDailyPage
+  },
   { id: 'bife-restaurant', name: 'Bife Restaurant', url: 'https://biferestaurant.cz/pages/denni-menu', parser: parseSimpleDailyPage },
   {
     id: 'corleone-andel',
@@ -40,6 +46,11 @@ const RESTAURANTS = [
 ];
 
 const FALLBACK_MENU_BY_RESTAURANT = {
+  'andel-restaurant': [
+    { type: 'soup', name: 'Silný hovězí vývar s masem a nudlemi', price: 49 },
+    { type: 'main', name: 'Kuřecí steak s pepřovou omáčkou, hranolky', price: 189 },
+    { type: 'main', name: 'Smažený eidam, vařené brambory, tatarská omáčka', price: 175 }
+  ],
   'bife-restaurant': [
     { type: 'soup', name: 'Drůbeží vývar se zeleninou', price: 49 },
     { type: 'main', name: 'Kuřecí steak, pepřová omáčka, hranolky', price: 179 },
@@ -67,10 +78,12 @@ const FALLBACK_MENU_BY_RESTAURANT = {
   ]
 };
 
-main().catch((error) => {
-  console.error(error);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch((error) => {
+    console.error(error);
+    process.exit(1);
+  });
+}
 
 async function main() {
   const today = getCzechWeekday();
@@ -154,6 +167,73 @@ async function fetchHtml(url) {
   } finally {
     clearTimeout(timeout);
   }
+}
+
+
+function parseAndelDailyPage(html, { today } = {}) {
+  const daySections = extractAndelDaySections(html);
+
+  if (!daySections.length) {
+    return parseSimpleDailyPage(html, { today, preferTodaySection: true });
+  }
+
+  const todaysSection = daySections.find((section) => section.weekday === today);
+  if (!todaysSection) {
+    return { status: 'no-menu-for-today', message: 'Menu pro dnešní den není na stránce dostupné.', items: [] };
+  }
+
+  const items = parseAndelMenuItems(todaysSection.html);
+  if (!items.length) {
+    return { status: 'error', message: 'Nepodařilo se rozpoznat položky menu.', items: [] };
+  }
+
+  return { status: 'ok', message: 'Načteno.', items: items.slice(0, 12) };
+}
+
+function extractAndelDaySections(html) {
+  const headingRegex = /<h2[^>]*class=["'][^"']*category-name[^"']*["'][^>]*>([\s\S]*?)<\/h2>/gi;
+  const matches = [...html.matchAll(headingRegex)];
+  const sections = [];
+
+  for (let i = 0; i < matches.length; i += 1) {
+    const match = matches[i];
+    const title = cleanHtmlText(match[1]);
+    const weekday = weekdayFromLine(title);
+    if (weekday === null) continue;
+
+    const start = match.index + match[0].length;
+    const end = i + 1 < matches.length ? matches[i + 1].index : html.length;
+    sections.push({ weekday, html: html.slice(start, end) });
+  }
+
+  return sections;
+}
+
+function parseAndelMenuItems(sectionHtml) {
+  const itemRegex = /<a[^>]*class=["'][^"']*modify_item[^"']*["'][^>]*>([\s\S]*?)<\/a>[\s\S]*?<span[^>]*class=["'][^"']*menu-price[^"']*["'][^>]*>\s*(\d{2,4})\s*Kč/gi;
+  const items = [];
+
+  for (const match of sectionHtml.matchAll(itemRegex)) {
+    const name = normalizeMenuItemName(cleanHtmlText(match[1]));
+    const price = Number(match[2]);
+
+    if (!hasMeaningfulFoodName(name) || !isValidMenuPrice(price)) continue;
+    items.push({ type: isSoup(name) ? 'soup' : 'main', name, price });
+  }
+
+  return dedupeItems(items);
+}
+
+function cleanHtmlText(value) {
+  return String(value || '')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;/gi, ' ')
+    .replace(/&amp;/gi, '&')
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;/gi, "'")
+    .replace(/&ndash;/gi, '–')
+    .replace(/\s+/g, ' ')
+    .trim();
 }
 
 function parseSimpleDailyPage(html, { today, preferTodaySection = false, preferCzech = false } = {}) {
@@ -359,3 +439,9 @@ function isSoup(name) {
   const low = name.toLowerCase();
   return ['polévka', 'polevka', 'soup', 'vývar', 'vyvar', 'krém', 'krem'].some((token) => low.includes(token));
 }
+
+module.exports = {
+  parseAndelDailyPage,
+  extractAndelDaySections,
+  parseAndelMenuItems
+};
