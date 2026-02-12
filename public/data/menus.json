@@ -3,6 +3,41 @@
   "weekday": 4,
   "menus": [
     {
+      "id": "andel-restaurant",
+      "name": "Anděl Restaurant",
+      "url": "https://www.restauraceandel.cz/denni-nabidka",
+      "source": "live",
+      "status": "ok",
+      "message": "Načteno.",
+      "items": [
+        {
+          "type": "soup",
+          "name": "Krémová cibulačka s máslovými krutony",
+          "price": 49
+        },
+        {
+          "type": "main",
+          "name": "Farmářský vegetariánský salát, vejce, hořčičný dresink",
+          "price": 174
+        },
+        {
+          "type": "main",
+          "name": "Thajské pad-thai, rýžové nudle, kuřecím maso",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Hovězí na česneku, listový špenát, bramborové knedlíky",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Losos na grilu, opečené grenaille s cibulkou, citronová omáčka",
+          "price": 218
+        }
+      ]
+    },
+    {
       "id": "bife-restaurant",
       "name": "Bife Restaurant",
       "url": "https://biferestaurant.cz/pages/denni-menu",
