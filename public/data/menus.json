@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-02-12T12:45:02.178Z",
+  "generatedAt": "2026-02-12T14:05:51.088Z",
   "weekday": 4,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Krémová cibulačka s máslovými krutony",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Farmářský vegetariánský salát, vejce, hořčičný dresink",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Thajské pad-thai, rýžové nudle, kuřecím maso",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Hovězí na česneku, listový špenát, bramborové knedlíky",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Losos na grilu, opečené grenaille s cibulkou, citronová omáčka",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -81,34 +71,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "DLOUZE TAŽENÝ TELECÍ VÝVAR S KOŘENOVOU ZELENINOU, MASEM A FRITÁTOVÝMI NUDLEMI",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
-          "type": "soup",
-          "name": "KRÉMOVÉ ITALSKÉ RISOTTO S VEPŘOVOU PANENKOU, ŽAMPIONY, HRÁŠKEM, TYMIÁNEM A PARMEZÁNEM",
+          "type": "main",
+          "name": "Spaghetti Bolognese",
           "price": 185
         },
         {
           "type": "main",
-          "name": "BURRITO S KUŘECÍM MASEM, RAJČATY, JASMÍNOVOU RÝŽÍ, JALAPENOS, OREGÁNEM, CHEDDAREM A TŘEMI SALSAMI",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "KRŮTÍ PRSÍČKO NA GRILU S OMÁČKU ALLA CACCIATORE S MÁSLOVÝM KUSKUSEM",
-          "price": 210
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, ŠUNKOU, ŽAMPIONY, CIBULÍ, ČESNEKEM A OREGÁNEM",
-          "price": 185
+          "name": "Pizza Prosciutto",
+          "price": 195
         }
       ]
     },
