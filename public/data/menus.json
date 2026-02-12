@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-12T14:05:51.088Z",
+  "generatedAt": "2026-02-12T15:12:29.602Z",
   "weekday": 4,
   "menus": [
     {
@@ -33,36 +33,31 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "main",
-          "name": "Gulášová",
+          "name": "Zelná s uzeninou",
           "price": 38
         },
         {
-          "type": "main",
-          "name": "Kančí výpečky, červené zelí, bramborové knedlíky",
+          "type": "soup",
+          "name": "Pečené krůtí prso, krémové tymiánové žampiony, špecle",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Filírovaný hovězí rump steak, čedarová omáčka, bramborové krokety",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Plněný paprikový lusk s tomatovou omáčkou, dušená rýže",
+          "name": "Vepřové nudličky v mrkvi, červeném kari a kokosovém mléce, rýže basmati",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Filátka ze pstruha, pečené papriky s fenyklem, bramborová kaše s kapary",
-          "price": 189
+          "name": "Smažené kuřecí řízky, bramborová kaše, okurkový salát",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Smetana, mozzarella, anglická slanina, gorgonzola, chilli",
+          "name": "3ks Kynuté meruňkové knedlíky, strouhaný tvaroh, máslo",
           "price": 169
         }
       ]
