@@ -3,20 +3,7 @@ const state = {
   favorites: loadFavorites()
 };
 
-const FALLBACK_MENU_BY_RESTAURANT = {
-  'bife-restaurant': [
-    { type: 'soup', name: 'Uzená s kroupami a zeleninou', price: 38 },
-    { type: 'main', name: 'Pečené kuřecí stehno, pestrá zelenina, dušená rýže', price: 169 },
-    { type: 'main', name: 'Boloňské lasagne, rajčatová polpa', price: 175 },
-    { type: 'main', name: 'Rozpečený hermelín, vařené brambory, brusinková majonéza', price: 169 },
-    { type: 'main', name: 'Grilovaná krkovice Duroc, rozmarýnové grenaile, cibulový džem se slaninou', price: 189 }
-  ],
-  'corleone-andel': [
-    { type: 'soup', name: 'Rajčatová polévka s bazalkou', price: 45 },
-    { type: 'main', name: 'Spaghetti Bolognese', price: 185 },
-    { type: 'main', name: 'Pizza Prosciutto', price: 195 }
-  ]
-};
+const NO_MENU_TEXT = 'Nevidím menu pro dnešní den :(';
 
 const elements = {
   status: document.querySelector('#status'),
@@ -96,8 +83,8 @@ function createCard(menu) {
   const link = fragment.querySelector('.restaurant-link');
   link.href = menu.url;
 
-  const statusText = menu.status === 'ok' ? 'Dnešní nabídka' : menu.message || 'Bez nabídky';
-  const sourceSuffix = menu.source === 'fallback' ? ' (offline ukázka)' : '';
+  const statusText = menu.status === 'ok' ? 'Dnešní nabídka' : menu.message || NO_MENU_TEXT;
+  const sourceSuffix = menu.source === 'fallback' && menu.status === 'ok' ? ' (offline ukázka)' : '';
   fragment.querySelector('.menu-status').textContent = `${statusText}${sourceSuffix}`;
 
   const list = fragment.querySelector('.menu-items');
@@ -106,7 +93,7 @@ function createCard(menu) {
   if (!(menu.items || []).length) {
     const li = document.createElement('li');
     li.className = 'menu-item';
-    li.innerHTML = '<span class="item-type">Info</span><span class="item-name">Menu není aktuálně dostupné.</span><span class="item-price">—</span>';
+    li.innerHTML = `<span class="item-type">Info</span><span class="item-name">${NO_MENU_TEXT}</span><span class="item-price">—</span>`;
     list.append(li);
   }
 
@@ -166,6 +153,15 @@ function loadFavorites() {
 
 
 function normalizeMenuForDisplay(menu) {
+  if (menu.source === 'fallback') {
+    return {
+      ...menu,
+      status: 'no-menu-for-today',
+      message: NO_MENU_TEXT,
+      items: []
+    };
+  }
+
   const cleanedItems = (menu.items || []).filter(isRenderableMenuItem).map((item) => ({
     ...item,
     name: sanitizeItemName(item.name)
@@ -175,18 +171,12 @@ function normalizeMenuForDisplay(menu) {
     return { ...menu, items: cleanedItems };
   }
 
-  const fallback = FALLBACK_MENU_BY_RESTAURANT[menu.id];
-  if (fallback?.length) {
-    return {
-      ...menu,
-      status: 'ok',
-      source: 'fallback',
-      message: 'Zobrazeno ukázkové menu (online zdroj se nepodařilo spolehlivě zpracovat).',
-      items: fallback
-    };
-  }
-
-  return { ...menu, items: [] };
+  return {
+    ...menu,
+    status: menu.status === 'ok' ? 'no-menu-for-today' : menu.status,
+    message: menu.message || NO_MENU_TEXT,
+    items: []
+  };
 }
 
 function isRenderableMenuItem(item) {
