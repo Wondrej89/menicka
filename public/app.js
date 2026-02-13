@@ -96,7 +96,7 @@ function createCard(menu) {
   const link = fragment.querySelector('.restaurant-link');
   link.href = menu.url;
 
-  const statusText = menu.status === 'ok' ? 'Dnešní nabídka' : menu.message || 'Bez nabídky';
+  const statusText = menu.status === 'ok' ? 'Dnešní nabídka' : menu.message || 'nevidím menu pro dnešní den :(';
   const sourceSuffix = menu.source === 'fallback' ? ' (offline ukázka)' : '';
   fragment.querySelector('.menu-status').textContent = `${statusText}${sourceSuffix}`;
 
@@ -106,7 +106,7 @@ function createCard(menu) {
   if (!(menu.items || []).length) {
     const li = document.createElement('li');
     li.className = 'menu-item';
-    li.innerHTML = '<span class="item-type">Info</span><span class="item-name">Menu není aktuálně dostupné.</span><span class="item-price">—</span>';
+    li.innerHTML = '<span class="item-type">Info</span><span class="item-name">nevidím menu pro dnešní den :(</span><span class="item-price">—</span>';
     list.append(li);
   }
 
