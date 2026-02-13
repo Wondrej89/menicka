@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-13T14:39:16.190Z",
+  "generatedAt": "2026-02-13T15:34:48.482Z",
   "weekday": 5,
   "menus": [
     {
@@ -72,27 +72,27 @@
       "items": [
         {
           "type": "soup",
-          "name": "FRANKFURTSKÁ POLÉVKA S PÁRKEM, BRAMBOREM A SMETANOU",
+          "name": "DRŠŤKOVÁ POLÉVKA Z HLÍVY ÚSTŘIČNÉ",
           "price": 69
         },
         {
           "type": "main",
-          "name": "CAPELLINI AGLIO OLIO S KREVETAMI, CHILLI, PETRŽELKOU A PARMEZÁNEM",
+          "name": "CAPELLINI AGLIO OLIO SE SLÁVKAMI, BÍLÝM VÍNEM, PETRŽELKOU A CITRONEM",
           "price": 190
         },
         {
           "type": "main",
-          "name": "ŠPENÁTOVÉ LÍVANCE S VEPŘOVÝM TRHANÝM MASEM, KARAMELIZOVANOU CIBULKOU, LISTOVÝM SALÁTEM A RAJČATY, ZAPEČENÉ CHEDDAREM, JOGURTOVÝ DRESINK S ČESNEKEM A PAŽITKOU",
+          "name": "SMAŽENÉ ŽAMPIONY S VAŘENÝMI GRENAILLEMI S MÁSLEM A PAŽITKOU, NAŠE TATARSKÁ OMÁČKA",
           "price": 185
         },
         {
           "type": "main",
-          "name": "PANENKA Z DIVOČÁKA NA GRILU S RED WINE OMÁČKOU A ŠŤOUCHANÝMI BRAMBORAMI S LAHŮDKOVOU CIBULKOU",
+          "name": "POMLAU PEČENÁ VEPŘOVÁ LÍČKA NA ČERVENÉM VÍNĚ S KOŘENOVOU ZELENINOU, BRAMBOROVÁ KAŠE",
           "price": 210
         },
         {
           "type": "main",
-          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ SE ŠPENÁTOVÝM PESTEM, MOZZARELLOU, CHERRY RAJČATY, OLIVAMI, ARTYČOKY A RUKOLOU",
+          "name": "PIZZA NA TOMATOVO-SMETANOVÉM ZÁKLADĚ S MOZZARELLOU, ANGLICKOU SLANINOU, KUKUŘICÍ, VEJCEM A BERANÍMI ROHY",
           "price": 185
         }
       ]
@@ -152,7 +152,7 @@
         },
         {
           "type": "main",
-          "name": "Salát s trhaným kachním masem, salátovou okurkou, rajčetem, konfitovanou hruškou na červeném víně, rýžovými nudlemi a medovo hořčičným dresinkem s pomerančovou šťávou",
+          "name": "Salát s trhaným kachním masem, salátovou okurkou, rajčetem, listovým salátem, konfitovanou hruškou na červeném víně, rýžovými nudlemi a medovo hořčičným dresinkem s pomerančovou šťávou",
           "price": 189
         },
         {
@@ -166,34 +166,24 @@
       "id": "smichovska-formanka",
       "name": "Smíchovská Formanka",
       "url": "http://smichovskaformanka.cz/",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
-          "type": "main",
-          "name": "hrachová se slaninou a krutony",
-          "price": 45
+          "type": "soup",
+          "name": "Bramboračka",
+          "price": 42
         },
         {
           "type": "main",
-          "name": "Smažený vepřový řízek, bramborový salát, citrón",
-          "price": 185
+          "name": "Segedínský guláš, houskový knedlík",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Boloňské lasagne s listovým salátkem",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí steak s rajčatovou salsou, hranolky",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "Hovězí roštěná na černém pivě, houskové knedlíky",
-          "price": 189
+          "name": "Kuřecí nudličky na kari, rýže",
+          "price": 172
         }
       ]
     },
