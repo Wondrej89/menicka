@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-02-13T13:56:54.196Z",
+  "generatedAt": "2026-02-13T14:39:16.190Z",
   "weekday": 5,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
           "type": "soup",
-          "name": "Hovězí vývar, maso, zelenina, nudle",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Hrachová kaše, uzené maso, cibulka, okurka",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Smažený květák, pažitkové brambory, tatarská omáčka",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Segedínský guláš, houskové knedlíky",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Vepřová krkovice, slanina, sázené vejce, hranolky, zauzená majonéza",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,32 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "main",
-          "name": "Zelná s uzeninou",
+          "type": "soup",
+          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
           "price": 38
         },
         {
-          "type": "soup",
-          "name": "Pečené krůtí prso, krémové tymiánové žampiony, špecle",
-          "price": 175
+          "type": "main",
+          "name": "Špikované hovězí se svíčkovou omáčkou, houskové knedlíky, brusinky",
+          "price": 179
         },
         {
           "type": "main",
-          "name": "Vepřové nudličky v mrkvi, červeném kari a kokosovém mléce, rýže basmati",
+          "name": "Pečená BBQ šunka od kosti, bramborová kaše, nakládaná okurka",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Smažené kuřecí řízky, bramborová kaše, okurkový salát",
-          "price": 175
+          "name": "Kuřecí nudličky Tikka Masala, rýže basmati",
+          "price": 169
         },
         {
           "type": "main",
-          "name": "3ks Kynuté meruňkové knedlíky, strouhaný tvaroh, máslo",
-          "price": 169
+          "name": "Penne s tyrolským špekem, pestem z pečených paprik, rukolou a parmazánem",
+          "price": 175
         }
       ]
     },
@@ -144,6 +134,31 @@
           "type": "main",
           "name": "Kynuté borůvkové knedlíky se zakysanou smetanou",
           "price": 159
+        },
+        {
+          "type": "soup",
+          "name": "Hráškový krém s krutony",
+          "price": 45
+        },
+        {
+          "type": "main",
+          "name": "Retro srbské rizoto s vepřovým masem, zeleninou a sýrem eidam, kyselá okurka",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Fajitas con pollo – restované kousky kuřecího masa, papriky a červené cibulky, podávané s pšeničnou tortillou a rajčatovou salsou",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Salát s trhaným kachním masem, salátovou okurkou, rajčetem, konfitovanou hruškou na červeném víně, rýžovými nudlemi a medovo hořčičným dresinkem s pomerančovou šťávou",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Hovězí Blue cheese burger – listový salát, rajče, modrý sýr a česneková majonéza, hranolky",
+          "price": 249
         }
       ]
     },
