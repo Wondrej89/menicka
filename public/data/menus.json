@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-16T14:00:42.670Z",
+  "generatedAt": "2026-02-16T15:06:29.693Z",
   "weekday": 1,
   "menus": [
     {
@@ -33,31 +33,31 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "soup",
-          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
+          "name": "Žampiónový krém s krutóny",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Špikované hovězí se svíčkovou omáčkou, houskové knedlíky, brusinky",
-          "price": 179
+          "name": "Hovězí guláš, houskové knedlíky/ těstoviny",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Pečená BBQ šunka od kosti, bramborová kaše, nakládaná okurka",
+          "name": "Smažený sýr, vařené brambory, tatarka",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Kuřecí nudličky Tikka Masala, rýže basmati",
+          "name": "Pečené kuřecí stehno, zeleninový kuskus",
           "price": 169
         },
         {
-          "type": "main",
-          "name": "Penne s tyrolským špekem, pestem z pečených paprik, rukolou a parmazánem",
+          "type": "soup",
+          "name": "Krémové hráškové risotto s tyrolským špekem, šalvějí, bílým vínem a parmazánem",
           "price": 175
         }
       ]
@@ -179,7 +179,7 @@
     },
     {
       "id": "u-mamlasu",
-      "name": "U Mamlasů",
+      "name": "U Mámy Lásu",
       "url": "https://www.umamlasu.cz/denni-menu-praha",
       "status": "ok",
       "source": "fallback",
