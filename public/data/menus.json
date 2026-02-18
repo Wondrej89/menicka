@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-18T08:35:56.278Z",
+  "generatedAt": "2026-02-18T09:38:52.441Z",
   "weekday": 3,
   "menus": [
     {
@@ -43,32 +43,37 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Žampiónový krém s krutóny",
+          "name": "Polévka: Tomatová se zeleninou a tarhoňou",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Hovězí guláš, houskové knedlíky/ těstoviny",
-          "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Smažený sýr, vařené brambory, tatarka",
+          "name": "Uzená vepřová plec, tymiánová čočka, sázené vejce, okurka",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Pečené kuřecí stehno, zeleninový kuskus",
-          "price": 169
+          "name": "Kuřecí nudličky v teriyaki, s brokolicí a klíčky mungo, jasmínová rýže, sezam",
+          "price": 175
         },
         {
-          "type": "soup",
-          "name": "Krémové hráškové risotto s tyrolským špekem, šalvějí, bílým vínem a parmazánem",
+          "type": "main",
+          "name": "Srnčí ragú v kořenové zelenině a červeném víně, špecle",
           "price": 175
+        },
+        {
+          "type": "main",
+          "name": "Ciabatta s trhaným hovězím, rajčaty, cibulí, papričkami Jalapeňos, čedarem, rukolou a BBQ majonézou",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "Rajčata, mozzarella, tuňák, olivy, červená cibule",
+          "price": 169
         }
       ]
     },
