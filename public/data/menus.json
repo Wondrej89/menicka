@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-19T15:11:46.284Z",
+  "generatedAt": "2026-02-19T16:09:59.126Z",
   "weekday": 4,
   "menus": [
     {
@@ -66,34 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "POMALU TAŽENÝ DRŮBEŽÍ VÝVAR S RÝŽÍ, HRÁŠKEM, KOŘENOVOU ZELENINOU, MASEM A PETRŽELKOU",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
-          "type": "soup",
-          "name": "KRÉMOVÉ ITALSKÉ RISOTTO S KRŮTÍM MASEM, BAZALKOVÝM PESTEM, SUŠENÝMI RAJČATY A PARMEZÁNEM",
+          "type": "main",
+          "name": "Spaghetti Bolognese",
           "price": 185
         },
         {
           "type": "main",
-          "name": "TĚSTOVINOVÝ SALÁT S MARINOVANÝM KUŘECÍM MASEM, MLADOU MRKVIČKOU, RAJČATY, OKURKOU, BALKÁNSKÝM SÝREM A KOKTEJLOVÝM DRESINKEM",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "HOVĚZÍ BURGER SE SÁZENÝM VEJCEM, SLANINOU, CHEDARREM, RAJČETEM, LEDOVÝM SALÁTEM, ČERVENOU CIBULÍ, HOŘČICÍ A KEČUPEM, HRANOLKY CORLEONE",
-          "price": 220
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S MOZZARELLOU, CHEDARREM BABY ŠPENÁTEM A VARIACÍ ITALSKÝM SALÁMŮ",
-          "price": 185
+          "name": "Pizza Prosciutto",
+          "price": 195
         }
       ]
     },
