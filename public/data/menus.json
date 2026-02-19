@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-19T14:04:11.118Z",
+  "generatedAt": "2026-02-19T15:11:46.284Z",
   "weekday": 4,
   "menus": [
     {
@@ -33,36 +33,31 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "main",
-          "name": "Dršťková z hlívy",
+          "type": "soup",
+          "name": "Kuřecí vývar s krupičkou a vejcem",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Moravský vrabec, bílé kysané zelí, bramborové knedlíky",
-          "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí prso gratinované rajčaty a mozzarelou, hranolky, majonéza z uzených paprik",
+          "name": "Pečené krůtí prso, šťouchané brambory, salsa z červené řepy",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Hovězí nudličky „Stroganoff“, dušená rýže",
+          "name": "Boloňské špagety, parmazán",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Steak z tuňáka žlutoploutvého, wasabi kaše, řasy wakame, sezam",
-          "price": 195
+          "name": "Smažené vepřové řízky, bramborový salát/ kaše",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Rajčata, mozzarella, šunka od kosti, žampióny, bazalka",
+          "name": "Dukátové buchtičky s vanilkovým šodó",
           "price": 169
         }
       ]
@@ -106,24 +101,39 @@
       "id": "smichovna",
       "name": "Smíchovna",
       "url": "https://www.smichovna.cz/tydenni-nabidka",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (online zdroj je dočasně nedostupný).",
+      "message": "Načteno.",
       "items": [
         {
-          "type": "soup",
-          "name": "Hovězí vývar s nudlemi",
+          "type": "main",
+          "name": "Staročeská bramboračka s houbami",
           "price": 45
         },
         {
           "type": "main",
-          "name": "Svíčková na smetaně, houskový knedlík",
+          "name": "Bramborové noky alla Sorrentina s rajčatovou salsou, česnekem, čerstvou bazalkou, mozzarellou a sýrem Gran Moravia",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Vepřový guláš na pivu Staropramen s cibulkou a houskovým knedlíkem",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Krůtí medailonky na grilu s omáčkou ze sušených rajčat a smetany, šťouchaný brambor",
           "price": 199
         },
         {
           "type": "main",
-          "name": "Vepřový řízek, bramborový salát",
-          "price": 189
+          "name": "Hovězí Gangster burger – listový salát, rajče, slanina, čedar, jalapeňos a chipotle majonéza, hranolky",
+          "price": 249
+        },
+        {
+          "type": "main",
+          "name": "Kynuté borůvkové knedlíky se zakysanou smetanou",
+          "price": 159
         }
       ]
     },
@@ -133,7 +143,7 @@
       "url": "http://smichovskaformanka.cz/",
       "status": "ok",
       "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (online zdroj je dočasně nedostupný).",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
           "type": "soup",
