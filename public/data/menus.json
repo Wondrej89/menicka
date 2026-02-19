@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-02-19T12:43:29.029Z",
+  "generatedAt": "2026-02-19T14:04:11.118Z",
   "weekday": 4,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Česneková polévka s vejcem",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Zapečené fleky, uzené maso, hlávkové zelí, kyselá okurka",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Smažená cuketa v sýrovém těstíčku, vařené brambory s máslem, bylinkový dip",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Pikantní korejský salát, rýžové nudle, zelenina, kachní prso",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Telecí ragú na houbách, špekové knedlíky, slaninový chips",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -116,39 +106,24 @@
       "id": "smichovna",
       "name": "Smíchovna",
       "url": "https://www.smichovna.cz/tydenni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (online zdroj je dočasně nedostupný).",
       "items": [
         {
-          "type": "main",
-          "name": "Staročeská bramboračka s houbami",
+          "type": "soup",
+          "name": "Hovězí vývar s nudlemi",
           "price": 45
         },
         {
           "type": "main",
-          "name": "Bramborové noky alla Sorrentina s rajčatovou salsou, česnekem, čerstvou bazalkou, mozzarellou a sýrem Gran Moravia",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Vepřový guláš na pivu Staropramen s cibulkou a houskovým knedlíkem",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Krůtí medailonky na grilu s omáčkou ze sušených rajčat a smetany, šťouchaný brambor",
+          "name": "Svíčková na smetaně, houskový knedlík",
           "price": 199
         },
         {
           "type": "main",
-          "name": "Hovězí Gangster burger – listový salát, rajče, slanina, čedar, jalapeňos a chipotle majonéza, hranolky",
-          "price": 249
-        },
-        {
-          "type": "main",
-          "name": "Kynuté borůvkové knedlíky se zakysanou smetanou",
-          "price": 159
+          "name": "Vepřový řízek, bramborový salát",
+          "price": 189
         }
       ]
     },
@@ -156,39 +131,24 @@
       "id": "smichovska-formanka",
       "name": "Smíchovská Formanka",
       "url": "http://smichovskaformanka.cz/",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (online zdroj je dočasně nedostupný).",
       "items": [
         {
-          "type": "main",
-          "name": "bramboračka s houbami",
-          "price": 45
+          "type": "soup",
+          "name": "Bramboračka",
+          "price": 42
         },
         {
           "type": "main",
-          "name": "Vepřová líčka na čv s restovanou zeleninou, bramb. kaše",
-          "price": 185
+          "name": "Segedínský guláš, houskový knedlík",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Hovězí maso v křenové omáčce, houskové knedlíky",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Rizotto s kozím sýrem a červenou řepou a rukolou",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "Vepřový steak s hořčičnou omáčkou, šťouchané brambory",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Hovězí cheeseburger s goudou, rajče, kys. okurka, cibule, hranolky majonéza",
-          "price": 195
+          "name": "Kuřecí nudličky na kari, rýže",
+          "price": 172
         }
       ]
     },
