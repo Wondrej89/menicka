@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-20T12:39:12.287Z",
+  "generatedAt": "2026-02-20T13:55:27.838Z",
   "weekday": 5,
   "menus": [
     {
@@ -151,34 +151,24 @@
       "id": "smichovska-formanka",
       "name": "Smíchovská Formanka",
       "url": "http://smichovskaformanka.cz/",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
-          "type": "main",
-          "name": "kulajda s vejcem",
-          "price": 45
+          "type": "soup",
+          "name": "Bramboračka",
+          "price": 42
         },
         {
           "type": "main",
-          "name": "Smažený kuřecí řízek, bramborový salát, citrón",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "Vepřový kotlíkový guláš, domácí chléb",
+          "name": "Segedínský guláš, houskový knedlík",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Kuřecí medailónky se sýrovou omáčkou, hranolky",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "Grilovaný filet z lososa, zeleninový kuskus, citrónová omáčka",
-          "price": 219
+          "name": "Kuřecí nudličky na kari, rýže",
+          "price": 172
         }
       ]
     },
