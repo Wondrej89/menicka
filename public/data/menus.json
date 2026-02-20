@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-20T10:29:41.572Z",
+  "generatedAt": "2026-02-20T11:06:00.877Z",
   "weekday": 5,
   "menus": [
     {
@@ -10,11 +10,6 @@
       "status": "ok",
       "message": "Načteno.",
       "items": [
-        {
-          "type": "soup",
-          "name": "Hovězí vývar, maso, zelenina, nudle",
-          "price": 49
-        },
         {
           "type": "main",
           "name": "Smažený kuřecí řízek, bavorský salát, citron",
@@ -34,6 +29,11 @@
           "type": "main",
           "name": "Vepřový steak zapečený šunkou a sýrem, krokety, tatarka, obloha",
           "price": 218
+        },
+        {
+          "type": "soup",
+          "name": "Norská rybí polévka s krutóny",
+          "price": 49
         }
       ]
     },
