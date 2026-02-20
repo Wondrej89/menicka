@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-20T14:36:10.385Z",
+  "generatedAt": "2026-02-20T15:31:24.089Z",
   "weekday": 5,
   "menus": [
     {
@@ -134,6 +134,31 @@
           "type": "main",
           "name": "Kynuté borůvkové knedlíky se zakysanou smetanou",
           "price": 159
+        },
+        {
+          "type": "soup",
+          "name": "Gulášová polévka s bramborem",
+          "price": 45
+        },
+        {
+          "type": "main",
+          "name": "Špekové knedlíky s bílým zelím, vyškvařenou slaninou a vídeňskou cibulkou",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Retro Katův šleh z vepřové panenky s bramborovými hranolky",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Grilovaná ryba Tilápie na italském risottu s holandskou omáčkou",
+          "price": 199
+        },
+        {
+          "type": "main",
+          "name": "Caesar burger – kuřecí prso, listový salát, rajče, slanina, čedar a caesar dresink, hranolky",
+          "price": 239
         }
       ]
     },
