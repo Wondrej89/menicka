@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-23T06:55:32.472Z",
+  "generatedAt": "2026-02-23T07:49:45.951Z",
   "weekday": 1,
   "menus": [
     {
@@ -43,32 +43,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Kuřecí vývar s krupičkou a vejcem",
+          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Pečené krůtí prso, šťouchané brambory, salsa z červené řepy",
+          "name": "Špikované hovězí s koprovou omáčkou a vejcem, houskové knedlíky/ brambory",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Boloňské špagety, parmazán",
+          "name": "Pečená vinná klobása, bramborová kaše, červená řepa",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Smažené vepřové řízky, bramborový salát/ kaše",
+          "name": "Pečené krůtí prso s cuketou, kukuřicí a sušenými rajčaty, dušená rýže",
+          "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Fusilli s rajčaty, ančovičkami, kapary, olivami, česnekem, hladkolistou petrželí a parmazánem",
           "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Dukátové buchtičky s vanilkovým šodó",
-          "price": 169
         }
       ]
     },
