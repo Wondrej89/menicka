@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-23T14:02:59.487Z",
+  "generatedAt": "2026-02-23T15:11:56.990Z",
   "weekday": 1,
   "menus": [
     {
@@ -33,31 +33,31 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "soup",
-          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
+          "type": "main",
+          "name": "Bramboračka s houbami",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Špikované hovězí s koprovou omáčkou a vejcem, houskové knedlíky/ brambory",
+          "name": "Rozlítaný španělský ptáček, dušená rýže/ houskové knedlíky",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Pečená vinná klobása, bramborová kaše, červená řepa",
-          "price": 169
+          "name": "Smažené kuřecí stripsy v cornflakes, šťouchané brambory, coleslaw",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Pečené krůtí prso s cuketou, kukuřicí a sušenými rajčaty, dušená rýže",
+          "name": "Uzená krkovice, hrachová kaše, okurka, smažená cibulka",
           "price": 169
         },
         {
-          "type": "main",
-          "name": "Fusilli s rajčaty, ančovičkami, kapary, olivami, česnekem, hladkolistou petrželí a parmazánem",
+          "type": "soup",
+          "name": "Krémové hříbkové risotto s bílým vínem, hladkolistou petrželí a parmazánem",
           "price": 175
         }
       ]
