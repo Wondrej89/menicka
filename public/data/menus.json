@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-24T15:15:59.755Z",
+  "generatedAt": "2026-02-24T16:34:34.244Z",
   "weekday": 2,
   "menus": [
     {
@@ -71,33 +71,23 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "BROKOLICOVÝ KRÉM S KRUTONY A PETRŽELKOVÝM OLEJEM",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "ŠPENÁTOVÉ GNOCCHI S KOUSKY KRŮTÍCH PRSÍČEK, ČESNEKEM, SUŠENÝMI RAJČATY A RICOTTOU VE SMETANOVÉ OMÁČCE, PARMEZÁN",
+          "name": "Spaghetti Bolognese",
           "price": 185
         },
         {
           "type": "main",
-          "name": "PEČENÁ PAPRIKA PLNĚNÁ BOLOŇSKÝM RAGÚ S JASMÍNOVOU RÝŽÍ A RAJČATY, GRATINOVANÁ CHEDDAREM A MOZZARELLOU, LISTOVÝ SALÁTEK",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "NILSKÝ OKOUN NA GRILU S HRÁŠKOVÝM PYRÉ S MÁTOU A CITRÓNOVOU ŠŤÁVOU, ŠŤOUCHANÉ BRAMBORY S JARNÍ CIBULKOU A SMETANOU",
-          "price": 220
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S ČERSTVÝM LOSOSEM, BABY ŠPENÁTEM, CITRÓNEM A MOZZARELLOU",
+          "name": "Pizza Prosciutto",
           "price": 195
         }
       ]
@@ -146,39 +136,24 @@
       "id": "smichovska-formanka",
       "name": "Smíchovská Formanka",
       "url": "http://smichovskaformanka.cz/",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
-          "type": "main",
-          "name": "ukrajinský boršč",
-          "price": 45
+          "type": "soup",
+          "name": "Bramboračka",
+          "price": 42
         },
         {
           "type": "main",
-          "name": "Svíčková na smetaně, houskové knedlíky, brusinkový terč",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Drůbeží játra na cibulce, jasmínová rýže",
+          "name": "Segedínský guláš, houskový knedlík",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Gnocchi s kuřecím masem, smetanou a špenátem, parmezán",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí prsíčko s broskví a sýrem, hranolky, tatarka",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "Savojský vepřový řízek, bramborová kaše, kyselá okurka",
-          "price": 185
+          "name": "Kuřecí nudličky na kari, rýže",
+          "price": 172
         }
       ]
     },
