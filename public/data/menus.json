@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-24T14:06:08.670Z",
+  "generatedAt": "2026-02-24T15:15:59.755Z",
   "weekday": 2,
   "menus": [
     {
@@ -33,32 +33,37 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "main",
-          "name": "Bramboračka s houbami",
+          "name": "Kulajda",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Rozlítaný španělský ptáček, dušená rýže/ houskové knedlíky",
-          "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Smažené kuřecí stripsy v cornflakes, šťouchané brambory, coleslaw",
-          "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Uzená krkovice, hrachová kaše, okurka, smažená cibulka",
+          "name": "Vepřová játra na slanině, dušená rýže",
           "price": 169
         },
         {
-          "type": "soup",
-          "name": "Krémové hříbkové risotto s bílým vínem, hladkolistou petrželí a parmazánem",
+          "type": "main",
+          "name": "Pečené kuřecí stehno, ratatouille zelenina, kuskus",
           "price": 175
+        },
+        {
+          "type": "main",
+          "name": "Špalíky z vepřové panenky, pepřová omáčka, pečené brambory s rozmarýnem",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Caesar salát s grilovanými krevetami, rozpečená ciabatta",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "Rajčata, mozarella, šunka od kosti, sušená rajčata, bazalka",
+          "price": 169
         }
       ]
     },
