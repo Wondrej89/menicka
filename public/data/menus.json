@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-26T15:11:16.634Z",
+  "generatedAt": "2026-02-26T16:13:12.245Z",
   "weekday": 4,
   "menus": [
     {
@@ -168,7 +168,7 @@
       "url": "https://www.umamlasu.cz/denni-menu-praha",
       "status": "ok",
       "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
+      "message": "Zobrazeno ukázkové menu (online zdroj je dočasně nedostupný).",
       "items": [
         {
           "type": "soup",
