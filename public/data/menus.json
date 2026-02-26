@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-02-26T12:44:14.062Z",
+  "generatedAt": "2026-02-26T14:04:51.273Z",
   "weekday": 4,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Hovězí vývar risi e bisi",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Smažený Maasdamer, pažitkové brambory, tatarská omáčka",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Caesar wrap, kuřecí maso, sýrem Grana Padano",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Vepřová játra na cibulce, jasmínová rýže",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí kapsa, parmská šunka, sušená rajčata, hranolky, tatarská omáčka",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -156,39 +146,24 @@
       "id": "smichovska-formanka",
       "name": "Smíchovská Formanka",
       "url": "http://smichovskaformanka.cz/",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (online zdroj je dočasně nedostupný).",
       "items": [
         {
-          "type": "main",
-          "name": "frankfurtská",
-          "price": 45
+          "type": "soup",
+          "name": "Bramboračka",
+          "price": 42
         },
         {
           "type": "main",
-          "name": "Vepřo, knedlo (housk.+ bramb.kn.) bílé zelí",
-          "price": 179
+          "name": "Segedínský guláš, houskový knedlík",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Smažená hlíva ústřičná, vařené brambory, tatarka",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Gnocchi Aglio olio e peperoncino s kuř. masem a parmezánem",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí steak s čedarovou omáčkou, hranolky",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "Hovězí burger se slaninou, rajče, okurka, cibule, hranolky hořčičná majonéza",
-          "price": 195
+          "name": "Kuřecí nudličky na kari, rýže",
+          "price": 172
         }
       ]
     },
