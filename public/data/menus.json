@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-27T09:33:21.886Z",
+  "generatedAt": "2026-02-27T10:29:47.212Z",
   "weekday": 5,
   "menus": [
     {
@@ -71,24 +71,59 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
+      "message": "Načteno.",
       "items": [
         {
-          "type": "soup",
-          "name": "Rajčatová polévka s bazalkou",
-          "price": 45
+          "type": "main",
+          "name": "ZELŇAČKA S KLOBÁSOU, BRAMBOREM A ZAKYSANOU SMETANOU",
+          "price": 69
         },
         {
           "type": "main",
-          "name": "Spaghetti Bolognese",
+          "name": "RIGATONI S TRHANÝM KRÁLIČÍM MASEM, HRÁŠKEM A HOŘČICÍ VE SMETANOVÉ OMÁČCE S TYMIÁNEM, PARMEZÁN",
+          "price": 190
+        },
+        {
+          "type": "main",
+          "name": "VEGE BURGER – GRILOVANÝ KOZÍ SÝR, PLÁTEK RAJČETE, DUBOVÝ SALÁT, KARAMELIZOVANÁ CIBULKA, MAJONÉZA S PEČENÝM ČESNEKEM V NAŠÍ MÁSLOVÉ BRIOŠCE, CORLEONE HRANOLKY",
           "price": 185
         },
         {
           "type": "main",
-          "name": "Pizza Prosciutto",
-          "price": 195
+          "name": "POMALU PEČENÁ TELECÍ KÝTA NA ČESNEKU, SLANINĚ A MAJORÁNCE, NASTAVOVANÁ KAŠE",
+          "price": 210
+        },
+        {
+          "type": "main",
+          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S DÝŇOVÝM PYRÉ, KUŘECÍM MASEM, OLIVAMI, CHERRY RAJČÁTKY A RUKOLOU",
+          "price": 185
+        },
+        {
+          "type": "soup",
+          "name": "KAPUSTOVÁ POLÉVKA S UZENÝM MASEM, PAPRIKOU A BRAMBORAMI",
+          "price": 69
+        },
+        {
+          "type": "main",
+          "name": "SPAGHETTI S ANČOVIČKAMI, ČESNEKEM, CHILLI, OLIVAMI A BAZALKOU V TOMATOVÉ OMÁČCE, PARMEZÁN",
+          "price": 190
+        },
+        {
+          "type": "main",
+          "name": "SMAŽENÉ KUŘECÍ STRIPSY V MÁSLOVÉ BRIOŠCE S MAJONÉZOU, LISTOVÝM SALÁTEM, RAJČETEM, KYSELOU OKURKOU, ČERVENOU CIBULÍ A SALÁTKEM COLESLAW",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "GRILOVANÉ MEDAILONKY Z KANČÍ KÝTY, DEMI GLACE OMÁČKA S BRUSINKAMI, ŠŤOUCHANÉ BRAMBORY S CIBULKOU A SLANINOU",
+          "price": 210
+        },
+        {
+          "type": "main",
+          "name": "PIZZA S KUŘECÍM MASEM, ŽAMPIÓNY, BROKOLICÍ, GORGONZOLOU A MOZZARELLOU NA SMETANOVO-RAJČATOVÉM ZÁKLADU",
+          "price": 185
         }
       ]
     },
