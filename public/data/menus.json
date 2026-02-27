@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-27T14:34:50.344Z",
+  "generatedAt": "2026-02-27T15:31:37.300Z",
   "weekday": 5,
   "menus": [
     {
@@ -33,26 +33,31 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "soup",
-          "name": "Zeleninový krém s krutóny",
+          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Vepřové nudličky „Katův šleh“, bramborák",
-          "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Špikované králičí stehno na smetaně, karlovarské knedlíky",
+          "name": "Frankfurtská hovězí pečeně, dušená rýže/ houskové knedlíky",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Smažené kuřecí řízky, bramborová kaše, okurkový salát",
+          "name": "Smažený holandský řízek, bramborová kaše, červená řepa",
+          "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Kuřecí nudličky na červené kari se zeleninou a dušenou rýží",
+          "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Bramborové noky s parmskou šunkou, rajčaty, smetanou, česnekem, bazalkou a parmazánem",
           "price": 175
         }
       ]
