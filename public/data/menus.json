@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-02-27T13:54:18.668Z",
+  "generatedAt": "2026-02-27T14:34:50.344Z",
   "weekday": 5,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
           "type": "soup",
-          "name": "Houbový krém, pesto, krutony",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Smažený karbanátek, bramborová kaše, okurkový salátek",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Hovězí na slanině, jasmínová rýže",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Farmářský salát, grilovaný sýr halloumi",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Vepřová panenka, pepřová omáčka, grenaille, cibule, slanina",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -75,31 +65,6 @@
       "status": "ok",
       "message": "Načteno.",
       "items": [
-        {
-          "type": "main",
-          "name": "ZELŇAČKA S KLOBÁSOU, BRAMBOREM A ZAKYSANOU SMETANOU",
-          "price": 69
-        },
-        {
-          "type": "main",
-          "name": "RIGATONI S TRHANÝM KRÁLIČÍM MASEM, HRÁŠKEM A HOŘČICÍ VE SMETANOVÉ OMÁČCE S TYMIÁNEM, PARMEZÁN",
-          "price": 190
-        },
-        {
-          "type": "main",
-          "name": "VEGE BURGER – GRILOVANÝ KOZÍ SÝR, PLÁTEK RAJČETE, DUBOVÝ SALÁT, KARAMELIZOVANÁ CIBULKA, MAJONÉZA S PEČENÝM ČESNEKEM V NAŠÍ MÁSLOVÉ BRIOŠCE, CORLEONE HRANOLKY",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "POMALU PEČENÁ TELECÍ KÝTA NA ČESNEKU, SLANINĚ A MAJORÁNCE, NASTAVOVANÁ KAŠE",
-          "price": 210
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S DÝŇOVÝM PYRÉ, KUŘECÍM MASEM, OLIVAMI, CHERRY RAJČÁTKY A RUKOLOU",
-          "price": 185
-        },
         {
           "type": "soup",
           "name": "KAPUSTOVÁ POLÉVKA S UZENÝM MASEM, PAPRIKOU A BRAMBORAMI",
