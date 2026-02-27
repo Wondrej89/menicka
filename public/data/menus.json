@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-27T12:38:47.091Z",
+  "generatedAt": "2026-02-27T13:54:18.668Z",
   "weekday": 5,
   "menus": [
     {
@@ -171,34 +171,24 @@
       "id": "smichovska-formanka",
       "name": "Smíchovská Formanka",
       "url": "http://smichovskaformanka.cz/",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
           "type": "soup",
-          "name": "hráškový krém s krutony",
-          "price": 45
+          "name": "Bramboračka",
+          "price": 42
         },
         {
           "type": "main",
-          "name": "Smažený vepřový řízek, bramborový salát, citrón",
-          "price": 185
+          "name": "Segedínský guláš, houskový knedlík",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Butter chicken s dušenou jasmínovou rýží",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Grilovaná vepřová játra, hranolky, tatarka",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí steak capresse (rajče, mozzarella, bazalka) šťouchané brambory",
-          "price": 189
+          "name": "Kuřecí nudličky na kari, rýže",
+          "price": 172
         }
       ]
     },
