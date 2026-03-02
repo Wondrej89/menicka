@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-02T14:38:14.839Z",
+  "generatedAt": "2026-03-02T15:34:56.883Z",
   "weekday": 1,
   "menus": [
     {
@@ -33,31 +33,31 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "soup",
-          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
+          "name": "Polévka: Bramboračka s houbami",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Frankfurtská hovězí pečeně, dušená rýže/ houskové knedlíky",
+          "name": "Hovězí na houbách, houskové knedlíky/ těstoviny",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Smažený holandský řízek, bramborová kaše, červená řepa",
-          "price": 169
+          "name": "Tradiční „Fish and Chips“, hranolky, zelený hrášek, citrónová majonéza",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Kuřecí nudličky na červené kari se zeleninou a dušenou rýží",
+          "name": "Filírované krůtí prso, pečená květák, karotka a řepa, bulgur",
           "price": 169
         },
         {
-          "type": "main",
-          "name": "Bramborové noky s parmskou šunkou, rajčaty, smetanou, česnekem, bazalkou a parmazánem",
+          "type": "soup",
+          "name": "Krémové špenátové risotto s kozím sýrem, sušenými rajčaty, česnekem, bílým vínem a parmazánem",
           "price": 175
         }
       ]
