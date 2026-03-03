@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-03-03T13:54:13.512Z",
+  "generatedAt": "2026-03-03T14:38:22.653Z",
   "weekday": 2,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Pórková polévka s vejcem",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Bramborovo-květákové placky na grilu, zeleninový salát, cottage, ředkvičky",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Bavorská klobása, kysané zelí, pažitkové brambory s máslem, hořčice",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Bramborové noky, panenka, brokolice, česnek, smetana, sýr",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Krůtí špíz, zelenina, slanina, hranolky, tatarská omáčka",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,32 +33,37 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "soup",
-          "name": "Polévka: Bramboračka s houbami",
+          "name": "Špenátový krém s krutóny",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Hovězí na houbách, houskové knedlíky/ těstoviny",
-          "price": 175
+          "name": "Grilovaný sýr Halloumi, teplý salát z černé čočky Beluga, rukola",
+          "price": 179
         },
         {
           "type": "main",
-          "name": "Tradiční „Fish and Chips“, hranolky, zelený hrášek, citrónová majonéza",
-          "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Filírované krůtí prso, pečená květák, karotka a řepa, bulgur",
+          "name": "Pečené kuřecí stehno, bramborová kaše, okurkový salát",
           "price": 169
         },
         {
-          "type": "soup",
-          "name": "Krémové špenátové risotto s kozím sýrem, sušenými rajčaty, česnekem, bílým vínem a parmazánem",
+          "type": "main",
+          "name": "Hovězí nudličky s paprikami, teriyaki omáčkou a sezamem, jasmínová rýže",
           "price": 175
+        },
+        {
+          "type": "main",
+          "name": "Grilovaná krkovice Duroc, omáčka z hrubozrnné hořčice, pečené grenaile",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Rajčata, mozzarella, anglická slanina, cibule, chilli",
+          "price": 169
         }
       ]
     },
