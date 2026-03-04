@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-03-04T13:52:02.298Z",
+  "generatedAt": "2026-03-04T14:33:19.976Z",
   "weekday": 3,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Tomatová polévka se sýrem",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Plněný vepřový bůček, špenát, bramborové knedlíky",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Thajské nudle, zelenina, kuřecí maso",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Zeleninový salát, grilovaný halloumi sýr, jogurtový dip",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Hovězí steak na grilu, fazolové balíčky ve slanině, grenaille, demi-glace",
-          "price": 238
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -156,39 +146,24 @@
       "id": "smichovska-formanka",
       "name": "Smíchovská Formanka",
       "url": "http://smichovskaformanka.cz/",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
           "type": "soup",
-          "name": "bramborový krém s žampiony",
-          "price": 45
+          "name": "Bramboračka",
+          "price": 42
         },
         {
           "type": "main",
-          "name": "Hovězí Stroganov s dušenou jasmínovou rýží",
-          "price": 185
+          "name": "Segedínský guláš, houskový knedlík",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Smažený sýr gouda, vařené brambory, tatarka",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Rizoto s kuřecím masem a zeleninou, kyselá okurka",
-          "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Jerk pikantní kuřecí paličky, pečené brambory Grenaille, zakys. smet.",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Grilovaný vepřový steak s BBQ omáčkou, hranolky",
-          "price": 189
+          "name": "Kuřecí nudličky na kari, rýže",
+          "price": 172
         }
       ]
     },
