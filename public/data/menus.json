@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-05T08:31:29.905Z",
+  "generatedAt": "2026-03-05T09:35:11.195Z",
   "weekday": 4,
   "menus": [
     {
@@ -43,36 +43,36 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Špenátový krém s krutóny",
+          "name": "Polévka: Minestrone",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Grilovaný sýr Halloumi, teplý salát z černé čočky Beluga, rukola",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Pečené kuřecí stehno, bramborová kaše, okurkový salát",
+          "name": "Vepřové výpečky, bílé kysané zelí, bramborové knedlíky",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Hovězí nudličky s paprikami, teriyaki omáčkou a sezamem, jasmínová rýže",
+          "name": "Trhané hovězí zapečené čedarem, pečené brambory, jalapeňos majonéza",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Kuřecí medailonky, omáčka z lišek a tymiánu, dušená rýže",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Grilovaná krkovice Duroc, omáčka z hrubozrnné hořčice, pečené grenaile",
-          "price": 189
+          "name": "Grilovaný okouník červený, pečená rajčata, hrášková kaše, olivová tapenáda",
+          "price": 185
         },
         {
           "type": "main",
-          "name": "Rajčata, mozzarella, anglická slanina, cibule, chilli",
+          "name": "PIZZA:",
           "price": 169
         }
       ]
