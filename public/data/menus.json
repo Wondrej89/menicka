@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-06T15:29:22.685Z",
+  "generatedAt": "2026-03-06T16:01:07.380Z",
   "weekday": 5,
   "menus": [
     {
@@ -70,31 +70,6 @@
       "status": "ok",
       "message": "Načteno.",
       "items": [
-        {
-          "type": "soup",
-          "name": "KAPUSTOVÁ POLÉVKA S UZENÝM MASEM, PAPRIKOU A BRAMBORAMI",
-          "price": 69
-        },
-        {
-          "type": "main",
-          "name": "SPAGHETTI S ANČOVIČKAMI, ČESNEKEM, CHILLI, OLIVAMI A BAZALKOU V TOMATOVÉ OMÁČCE, PARMEZÁN",
-          "price": 190
-        },
-        {
-          "type": "main",
-          "name": "SMAŽENÉ KUŘECÍ STRIPSY V MÁSLOVÉ BRIOŠCE S MAJONÉZOU, LISTOVÝM SALÁTEM, RAJČETEM, KYSELOU OKURKOU, ČERVENOU CIBULÍ A SALÁTKEM COLESLAW",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "GRILOVANÉ MEDAILONKY Z KANČÍ KÝTY, DEMI GLACE OMÁČKA S BRUSINKAMI, ŠŤOUCHANÉ BRAMBORY S CIBULKOU A SLANINOU",
-          "price": 210
-        },
-        {
-          "type": "main",
-          "name": "PIZZA S KUŘECÍM MASEM, ŽAMPIÓNY, BROKOLICÍ, GORGONZOLOU A MOZZARELLOU NA SMETANOVO-RAJČATOVÉM ZÁKLADU",
-          "price": 185
-        },
         {
           "type": "main",
           "name": "ITALSKÁ MINESTRONE S KUSKUSEM",
