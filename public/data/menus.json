@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T14:03:19.696Z",
+  "generatedAt": "2026-03-09T15:28:52.802Z",
   "weekday": 1,
   "menus": [
     {
@@ -33,31 +33,31 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "soup",
-          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
+          "type": "main",
+          "name": "Indická z černé čočky s kokosovým mlékem",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Znojemská hovězí pečeně, dušená rýže/ houskové knedlíky",
-          "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Domácí sekaná, bramborová kaše, zelný salát",
+          "name": "Segedínský guláš, houskové knedlíky",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Pečený květák na kari a kokosovém mléce, rýže basmati, koriandr",
+          "name": "Smažené žampióny, vařené brambory, tatarská omáčka",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Penne s parmskou šunkou, sušenými rajčaty, bazalkovým pestem a parmazánem",
+          "name": "Pečené kuřecí stehno, zeleninové bulgureto, červená řepa",
+          "price": 169
+        },
+        {
+          "type": "soup",
+          "name": "Krémové dýňové risotto s tyrolským špekem, hráškem, šalvějí, ricotou, bílým vínem a parmazánem",
           "price": 175
         }
       ]
@@ -66,34 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "KRÉM Z PEČENÉ DÝNĚ HOKAIDO A MRKVE SE ZÁZVOREM, CHILLI, KOKOSOVÝM MLÉKEM A KORIANDREM",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "PAPPARDELLE S KOUSKY KUŘECÍHO MASA, ŠPENÁTOVÝM PESTEM, SUŠENÝMI RAJČATY A PARMEZÁNEM",
+          "name": "Spaghetti Bolognese",
           "price": 185
         },
         {
           "type": "main",
-          "name": "BURRITO S MLETÝM HOVĚZÍM MASEM, RAJČATY, PAPRIKOU, JASMÍNOVOU RÝŽÍ, JALAPENO PAPRIČKAMI A CHEDDAREM, ZAKYSANÁ SMETANA A TOMATOVÁ SALSA",
+          "name": "Pizza Prosciutto",
           "price": 195
-        },
-        {
-          "type": "main",
-          "name": "GRILOVANÁ KRKOVIČKA S OMÁČKOU Z PEČENÝCH PAPRIK, PEČENÉ GRENAILLE BRAMBORY S BYLINKAMI",
-          "price": 220
-        },
-        {
-          "type": "main",
-          "name": "PIZZA SE ŠUNKOU, BABY ŠPENÁTEM, CHERRY RAJČATY, MASCARPONE A MOZZARELLOU NA SMETANĚ",
-          "price": 185
         }
       ]
     },
