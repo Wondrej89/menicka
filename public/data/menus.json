@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-03-11T12:40:15.934Z",
+  "generatedAt": "2026-03-11T14:00:20.287Z",
   "weekday": 3,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Ostrá čočková polévka s rajčaty",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Pikantní fazolový kotlík s klobásou, rozpečený chléb",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Pečená kuřecí roláda se šunkou, bramborová kaše, salát Coleslaw",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Trhaný salát se zeleninou, rukola, perličky kozího sýru, toust",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Hovězí steak na grilu, houbová omáčka, gratinované brambory",
-          "price": 238
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -81,34 +71,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "POMALU TAŽENÝ VÝVAR Z HOVĚZÍ OHÁŇKY SE ZELENINOU, MASEM, NUDLEMI A PETRŽELKOU",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "RIGATONI S KOUSKY VEPŘOVÉ PANENKY, CHERRY RAJČATY, OLIVAMI A BAZALKOU V TOMATOVÉ OMÁČCE, PARMEZÁN",
+          "name": "Spaghetti Bolognese",
           "price": 185
         },
         {
           "type": "main",
-          "name": "BURGER S TRHANÝM HOVĚZÍM MASEM, CHEDDAREM, JALAPENOS, SMAŽENOU CIBULKOU, PLÁTKEM RAJČETE, LISTOVÝM SALÁTEM, BBQ OMÁČKOU V MÁSLOVÉ BRIOŠCE, AMERICKÝ BRAMBOR",
+          "name": "Pizza Prosciutto",
           "price": 195
-        },
-        {
-          "type": "main",
-          "name": "BURGER S TRHANÝM HOVĚZÍM MASEM, CHEDDAREM, JALAPENOS, SMAŽENOU CIBULKOU, PLÁTKEM RAJČETE, LISTOVÝM SALÁTEM, BBQ OMÁČKOU V MÁSLOVÉ BRIOŠCE, AMERICKÝ BRAMBOR",
-          "price": 210
-        },
-        {
-          "type": "main",
-          "name": "PIZZA SE ŽAMPIÓNY, OLIVAMI, ARTYČOKY, SUŠENÝMI RAJČATY A MOZZARELLOU NA RAJČATECH",
-          "price": 185
         }
       ]
     },
