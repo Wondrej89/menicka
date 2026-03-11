@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T14:00:20.287Z",
+  "generatedAt": "2026-03-11T15:10:20.724Z",
   "weekday": 3,
   "menus": [
     {
@@ -33,37 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "soup",
-          "name": "Žampiónový krém",
+          "type": "main",
+          "name": "Zelňačka s uzeninou",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Hovězí líčka v kořenové zelenině a červeném víně, bramborová kaše",
-          "price": 179
+          "name": "Uzená vepřová plec, listový špenát, bramborové knedlíky",
+          "price": 169
         },
         {
           "type": "main",
-          "name": "Steak z vepřové krkovice, pikantní fazole, sázené vejce, slanina",
+          "name": "Boloňské lasagne, rajčatová polpa",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Kuřecí nudličky Kung Pao, jasmínová rýže",
-          "price": 169
+          "name": "Krůtí nudličky s hlívou, cizrnou a pórkem, divoká rýže",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Variace listových salátů s grilovaným kozím sýrem, červenou řepou, hruškou, medovým dresinkem, kukuřičnou polentou a praženými dýňovými semínky",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Rajčata, mozzarella, paprikový salám, cibule, chilli",
-          "price": 169
+          "name": "Grilovaný sumeček africký, omáčka Barigoulle, šťouchané brambory s jarní cibulkou",
+          "price": 185
         }
       ]
     },
