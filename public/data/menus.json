@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-03-12T13:57:46.744Z",
+  "generatedAt": "2026-03-12T14:48:28.183Z",
   "weekday": 4,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Hovězí vývar se zeleninou a vaječným svítkem",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Špagety aglio olio, sýr",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Mušketýrský hovězí guláš (cibulka, křen, červené víno), špekové knedlíky",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Salát Waldorf s jablky, hroznové víno, celer, vlašské ořechy",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Vepřový steak zapečený s fazolkami a nivou, hranolky",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,32 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "main",
-          "name": "Zelňačka s uzeninou",
+          "name": "Dršťková z hlívy",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Uzená vepřová plec, listový špenát, bramborové knedlíky",
+          "name": "Rizoto s kuřecím masem a zeleninou, sýr, okurka",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Boloňské lasagne, rajčatová polpa",
+          "name": "Pikantní vepřová jatýrka, hranolky",
+          "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Smažené krůtí řízky v sezamové strouhance, bramborová kaše, šopský salát",
           "price": 175
         },
         {
           "type": "main",
-          "name": ", cizrnou a pórkem, divoká rýže",
-          "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Grilovaný sumeček africký, omáčka Barigoulle, šťouchané brambory s jarní cibulkou",
-          "price": 185
+          "name": "3ks Kynuté jahodové knedlíky, sladká zakysaná smetana, máslo",
+          "price": 169
         }
       ]
     },
