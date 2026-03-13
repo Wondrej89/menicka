@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T12:38:47.432Z",
+  "generatedAt": "2026-03-13T13:54:38.226Z",
   "weekday": 5,
   "menus": [
     {
@@ -144,6 +144,31 @@
           "type": "main",
           "name": "Kynuté borůvkové knedlíky se zakysanou smetanou",
           "price": 159
+        },
+        {
+          "type": "soup",
+          "name": "Delikátní rukolový krém se smetanou a krutony",
+          "price": 45
+        },
+        {
+          "type": "main",
+          "name": "Maďarský vepřový guláš s klobásou a bramborovými haluškami",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Ražniči z kuřecích prsíček s bramborovými kroketami a česnekovým dipem",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Salát s vepřovou panenkou, mixem listových salátů, rajčetem, salátovou okurkou, pečenými brambůrkami, zelenými fazolkami a dresinkem z majonézy, pomerančové a citronové šťávy",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Domící lívance s omáčkou z lesních plodů a zakysanou smetanou",
+          "price": 149
         }
       ]
     },
