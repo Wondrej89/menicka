@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-03-13T13:54:38.226Z",
+  "generatedAt": "2026-03-13T14:37:25.972Z",
   "weekday": 5,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
           "type": "soup",
-          "name": "Indická cizrnová polévka se zázvorem a karotkou",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Přírodní máslový mletý řízek, bramborová kaše, okurka",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Sypané ražniči, opečené brambůrky, pikantní majonéza",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Kuskusový salát, zelenina, pesto ze sušených rajčat, grilovaný halloumi sýr",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Vepřová panenka plněná olivami a sýrem, bramborové krokety",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,32 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "main",
-          "name": "Dršťková z hlívy",
+          "type": "soup",
+          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Rizoto s kuřecím masem a zeleninou, sýr, okurka",
-          "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Pikantní vepřová jatýrka, hranolky",
-          "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Smažené krůtí řízky v sezamové strouhance, bramborová kaše, šopský salát",
+          "name": "Špikované hovězí s rajskou omáčkou, houskové knedlíky/ těstoviny",
           "price": 175
         },
         {
           "type": "main",
-          "name": "3ks Kynuté jahodové knedlíky, sladká zakysaná smetana, máslo",
+          "name": "Pečená jitrnice, nastavovaná kaše, zelný salát",
           "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Kuřecí nudličky Tikka Masala, rýže basmati, koriandr",
+          "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Bramborové noky se šunkou od kosti, smetanou, gorgonzolou, česnekem, chilli a parmazánem",
+          "price": 175
         }
       ]
     },
@@ -76,34 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
-          "type": "main",
-          "name": "ITALSKÁ MINESTRONE S KUSKUSEM",
-          "price": 69
+          "type": "soup",
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "SPAGHETTI BRASSATO DI POMODORO S BAZALKOU, PARMEZÁN",
+          "name": "Spaghetti Bolognese",
           "price": 185
         },
         {
           "type": "main",
-          "name": "BOWL S GRILOVANÝMI KREVETAMI, ČERSTVOU ZELENINOU, WAKAME ŘASAMI, JASMÍNOVOU RÝŽÍ, TERIYAKI OMÁČKOU A ČERNÝM SEZAMEM",
+          "name": "Pizza Prosciutto",
           "price": 195
-        },
-        {
-          "type": "main",
-          "name": "POMALU PEČENÉ KRÁLIČÍ STEHÝNKO NA SLANINĚ A ČESNEKU, STAROČESKÁ LEPENICE",
-          "price": 210
-        },
-        {
-          "type": "main",
-          "name": "PIZZA S ANGLICKOU SLANINOU, CIBULÍ, ČESNEKEM, UZENÝM SÝREM A MOZZARELLOU NA ZÁKLADU Z RAJČAT A ŠPENÁTOVÉHO PESTA",
-          "price": 185
         }
       ]
     },
