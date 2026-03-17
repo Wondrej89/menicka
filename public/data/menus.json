@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T14:15:06.193Z",
+  "generatedAt": "2026-03-17T15:35:59.506Z",
   "weekday": 2,
   "menus": [
     {
@@ -33,32 +33,37 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "main",
-          "name": "Mexická fazolová s uzeninou",
+          "name": "Tomatová s tarhoňou",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Rozlítaný španělský ptáček, dušená rýže/ houskové knedlíky",
+          "name": "Špikované králičí stehno, hořčičná omáčka, špecle",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Rybí karbanátek, bramborová kaše, pažitkový dip ze zakysané smetany",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Smažený květák, vařené brambory, tatarská omáčka",
+          "name": "Kuřecí nudličky v červeném kari, rýže basmati",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Pečené krůtí prso, salsa z červené řepy, bulgur",
-          "price": 175
+          "name": "Pšeničná tortilla s trhaným hovězím, čerstvou zeleninou, čedarem, hranolky, čedarová majonéza",
+          "price": 185
         },
         {
-          "type": "soup",
-          "name": "Krémové risotto s parmskou šunkou, rajčaty, kapary, hladkolistou petrželí, bílým vínem a parmazánem",
-          "price": 175
+          "type": "main",
+          "name": "Smetana, mozzarella, anglická slanina, gorgonzola, chilli",
+          "price": 169
         }
       ]
     },
@@ -66,33 +71,23 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "JARNÍ ZELENINOVÝ KRÉM S KRUTONY A PETRŽELKOVÝM OLEJEM",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "BRAMBOROVÉ GNOCCHI S KUŘECÍM MASEM, CHERRY RAJČATY, ČESNEKEM, CHILLI, TOMATOVOU OMÁČKOU, BAZALKOU A BAZALKOVÝM PESTEM, SYPANÉ PARMEZÁNEM",
+          "name": "Spaghetti Bolognese",
           "price": 185
         },
         {
           "type": "main",
-          "name": "LASAGNE S KOUSKY LOSOSA, LISTOVÝM ŠPENÁTEM, ČESNEKEM, BEŠAMELOVOU OMÁČKOU A RAJČATY, GRATINOVANÉ MOZZARELLOU",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "HOVĚZÍ FLANK STEAK NA GRILU S CHIMICHURRI OMÁČKOU A PEČENÝMI GRENAILLEMI S CIBULKOU A SLANINOU",
-          "price": 220
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S MOZZARELLOU, KRŮTÍM MASEM, ŽAMPIONY, HRÁŠKEM A ŽLUTÝM KARI",
+          "name": "Pizza Prosciutto",
           "price": 195
         }
       ]
