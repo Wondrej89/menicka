@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T14:14:47.964Z",
+  "generatedAt": "2026-03-19T15:10:21.893Z",
   "weekday": 4,
   "menus": [
     {
@@ -66,34 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "POMALU TAŽENÝ TELECÍ VÝVAR SE ZELENINOU, CELESTÝNSKÝMI NUDLEMI A SEKANOU PETRŽELKOU",
-          "price": 69
-        },
-        {
-          "type": "soup",
-          "name": "KRÉMOVÉ ITALSKÉ RISOTTO S KOUSKY KRŮTÍCH PRSÍČEK, PEČENOU DÝNÍ, CHERRY RAJČATY, PETRŽELOVÝM OLEJEM A PARMEZÁNEM",
-          "price": 195
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "KUŘECÍ TACO S KUKUŘICÍ, HRÁŠKEM, ČERVENOU CIBULÍ, CHEDDAREM A ČESNEKEM, NA LEDOVÉM SALÁTU, ZAKYSANÁ SMETANA A TOMATOVÁ SALSA",
-          "price": 195
-        },
-        {
-          "type": "main",
-          "name": "TELECÍ MAMINHA STEAK NA GRILU S GRILOVANOU ZELENINOU A DEMI GLACE",
-          "price": 220
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, VEPŘOVOU ŠUNKOU, KUKUŘICÍ, CHERRY RAJČATY A OLIVAMI",
+          "name": "Spaghetti Bolognese",
           "price": 185
+        },
+        {
+          "type": "main",
+          "name": "Pizza Prosciutto",
+          "price": 195
         }
       ]
     },
