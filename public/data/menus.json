@@ -1,29 +1,39 @@
 {
-  "generatedAt": "2026-03-19T16:12:59.206Z",
-  "weekday": 4,
+  "generatedAt": "2026-03-20T06:43:45.332Z",
+  "weekday": 5,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Silný hovězí vývar s masem a nudlemi",
+          "name": "Brokolicová polévka s krutóny",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
-          "price": 189
+          "name": "Smažený holandský řízek, bramborová kaše, okurkový salátek",
+          "price": 174
         },
         {
           "type": "main",
-          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
-          "price": 175
+          "name": "Těstoviny, mušle, drcená rajčata, cuketa, česnek, bazalka",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Plněná zapečená cuketa, sušená rajčata, čedar, ledový salát, tzatziki",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Kuřecí plátek se šunkou a broskví, krokety, zeleninová obloha, tatarská omáčka",
+          "price": 218
         }
       ]
     },
@@ -33,7 +43,7 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "soup",
@@ -66,24 +76,34 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
-          "type": "soup",
-          "name": "Rajčatová polévka s bazalkou",
-          "price": 45
+          "type": "main",
+          "name": "STAROČESKÁ BRAMBORAČKA S HOUBAMI",
+          "price": 69
         },
         {
           "type": "main",
-          "name": "Spaghetti Bolognese",
+          "name": "CAPELLINI AGLIO OLIO S KREVETAMI, CHILLI PAPRIČAKMI, PETRŽELKOU A PARMEZÁNEM",
           "price": 185
         },
         {
           "type": "main",
-          "name": "Pizza Prosciutto",
+          "name": "GRILOVANÝ ŽAMPION PORTOBELLO PLNĚNÝ BOLOŇSKÝM RAGÚ S RAJČATY, ZAPEČENÝ MOZZARELLOU A CHEDDAREM, MALÝ LISTOVÝ SALÁTEK",
           "price": 195
+        },
+        {
+          "type": "main",
+          "name": "GRILOVANÁ VEPŘOVÁ PANENKA PLNĚNÁ SUŠENÝMI RAJČATY A ČERSTVOU BAZALKOU S GRATINOVANÝMI BRAMBORAMI A DEMI GLACE",
+          "price": 210
+        },
+        {
+          "type": "main",
+          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S PESTEM ZE SUŠENÝCH RAJČAT, MOZZARELLOU, MORTADELLOU, CAMEMBERTEM A RUKOLOU",
+          "price": 185
         }
       ]
     },
@@ -97,27 +117,27 @@
       "items": [
         {
           "type": "soup",
-          "name": "Hrstková polévka se zeleninou",
+          "name": "Delikátní rukolový krém se smetanou a krutony",
           "price": 45
         },
         {
           "type": "main",
-          "name": "Vepřenky – přírodní karbanátky z mletého masa, šťouchané brambory s čerstvým koprem a vídeňskou cibulkou, hořčice",
+          "name": "Maďarský vepřový guláš s klobásou a bramborovými haluškami",
           "price": 189
         },
         {
           "type": "main",
-          "name": "Salát s grilovaným kuřecím prsíčkem, rukolou, římským salátem, paprikou, rajčetem, olivami, krutony, pečeným česnekem, balsamikovou redukcí a hoblinkami sýru Gran Moravia",
+          "name": "Ražniči z kuřecích prsíček s bramborovými kroketami a česnekovým dipem",
           "price": 189
         },
         {
-          "type": "soup",
-          "name": "Krémové risotto s restovanými krevetami, kokosovým mlékem, chilli a pečeným citronem",
-          "price": 199
+          "type": "main",
+          "name": "Salát s vepřovou panenkou, mixem listových salátů, rajčetem, salátovou okurkou, pečenými brambůrkami, zelenými fazolkami a dresinkem z majonézy, pomerančové a citronové šťávy",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Hovězí Gangster burger – listový salát, rajče, slanina, čedar, jalapeňos a chipotle majonéza, hranolky",
+          "name": "Hovězí Texas burger – listový salát, rajče, cibulové kroužky, tekutý čedar a dijonská majonéza, hranolky",
           "price": 249
         },
         {
@@ -137,33 +157,28 @@
       "items": [
         {
           "type": "main",
-          "name": "kapustová se slaninou",
+          "name": "minestrone",
           "price": 45
         },
         {
           "type": "main",
-          "name": "Moravský vrabec, bílé zelí, bramborové knedlíky",
+          "name": "Smažený kuřecí řízek, domácí bramborový salát, citrón",
           "price": 179
         },
         {
           "type": "main",
-          "name": "Salátový talíř Caesar s kuř. masem, slanina, krutony,parmez.",
+          "name": "Grilovaný sýr halloumi se zeleninovým sal., jogurt. dressing",
           "price": 179
         },
         {
           "type": "main",
-          "name": "Zapečené francouzské brambory, salát coleslaw",
-          "price": 169
+          "name": "Pečená selečí pečeně, medové červené zelí, bramborové šišky",
+          "price": 185
         },
         {
           "type": "main",
-          "name": "Kuřecí Stroganov, dušená rýže",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Hovězí burger se slaninou, rajče, salát, majonéza, hranolky",
-          "price": 195
+          "name": "Baby špenát",
+          "price": 189
         }
       ]
     },
