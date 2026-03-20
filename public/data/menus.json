@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T12:39:21.546Z",
+  "generatedAt": "2026-03-20T13:56:03.240Z",
   "weekday": 5,
   "menus": [
     {
@@ -144,6 +144,31 @@
           "type": "main",
           "name": "Domící lívance s omáčkou z lesních plodů a zakysanou smetanou",
           "price": 149
+        },
+        {
+          "type": "main",
+          "name": "Krkonošské kyselo s houbami",
+          "price": 45
+        },
+        {
+          "type": "soup",
+          "name": "Naše halušky se švestkovými povidly, mletým mákem, vlašskými ořechy, moučkovým cukrem a přepuštěným máslem",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Moravský vrabec s bílým zelím, bramborovými špalíčky a vídeňskou cibulkou",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Asijský salát s kuřecím prsíčkem, rýžovými nudlemi, karotkou, červenou cibulkou, mixem listových salátů, salátovou okurkou a sweet chilli majonézou se sójovou omáčkou a medem",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Hovězí Blue cheese burger – listový salát, rajče, modrý sýr a česneková majonéza, hranolky",
+          "price": 249
         }
       ]
     },
