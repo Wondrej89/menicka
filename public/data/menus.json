@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T09:33:17.630Z",
+  "generatedAt": "2026-03-20T10:30:16.822Z",
   "weekday": 5,
   "menus": [
     {
@@ -43,32 +43,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
+      "message": "Načteno.",
       "items": [
         {
-          "type": "soup",
-          "name": "Bramborový krém s pórkem a uzeninou",
+          "type": "main",
+          "name": "Boršč se zakysanou smetanou",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Kančí výpečky, červené zelí, bramborové knedlíky",
+          "name": "Halušky s kysaným zelím a uzeným masem, smažená cibulka",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Grilované kuřecí prso, sýrová omáčka, bramborové krokety",
+          "name": "Hovězí nudličky „Stroganoff, dušená rýže",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Uzená vepřová plec, čočka na kyselo, sázené vejce, okurka",
+          "name": "Smažené kuřecí řízky, bramborová kaše, okurkový salát",
+          "price": 175
+        },
+        {
+          "type": "main",
+          "name": "300gDukátové buchtičky s vanilkovým šodó",
           "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Grilované krevety, arašídová omáčka, jasmínová rýže, řasy wakame",
-          "price": 195
         }
       ]
     },
