@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T14:09:57.361Z",
+  "generatedAt": "2026-03-23T15:33:08.940Z",
   "weekday": 1,
   "menus": [
     {
@@ -33,32 +33,37 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "soup",
-          "name": "Drůbeží vývar se zeleninou a nudlemi",
+          "type": "main",
+          "name": "Bramboračka",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Špikované hovězí se svíčkovou omáčkou, houskové knedlíky, brusinky",
-          "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí paličky na medu, zázvoru a chilli, jasmínová rýže",
+          "name": "Vepřová plec na paprice, houskový knedlík/ těstoviny",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Špalíky z vepřové panenky, hříbková omáčka, šťouchané brambory se slaninou",
-          "price": 179
+          "name": "Smažené kuřecí stripsy v cornflakes, bramborová kaše, coleslaw",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Tortiglioni s tyrolským špekem, pestem z pečených paprik, rukolou a parmazánem",
+          "name": "Pečené krůtí prso, grilovaná zelenina, kuskus",
           "price": 175
+        },
+        {
+          "type": "soup",
+          "name": "Krémové risotto s červenou řepou, kozím sýrem, tymiánem, bílým vínem, rukolou a parmazánem",
+          "price": 175
+        },
+        {
+          "type": "main",
+          "name": "Quatrro formaggi",
+          "price": 169
         }
       ]
     },
@@ -66,34 +71,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
-          "type": "main",
-          "name": "FRANCOUZSKÁ CIBULAČKA S KRUTONY",
-          "price": 69
+          "type": "soup",
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "SPAGHETTI S KOUSKY HOVĚZÍHO MASA, ČESNEKEM, ROZMARÝNEM, CHERRY RAJČATY A PARMEZÁNEM",
+          "name": "Spaghetti Bolognese",
           "price": 185
         },
         {
           "type": "main",
-          "name": "GRILOVANÉ MLETÉ ŘECKÉ BIFTEKY PODÁVANÉ S LEDOVÝM SALÁTEM, RAJČATY, OKURKOU, OLIVAMI, PITA CHLEBEM A TZATZIKI",
+          "name": "Pizza Prosciutto",
           "price": 195
-        },
-        {
-          "type": "main",
-          "name": "SMAŽENÉ KUŘECÍ STRIPSY OBALENÉ V CORNFLAKES S BRAMBOROVOU KAŠÍ A MALÝM ZELENINOVÝM SALÁTKEM S BALKÁNSKÝM SÝREM",
-          "price": 210
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, VALPOLICELLOU, ČERVENOU CIBULÍ A PARMEZÁNEM",
-          "price": 185
         }
       ]
     },
@@ -141,39 +136,24 @@
       "id": "smichovska-formanka",
       "name": "Smíchovská Formanka",
       "url": "http://smichovskaformanka.cz/",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
           "type": "soup",
-          "name": "květákový krém s krutony",
-          "price": 45
+          "name": "Bramboračka",
+          "price": 42
         },
         {
           "type": "main",
-          "name": "Pečená bavorská klobása s hořčicí, kysané zelí, vař. brambory",
-          "price": 179
+          "name": "Segedínský guláš, houskový knedlík",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Segedínský guláš, houskové knedlíky",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Kuř. roláda se slaninou a špenátem, br. kaše, rajčatový salát",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Grilované krevety, sepiové rizoto, rukola",
-          "price": 209
-        },
-        {
-          "type": "main",
-          "name": "Steak z vepřové krkovičky, volské oko, hranolky, tatarka",
-          "price": 189
+          "name": "Kuřecí nudličky na kari, rýže",
+          "price": 172
         }
       ]
     },
