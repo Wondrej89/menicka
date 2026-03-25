@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-03-25T12:48:45.692Z",
+  "generatedAt": "2026-03-25T14:14:04.195Z",
   "weekday": 3,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Uzený vývar, maso, zelenina, kroupy",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Segedínský vepřový guláš, houskové knedlíky",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Zapečené fleky, uzené maso, vejce, kyselá okurka",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Cizrnový salát, řapíkatý celer, brokolice, ředkvičky, cottage",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Hovězí steak na grilu, chimichurri omáčka, pečené brambory, zakysaná smetana",
-          "price": 238
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -76,34 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "DLOUZE TAŽENÝ SLEPIČÍ VÝVAR S DROBY, ZELENINOU A NUDLEMI",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "PAPPARDELLE S ITALSKOU SLANINOU, ARTYČOKY, CHERRY RAJČATY, PETRŽELKOU A PARMEZÁNEM, ZJEMNĚNÉ MÁSLEM",
+          "name": "Spaghetti Bolognese",
           "price": 185
         },
         {
           "type": "main",
-          "name": "ŠPÍZ S VEPŘOVOU PANENKOU, SLANINOU A CIBULKOU, PODÁVANÝ NA TRHANÝCH LISTOVÝCH SALÁTECH SE SUŠENÝMI RAJČATY, OKURKOU, ČERNÝMI OLIVAMI, JARNÍ CIBULKOU, MLADOU MRKVIČKOU",
+          "name": "Pizza Prosciutto",
           "price": 195
-        },
-        {
-          "type": "main",
-          "name": "KUŘECÍ TIKKA MASALA S JASMÍNOVOU RÝŽÍ",
-          "price": 210
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S MOZZARELLOU, VEPŘOVOU ŠUNKOU, KUKUŘICÍ, PAPRIKOU A BROKOLICÍ",
-          "price": 185
         }
       ]
     },
