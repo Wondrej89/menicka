@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T14:14:04.195Z",
+  "generatedAt": "2026-03-25T15:42:00.897Z",
   "weekday": 3,
   "menus": [
     {
@@ -33,32 +33,37 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "main",
-          "name": "Frankfurtská",
+          "name": "Uzená s kroupami",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Uzený hovězí jazyk, křenová omáčka, karlovarský knedlík",
+          "name": "Hovězí na česneku, listový špenát ,bramborový knedlík",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Pečené kuřecí stehno, batátová kaše, zelený hrášek",
-          "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Grilovaný sýr Halloumi, pečené brambory s rozmarýnem, tzatziky",
+          "name": "Grilované kachní prso, omáčka z lišek, šťouchaný brambor",
           "price": 179
         },
         {
           "type": "main",
-          "name": "Ciabatta s trhaným hovězím, rajčaty, papričkami jalapeňos, cibulí, čedarem, BBQ majonézou a rukolou",
-          "price": 189
+          "name": "Srbské vepřové rizoto, strouhaný sýr, okurka",
+          "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Grilovaná aljašská treska, hrášková kaše, salsa z červené řepy a fenyklu",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "Rajčata, mozzarella, šunka, žampióny, bazalka",
+          "price": 169
         }
       ]
     },
