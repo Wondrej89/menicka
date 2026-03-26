@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T14:22:41.221Z",
+  "generatedAt": "2026-03-26T15:48:48.567Z",
   "weekday": 4,
   "menus": [
     {
@@ -66,34 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "DLOUZE TAŽENÝ SLEPIČÍ VÝVAR S DROBY, ZELENINOU A NUDLEMI",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
-          "type": "soup",
-          "name": "KRÉMOVÉ ITALSKÉ RISOTTO S KOUSKY TUŇÁKA, HRÁŠKEM, CITRONOVOU ŠŤÁVOU A SUŠENÝMI RAJČATY",
+          "type": "main",
+          "name": "Spaghetti Bolognese",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "Pizza Prosciutto",
           "price": 195
-        },
-        {
-          "type": "main",
-          "name": "PALAČINKA PLNĚNÁ TRHANÝM KRŮTÍM MASEM, KVĚTÁKEM A BROKOLICÍ VE SMETANOVÉ OMÁČCE S KONFITOVANÝM ČESNEKEM, GRATINOVANÁ CHEDDAREM",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "POMALU PEČENÁ HOVĚZÍ ROŠTĚNÁ NA ČERVENÉM VÍNĚ A KOŘENOVÉ ZELENINĚ SE ŽAMPIONY, BRAMBOROVÉ PYRÉ",
-          "price": 220
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S MOZZARELLOU, VEPŘOVOU ŠUNKOU, KUKUŘICÍ, PAPRIKOU A BROKOLICÍ",
-          "price": 185
         }
       ]
     },
