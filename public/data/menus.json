@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T14:06:07.272Z",
+  "generatedAt": "2026-03-27T15:13:40.275Z",
   "weekday": 5,
   "menus": [
     {
@@ -8,7 +8,7 @@
       "url": "https://www.restauraceandel.cz/denni-nabidka",
       "status": "ok",
       "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
@@ -33,32 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "soup",
-          "name": "Zeleninový krém s krutóny",
+          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Boloňské špagety, parmazán",
-          "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí stehení steak, pikantní kukuřice s chrizem a paprikami, divoká rýže",
+          "name": "Špikované hovězí s koprovou omáčkou a vejcem, houskový knedlík/ brambory",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Smažené vepřové řízky, bramborový salát/ kaše",
-          "price": 175
+          "name": "Steak z vepřové krkovice, zelené fazolky na slanině, pečená brambora ve slupce, zakysaná smetana",
+          "price": 179
         },
         {
           "type": "main",
-          "name": "3ks Kynuté meruňkové knedlíky, strouhaný tvaroh, máslo",
+          "name": "Tofu s brokolicí a cizrnou, rýže basmati",
           "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Penne s tyrolským špekem, rajčaty, smetanou, česnekem, bazalkou a parmazánem",
+          "price": 175
         }
       ]
     },
