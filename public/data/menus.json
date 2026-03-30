@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T07:17:17.665Z",
+  "generatedAt": "2026-03-30T08:52:35.942Z",
   "weekday": 1,
   "menus": [
     {
@@ -47,7 +47,7 @@
       "items": [
         {
           "type": "soup",
-          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
+          "name": "Polévka: Hovězí vývar s masem, zeleninou a nudlemi",
           "price": 38
         },
         {
@@ -62,12 +62,12 @@
         },
         {
           "type": "main",
-          "name": "Tofu s brokolicí a cizrnou, rýže basmati",
+          "name": "Rofu s brokoicí a cizrnou, rýže basmati",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Penne s tyrolským špekem, rajčaty, smetanou, česnekem, bazalkou a parmazánem",
+          "name": "rajčaty, smetanou, česnekem, bazalkou a parmazánem",
           "price": 175
         }
       ]
