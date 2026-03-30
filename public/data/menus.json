@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T14:27:27.040Z",
+  "generatedAt": "2026-03-30T15:50:03.956Z",
   "weekday": 1,
   "menus": [
     {
@@ -66,34 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "KRÉM Z PEČENÉHO ČESNEKU S KRUTONY A PAŽITKOU",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "PAPPARDELLE S KOUSKY KUŘECÍHO MASA, PESTEM ZE SUŠENÝCH RAJČAT, RICOTTOU A PARMEZÁNEM",
+          "name": "Spaghetti Bolognese",
           "price": 185
         },
         {
           "type": "main",
-          "name": "QUESADILLA S TRHANÝM HOVĚZÍM MASEM, RAJČATY, CIBULÍ, PAPRIKOU, KUKUŘICÍ, CHEDDAREM ZAPEČENÁ, TŘI SALSY",
+          "name": "Pizza Prosciutto",
           "price": 195
-        },
-        {
-          "type": "main",
-          "name": "THAJSKÉ ČERVENÉ CURRY S VEPŘOVOU PANENKOU, RESTOVANOU ZELENINOU, KOKOSOVÝM MLÉKEM A JASMÍNOVOU RÝŽÍ",
-          "price": 210
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S MOZZARELLOU, SLANINOU, VEJCEM, BABY ŠPENÁTEM, ČERVENOU CIBULÍ A ČESNEKEM",
-          "price": 185
         }
       ]
     },
