@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T11:30:49.554Z",
+  "generatedAt": "2026-03-30T12:59:12.020Z",
   "weekday": 1,
   "menus": [
     {
@@ -151,39 +151,24 @@
       "id": "smichovska-formanka",
       "name": "Smíchovská Formanka",
       "url": "http://smichovskaformanka.cz/",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
           "type": "soup",
-          "name": "kuřecí vývar s masem a celestinskými nudlemi",
-          "price": 45
+          "name": "Bramboračka",
+          "price": 42
         },
         {
           "type": "main",
-          "name": "Hovězí guláš s bramboráčky",
-          "price": 189
+          "name": "Segedínský guláš, houskový knedlík",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Rybí stripsy, vařené brambory, citronová majonéza",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí rizoto se zeleninou, sýr, kyselá okurka",
-          "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Vepřový steak, zelené fazolky na slanině, hranolky, pik.dip",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Pečená vepřová žebra s BBQ omáčkou, zelný salát, domácí cibulový chléb, hořčice, křen, nakl. zelenina",
-          "price": 199
+          "name": "Kuřecí nudličky na kari, rýže",
+          "price": 172
         }
       ]
     },
