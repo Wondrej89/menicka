@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T14:18:46.513Z",
+  "generatedAt": "2026-04-02T15:32:56.077Z",
   "weekday": 4,
   "menus": [
     {
@@ -33,32 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "soup",
-          "name": "Polévka: Gulášová",
+          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Moravský vrabec, bílé zelí ,bramborový knedlík",
-          "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí nudličky se zeleninou a kokosovým mlékem, rýže basmati",
-          "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Smažené krůtí řízečky v kukuřičné strouhance, bramborová kaše, šopský salát",
+          "name": "Znojemská hovězí pečeně, dušená rýže/ houskové knedlíky",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Kynutý rakouský Germknödel, vanilková omáčka, mák",
+          "name": "Pečená vinná klobása, bramborová kaše, zelný salát",
           "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Grilované kuřecí prso s omáčkou ze smetany, hlívy, pórku a sušených rajčat, špecle )",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Bramborové noky s pancettou, rajčaty, červeným vínem, chilli, česnekem, bazalkou a parmazánem",
+          "price": 175
         }
       ]
     },
