@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T06:59:02.590Z",
+  "generatedAt": "2026-04-03T08:02:49.308Z",
   "weekday": 5,
   "menus": [
     {
@@ -91,24 +91,39 @@
       "id": "smichovna",
       "name": "Smíchovna",
       "url": "https://www.smichovna.cz/tydenni-nabidka",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Týdenní menu pro dnešní den není dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Hovězí vývar s nudlemi",
+          "name": "Brokolicový krém se smetanou a krutony",
           "price": 45
         },
         {
+          "type": "soup",
+          "name": "Krémové špenátové risotto se slaninou, pečeným česnekem a sýrem Gran Moravia",
+          "price": 179
+        },
+        {
           "type": "main",
-          "name": "Svíčková na smetaně, houskový knedlík",
+          "name": "Kuřecí prso na paprice se zakysanou smetanou a slovenskou tarhoňou",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Filírovaná vepřová panenka na grilu se šťouchaným bramborem a houbovou omáčkou",
           "price": 199
         },
         {
           "type": "main",
-          "name": "Vepřový řízek, bramborový salát",
-          "price": 189
+          "name": "Hovězí Blue cheese burger – listový salát, rajče, modrý sýr a česneková majonéza, hranolky",
+          "price": 249
+        },
+        {
+          "type": "main",
+          "name": "Domácí lívance s omáčkou z lesních plodů a zakysanou smetanou",
+          "price": 149
         }
       ]
     },
