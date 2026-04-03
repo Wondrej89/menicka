@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T13:01:16.573Z",
+  "generatedAt": "2026-04-03T14:09:57.885Z",
   "weekday": 5,
   "menus": [
     {
@@ -66,24 +66,34 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
-          "type": "soup",
-          "name": "Rajčatová polévka s bazalkou",
-          "price": 45
+          "type": "main",
+          "name": "ZELŇAČKA S KLOBÁSOU A BRAMBOREM",
+          "price": 69
         },
         {
           "type": "main",
-          "name": "Spaghetti Bolognese",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "Pizza Prosciutto",
+          "name": "LINGUINE AGLIO OLIO S MUŠLEMI VONGOLE, BÍLÝM VÍNEM, PETRŽELKOU, CITRÓNEM A PARMEZÁNEM",
           "price": 195
+        },
+        {
+          "type": "main",
+          "name": "ZVĚŘINOVÉ LASAGNE S RAJČATY, MEDVĚDÍM ČESNEKEM A BEŠAMELOVOU OMÁČKOU, GRATINOVANÉ MOZZARELLOU",
+          "price": 195
+        },
+        {
+          "type": "main",
+          "name": "GRILOVANÝ FLANK STEAK S AMERICKÝMI BRAMBORAMI A RED CHIMICHURRI OMÁČKOU",
+          "price": 230
+        },
+        {
+          "type": "main",
+          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S PESTEM Z PEČENÝCH PAPRIK, MOZZARELLOU, KLOBÁSOU A BERANÍMI ROHY",
+          "price": 185
         }
       ]
     },
