@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-06T07:19:15.322Z",
+  "generatedAt": "2026-04-06T08:50:58.809Z",
   "weekday": 1,
   "menus": [
     {
@@ -66,24 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Rajčatová polévka s bazalkou",
-          "price": 45
+          "name": "ŠPENÁTOVÝ KRÉM S RESTOVANÝMI KOUSKY LOSOSA",
+          "price": 89
         },
         {
           "type": "main",
-          "name": "Spaghetti Bolognese",
-          "price": 185
+          "name": "KONFITOVANÉ JEHNĚČÍ KOLÍNKO PODÁVANÉ NA RISOTTU S MEDVĚDÍM ČESNEKEM, PEČENOU PANCETTOU A OMÁČKOU DEMI-GLACE",
+          "price": 299
         },
         {
           "type": "main",
-          "name": "Pizza Prosciutto",
-          "price": 195
+          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S MOZZARELLOU, ŠPENÁTEM, VAŘENÝM VEJCEM, KUKUŘICÍ A ČESNEKEM",
+          "price": 219
         }
       ]
     },
