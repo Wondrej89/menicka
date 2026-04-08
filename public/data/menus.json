@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-08T14:06:21.120Z",
+  "generatedAt": "2026-04-08T15:52:04.553Z",
   "weekday": 3,
   "menus": [
     {
@@ -71,34 +71,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "VÝVAR Z UZENÉHO ŽEBRA S JASMÍNOVOU RÝŽÍ, MASEM A LIBEČKEM",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "RIGATONI S ITALSKOU SLANINOU, CHILLI, JARNÍ CIBULKOU, BÍLÝM VÍNEM, TOMATOVOU OMÁČKOU, BAZALKOU A PARMEZÁNEM",
+          "name": "Spaghetti Bolognese",
           "price": 185
         },
         {
           "type": "main",
-          "name": "TRHANÉ LISTY ŘÍMSKÉHO A LEDOVÉHO SALÁTU S GRILOVANÝMI KREVETAMI, CHERRY RAJČATY, KRUTONY A CAESAR DRESINKEM",
+          "name": "Pizza Prosciutto",
           "price": 195
-        },
-        {
-          "type": "main",
-          "name": "GRILOVANÉ MEDAILONKY Z VEPŘOVÉHO KARÉ V BYLINKOVO-PARMEZÁNOVÉ KRUSTĚ S BRAMBOROVOU KAŠÍ A MALÝM ZELENINOVÝM SALÁTKEM",
-          "price": 210
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, ITALSKÝMI SALÁMI, OLIVAMI A PARMEZÁNEM",
-          "price": 185
         }
       ]
     },
