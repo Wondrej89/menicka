@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-04-08T12:07:02.969Z",
+  "generatedAt": "2026-04-08T14:06:21.120Z",
   "weekday": 3,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
-          "type": "main",
-          "name": "Boršč se zakysanou smetanou",
+          "type": "soup",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Vepřový špaček pečený na zázvoru a česneku, zelí, bramborové šišky",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Smažený žampionový špíz, sýr, petrželkové brambory, tatarská omáčka",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Listové saláty se zeleninou, grilované kachní prsíčko, brusinkový dip",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Hovězí steak na grilu, šalotková omáčka, grilovaná zelenina, grenaille",
-          "price": 238
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,36 +33,36 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "main",
-          "name": "Dršťková z hlívy",
+          "name": "Bramboračka s houbami",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Chilli con Carné, divoká rýže, zakysaná smetana, koriandr",
-          "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Pečené kuřecí stehno, bramborová kaše, okurkový salát",
+          "name": "Pečená krkovice, červené zelí, bramborové knedlíky",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Grilovaná krůtí játra, ratatouille zelenina, tarhoňa s bazalkou",
+          "name": "Plněný paprikový lusk v tomatové omáčce, dušená rýže",
+          "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Krůtí prso s pečenou dýní, karotkou a řepou, bulgur",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Caesar salát s grilovanými krevetami a rozpečenou ciabattou",
-          "price": 185
+          "name": "Steak z tuňáka žlutoploutvého, lehce pikantní salát z červené čočky",
+          "price": 199
         },
         {
           "type": "main",
-          "name": "Quatrro formaggi",
+          "name": "Rajčata, mozzarella, šunka, ananas, chilli",
           "price": 169
         }
       ]
