@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-16T13:12:15.635Z",
+  "generatedAt": "2026-04-16T15:10:06.880Z",
   "weekday": 4,
   "menus": [
     {
@@ -33,37 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "soup",
-          "name": "Kuřecí vývar s vejcem a krupicí",
+          "type": "main",
+          "name": "Zelňačka s uzeninou",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Vepřové výpečky, bílé kysané zelí, bramborové knedlíky",
+          "name": "Vepřové nudličky „Katův šleh“, hranolky/ rýže",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Boloňské lasagne, rajčatová polpa",
-          "price": 175
+          "name": "Špikované králičí stehno na smetaně, karlovarské knedlíky",
+          "price": 179
         },
         {
-          "type": "soup",
-          "name": "Pečené krůtí prso, krémové žampiony s bílým vínem a tymiánem, dušená rýže",
+          "type": "main",
+          "name": "Smažené krůtí řízky v sezamové strouhance, bramborová kaše, šopský salát",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Grilovaný losos, batátové pyré, pečená zelenina",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "PIZZA:",
-          "price": 175
+          "name": "Dukátové buchtičky s vanilkovým šodó",
+          "price": 169
         }
       ]
     },
@@ -71,34 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "POMALU TAŽENÝ DRŮBEŽÍ VÝVAR SE ZELENINOU, KUSKUSEM, HRÁŠKEM A PETRŽELKOU",
-          "price": 69
-        },
-        {
-          "type": "soup",
-          "name": "KRÉMOVÉ ITALSKÉ RISOTTO S HOVĚZÍM MASEM, ŽAMPIONY, ARTYČOKY, CHERRY RAJČATY A HOBLINKAMI PARMEZÁNU",
-          "price": 195
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "BURGER S TRHANÝM KUŘECÍM MASEM, CHEDDAREM, SLANINOU, CIBULKOU, RAJČATEM, LISTOVÝM SALÁTEM A BBQ OMÁČKOU V MÁSLOVÉ BRIOŠCE, SMAŽENÉ CIBULOVÉ KROUŽKY S MAJONÉZOU",
-          "price": 195
-        },
-        {
-          "type": "main",
-          "name": "GRILOVANÉ KREVETY S TERIYAKI OMÁČKOU, JASMÍNOVOU RÝŽÍ S ČERNÝM SEZAMEM A RESTOVANOU ZELENINOU",
-          "price": 225
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, PAPRIKOU, KUKUŘICÍ, CHERRY RAJČATY, BROKOLICÍ, KAPARY A ČESNEKEM",
+          "name": "Spaghetti Bolognese",
           "price": 185
+        },
+        {
+          "type": "main",
+          "name": "Pizza Prosciutto",
+          "price": 195
         }
       ]
     },
