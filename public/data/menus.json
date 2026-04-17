@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-04-17T12:09:02.899Z",
+  "generatedAt": "2026-04-17T14:01:40.358Z",
   "weekday": 5,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
           "type": "soup",
-          "name": "Kapustová polévka s uzeným masem",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Smažená vinná klobása, bramborový salát",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Salát z bulguru, zelenina, pesto ze sušených rajčat, grilovaný oštiepok",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Krůtí soté, žampiony, pórek, dušená rýže",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Vepřová panenka na grilu, batátové pyré, císařské lusky, demi glace",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,32 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "main",
-          "name": "Zelňačka s uzeninou",
+          "type": "soup",
+          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Vepřové nudličky „Katův šleh“, hranolky/ rýže",
-          "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Špikované králičí stehno na smetaně, karlovarské knedlíky",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Smažené krůtí řízky v sezamové strouhance, bramborová kaše, šopský salát",
+          "name": "Špikované hovězí s rajskou omáčkou, houskové knedlíky/ těstoviny",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Dukátové buchtičky s vanilkovým šodó",
+          "name": "Pečená sekaná, bramborová kaše, okurka",
           "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Kuřecí nudličky Tikka Masala, rýže basmati",
+          "price": 175
+        },
+        {
+          "type": "main",
+          "name": "Bramborové noky s lososem, rajčaty, smetanou, brokolicí, česnekem, bílým vínem a parmazánem",
+          "price": 179
         }
       ]
     },
@@ -144,6 +134,26 @@
           "type": "main",
           "name": "Domácí lívance s omáčkou z lesních plodů a zakysanou smetanou",
           "price": 149
+        },
+        {
+          "type": "main",
+          "name": "Mexická fazolová s klobásou a bramborem",
+          "price": 45
+        },
+        {
+          "type": "main",
+          "name": "Plněná paprika mletým masem v rajské omáčce s jasmínovou rýží",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Pikantní salát s kuřecím masem, mangem, mixem listových salátů, rajčetem, čerstvým chilli, salátovou okurkou,",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Halušky s trhaným kachním masem, smetanou, baby špenátem a vídeňskou cibulkou",
+          "price": 189
         }
       ]
     },
