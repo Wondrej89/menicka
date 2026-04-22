@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T07:21:34.230Z",
+  "generatedAt": "2026-04-22T09:02:05.259Z",
   "weekday": 3,
   "menus": [
     {
@@ -43,32 +43,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Bramborový krém s uzeninou a krutóny",
+          "name": "Polévka: Brokolicový krém s krutóny",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Hovězí na houbách, dušená rýže/ houskový knedlík",
-          "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Smažené kuřecí stripsy, šťouchané brambory, coleslaw",
-          "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Pečený květák s brokolicí, teplý salát z černé čočky Beluga",
+          "name": "Kuře na paprice, špecle",
           "price": 169
         },
         {
-          "type": "soup",
-          "name": "Krémové risotto s parmskou šunkou, kapary, rajčaty, bílým vínem, hladkolistou petrželí a parmazánem",
+          "type": "main",
+          "name": "Hovězí líčka na červeném víně a kořenové zelenině, bramborová kaše",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Pečené krůtí prso, salsa z červené řepy, bulgur",
           "price": 175
+        },
+        {
+          "type": "main",
+          "name": "Steak z krkovice Duroc, hořčičná omáčka, pečené grenaile s rozmarýnem",
+          "price": 189
         }
       ]
     },
