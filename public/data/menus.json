@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T07:50:26.716Z",
+  "generatedAt": "2026-04-24T09:23:25.276Z",
   "weekday": 5,
   "menus": [
     {
@@ -111,24 +111,39 @@
       "id": "smichovna",
       "name": "Smíchovna",
       "url": "https://www.smichovna.cz/tydenni-nabidka",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (online zdroj je dočasně nedostupný).",
+      "message": "Načteno.",
       "items": [
         {
-          "type": "soup",
-          "name": "Hovězí vývar s nudlemi",
+          "type": "main",
+          "name": "Mexická fazolová s klobásou a bramborem",
           "price": 45
         },
         {
           "type": "main",
-          "name": "Svíčková na smetaně, houskový knedlík",
-          "price": 199
+          "name": "Plněná paprika mletým masem v rajské omáčce s jasmínovou rýží",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Vepřový řízek, bramborový salát",
+          "name": "Pikantní salát s kuřecím masem, mangem, mixem listových salátů, rajčetem, čerstvým chilli, salátovou okurkou,",
           "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Halušky s trhaným kachním masem, smetanou, baby špenátem a vídeňskou cibulkou",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Hovězí Blue cheese burger – listový salát, rajče, modrý sýr a česneková majonéza, hranolky",
+          "price": 249
+        },
+        {
+          "type": "main",
+          "name": "Domácí lívance s omáčkou z lesních plodů a zakysanou smetanou",
+          "price": 149
         }
       ]
     },
