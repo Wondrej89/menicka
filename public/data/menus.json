@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T13:03:12.036Z",
+  "generatedAt": "2026-04-24T14:51:04.802Z",
   "weekday": 5,
   "menus": [
     {
@@ -33,32 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "main",
-          "name": "Uzená s kroupami",
+          "type": "soup",
+          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Kuřecí nudličky v teriyaki omáčce s brokolicí a klíčky mungo, jasmínová rýže",
-          "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Maďarský hovězí perkelt, bramborové halušky",
-          "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Smažené vepřové řízky, bramborový salát/ kaše",
+          "name": "Špikované hovězí se svíčkovou omáčkou, houskové knedlíky, brusinky",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Kynuté lívance s lesním ovocem a šlehačkou",
+          "name": "Pečená BBQ šunka od kosti, křenová kaše, zelný salát",
           "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Kuřecí nudličky Kung Pao, rýže basmati",
+          "price": 175
+        },
+        {
+          "type": "main",
+          "name": "Tortigllioni s tyrolským špekem, zeleným chřestem, rajčaty, smetanou, česnekem a parmazánem",
+          "price": 175
         }
       ]
     },
@@ -66,34 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
           "type": "soup",
-          "name": "FRANKFURTSKÁ POLÉVKA S PÁRKY A BRAMBOREM",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "SPAGHETTI AGLIO OLIO S GRILOVANÝM KUŘECÍM PRSÍČKEM, CHILLI, PETRŽELKOU A PARMEZÁNEM",
+          "name": "Spaghetti Bolognese",
           "price": 185
         },
         {
           "type": "main",
-          "name": "BOWL S GRILOVANÝMI KREVETAMI, ČERSTVOU ZELENINOU, WAKAME ŘASAMI, JASMÍNOVOU RÝŽÍ, TERIYAKI OMÁČKOU A ČERNÝM SEZAMEM",
+          "name": "Pizza Prosciutto",
           "price": 195
-        },
-        {
-          "type": "main",
-          "name": "KONFITOVANÁ VEPŘOVÁ LÍČKA, ŠŤOUCHANÉ BRAMBORY S ANGLICKOU SLANINOU A CIBULKOU",
-          "price": 220
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S MOZZARELLOU, CAMEMBERTEM, MORTADELLOU, BAZALKOU A ČESNEKEM",
-          "price": 185
         }
       ]
     },
