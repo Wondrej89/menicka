@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-04-29T11:57:15.120Z",
+  "generatedAt": "2026-04-29T13:50:45.890Z",
   "weekday": 3,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Zelná polévka s klobásou",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Zvěřinové placičky, švestková omáčka, mačkané brambory se slaninou",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Listový salát, cherry rajčata, kachní prso, slunečnicová semínka, medovo-hořčičný dip",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Thajské nudle s kuřecím masem Pad Thai",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Hovězí steak na grilu, sázené vejce, pečené grenaille, zauzená majonéza",
-          "price": 238
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -76,34 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
-          "type": "main",
-          "name": "STAROČESKÁ ČESNEČKA SE ŠUNKOU, VEJCEM, SÝREM A BRAMBOREM",
-          "price": 69
+          "type": "soup",
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "SPAGHETTI S PARMSKOU ŠUNKOU, ŠALOTKOU, BAZALKOU, TOMATOVOU OMÁČKOU A PARMEZÁNEM",
+          "name": "Spaghetti Bolognese",
           "price": 185
         },
         {
           "type": "main",
-          "name": "TRHANÉ LISTOVÉ SALÁTY S GRILOVANÝM CAMEMBERTEM, ZELENINOU, VLAŠSKÝMI OŘECHY, ZÁKLADNÍM DRESINKEM A BRUSINKOVOU OMÁČKOU",
+          "name": "Pizza Prosciutto",
           "price": 195
-        },
-        {
-          "type": "main",
-          "name": "GRILOVANÉ MEDAILONKY Z VEPŘOVÉHO KARÉ S OMÁČKOU PO SRBSKU A HRANOLKAMI CORLEONE",
-          "price": 210
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, SALÁMEM VENTRICINA, ČESNEKEM, OLIVAMI, CIBULÍ A PARMEZÁNEM",
-          "price": 185
         }
       ]
     },
