@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T13:50:45.890Z",
+  "generatedAt": "2026-04-29T15:52:01.904Z",
   "weekday": 3,
   "menus": [
     {
@@ -33,32 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "soup",
-          "name": "Hráškový krém, krutóny",
+          "name": "Polévka: Žampiónový krém",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Grilovaná vepřová panenka, omáčka z lišek, šťouchaný brambor",
-          "price": 179
+          "name": "Moravský vrabec, bílé zelí, bramborové knedlíky",
+          "price": 169
         },
         {
           "type": "main",
-          "name": "Kančí guláš na černém pivu, karlovarské knedlíky",
+          "name": "Pečené krůtí prso, grilovaná zelenina, bulgur",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Chilli con Carné, divoká rýže, zakysaná smetana, koriandr",
-          "price": 175
+          "name": "Smažený nilský okoun v panko strouhance, bramborová kaše, okurkový salát",
+          "price": 179
         },
         {
           "type": "main",
-          "name": "Variace listových salátů s grilovaným kozím sýrem, červenou řepou, hruškou, medovým dresinkem, kukuřičnou polentou a praženými semínky",
-          "price": 179
+          "name": "Rizoto s kuřecím masem a zeleninou, strouhaný sýr, červená řepa",
+          "price": 169
         }
       ]
     },
