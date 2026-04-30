@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T13:43:25.669Z",
+  "generatedAt": "2026-04-30T15:43:29.342Z",
   "weekday": 4,
   "menus": [
     {
@@ -71,28 +71,28 @@
       "message": "Načteno.",
       "items": [
         {
-          "type": "main",
-          "name": "STAROČESKÁ ČESNEČKA SE ŠUNKOU, VEJCEM, SÝREM A BRAMBOREM",
+          "type": "soup",
+          "name": "POMALU TAŽENÝ SLEPIČÍ VÝVAR S MASEM, ZELENINOU A TARHOŇOU",
           "price": 69
         },
         {
           "type": "soup",
-          "name": "KRÉMOVÉ HRÁŠKOVÉ RISOTTO S KUŘECÍM PRSÍČKEM, MÁSLOVÝM HRÁŠKEM A PARMEZÁNEM",
+          "name": "KRÉMOVÉ HOUBOVÉ RISOTTO S JARNÍ CIBULKOU, CHILLI, ČESNEKEM, PETRŽELKOU A PARMEZÁNEM",
           "price": 195
         },
         {
           "type": "main",
-          "name": "BURRITO S RESTOVANÝM VEPŘOVÝM MASEM, RAJČATY, JALAPEÑOS PAPRIČKAMI, JASMÍNOVOU RÝŽÍ, CHEDDAREM, ČERVENOU CIBULKOU A TŘEMI SALSAMI",
+          "name": "BURGER S TRHANÝM HOVĚZÍM MASEM, SMAŽENOU CIBULKOU, CHEDDAREM, JALAPEÑOS PAPRIČKAMI, SLANINOU, BBQ, LISTOVÝM SALÁTEM A HRANOLKAMI",
           "price": 195
         },
         {
           "type": "main",
-          "name": "KUŘECÍ PRSÍČKO V PARMEZÁNOVÉM TĚSTÍČKU SE ZELENINOVÝM KUSKUSEM",
+          "name": "KONFITOVANÉ KRÁLIČÍ STEHNO SE SMETANOVOU OMÁČKOU S FRANCOUZSKOU HRUBOZRNOU HOŘČICÍ, ŠŤOUCHANÉ BRAMBORY S JARNÍ CIBULKOU",
           "price": 220
         },
         {
           "type": "main",
-          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, SALÁMEM VENTRICINA, ČESNEKEM, OLIVAMI, CIBULÍ A PARMEZÁNEM",
+          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, VEPŘOVÝM SALÁMEM S FENYKLEM, ČERVENOU CIBULÍ A PARMEZÁNEM",
           "price": 185
         }
       ]
