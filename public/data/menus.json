@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T08:19:29.555Z",
+  "generatedAt": "2026-05-04T10:29:28.038Z",
   "weekday": 1,
   "menus": [
     {
@@ -111,24 +111,39 @@
       "id": "smichovna",
       "name": "Smíchovna",
       "url": "https://www.smichovna.cz/tydenni-nabidka",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Týdenní menu pro dnešní den není dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
-          "type": "soup",
-          "name": "Hovězí vývar s nudlemi",
+          "type": "main",
+          "name": "Cibulačka s bílým vínem, zjemněná smetanou a krutony",
           "price": 45
         },
         {
           "type": "main",
-          "name": "Svíčková na smetaně, houskový knedlík",
+          "name": "Zabijačkový guláš s houskovým knedlíkem a čerstvou cibulkou",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Kuskusový salát s kuřecím prsíčkem, mixem listových salátů, rajčetem, salátovou okurkou, balkánským sýrem, červenou cibulkou, olivovým olejem a citronovou šťávou",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Bramborové noky s kousky tuňáka, hráškovými lusky, bílým vínem, smetanou a pestem",
           "price": 199
         },
         {
           "type": "main",
-          "name": "Vepřový řízek, bramborový salát",
-          "price": 189
+          "name": "Hovězí Gangster burger – listový salát, rajče, slanina, čedar, jalapeňos a chipotle majonéza, hranolky",
+          "price": 249
+        },
+        {
+          "type": "main",
+          "name": "Domácí lívance s omáčkou z lesních plodů a zakysanou smetanou",
+          "price": 149
         }
       ]
     },
