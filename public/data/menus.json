@@ -1,29 +1,39 @@
 {
-  "generatedAt": "2026-05-13T16:13:48.110Z",
-  "weekday": 3,
+  "generatedAt": "2026-05-14T08:28:43.478Z",
+  "weekday": 4,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Silný hovězí vývar s masem a nudlemi",
+          "name": "Cibulová polévka se sýrovým toastem",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
-          "price": 189
+          "name": "Halušky s brynzou, smažená cibulka",
+          "price": 174
         },
         {
           "type": "main",
-          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
-          "price": 175
+          "name": "Asijský bok, pikantní okurkový salátek, jasmínová rýže, sweet chilli",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Caesar salát s kuřecím masem, slanina, sýr, krutony",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Panenka na grilu, karamelizované cibulky, batátové pyré, tymiánový demi glace",
+          "price": 218
         }
       ]
     },
@@ -33,7 +43,7 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "main",
@@ -71,24 +81,34 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Rajčatová polévka s bazalkou",
-          "price": 45
+          "name": "POMALU TAŽENÝ VÝVAR Z OHÁŇKY SE ZELENINOU, MASEM A FRITÁTOVÝMI NUDLEMI",
+          "price": 69
         },
         {
-          "type": "main",
-          "name": "Spaghetti Bolognese",
+          "type": "soup",
+          "name": "KRÉMOVÉ ITALSKÉ RISOTTO S VEPŘOVÝM MASEM, ŠPENÁTOVÝM PESTEM, SUŠENÝMI RAJČATY A PARMEZÁNEM",
           "price": 185
         },
         {
           "type": "main",
-          "name": "Pizza Prosciutto",
-          "price": 195
+          "name": "185 Kč",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "185 Kč",
+          "price": 230
+        },
+        {
+          "type": "main",
+          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, ŽAMPIONY, KUKUŘICÍ, SUŠENÝMI RAJČATY, HRÁŠKEM, RUKOLOU A PARMEZÁNEM",
+          "price": 185
         }
       ]
     },
@@ -102,27 +122,27 @@
       "items": [
         {
           "type": "soup",
-          "name": "Dýňový krém zjemněný smetanou, krutony",
+          "name": "Franfurtská polévka s uzeninou",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Velký salát Caprese s rajčaty, baby mozzarellou, rukolou, bazalkovým pestem a rozpečenou bagetkou",
+          "name": "Bramborové noky all Amatriciana s rajčatovou polpou, anglickou slaninou, česnekem, chilli a hoblinkami sýru Gran Moravia",
           "price": 179
         },
         {
           "type": "main",
-          "name": "Thajský wok s kuřecím masem, zeleninou, kokosovým mlékem, červeným kari, chilli a citronovou šťávou, jasmínová rýže",
+          "name": "Kuřecí gyros v tortille se zeleninou a česnekovým dresinkem, malý salátek tzatziki",
           "price": 189
         },
         {
           "type": "main",
-          "name": "Segedínský vepřový guláš s houskovým knedlíkem",
-          "price": 189
+          "name": "Smažený holandský řízek se sýrem gouda, podávaný s bramborovou kaší a kyselou okurkou",
+          "price": 199
         },
         {
           "type": "main",
-          "name": "Hovězí burger se sázeným vejcem – listový salát, rajče, sázené vejce, červená cibulka a chipotle majonéza, hranolky",
+          "name": "Hovězí Gangster burger – listový salát, rajče, čedar, slanina, jalapeňos a chipotle majonéza, hranolky",
           "price": 259
         },
         {
@@ -141,34 +161,34 @@
       "message": "Načteno.",
       "items": [
         {
-          "type": "soup",
-          "name": "kuřecí vývar s nudlemi",
+          "type": "main",
+          "name": "frankfurtská",
           "price": 45
         },
         {
           "type": "main",
-          "name": "Katův šleh s kuřecím masem, jasmínová rýže",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Srbské rizoto sypané sýrem, kyselá okurka",
+          "name": "Drůbeží játra na slanině, jasmínová rýže",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Chilli con carne se zakys. smetanou a koriandrem, hranolky",
-          "price": 185
+          "name": "Špagety Carbonara s pancettou a parmezánem",
+          "price": 179
         },
         {
           "type": "main",
-          "name": "Penne alla arrabiatta, parmezán",
-          "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Vepřový steak, americké brambory, jalapeňos majonéza",
+          "name": "Hovězí roštěná po Znojemsku, houskové knedlíky/ rýže",
           "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Salátový talíř s gril. uzeným sýrem, dressing česnek. bageta",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Hovězí cheeseburger se slaninou a čedarem, majon., hranolky",
+          "price": 195
         }
       ]
     },
