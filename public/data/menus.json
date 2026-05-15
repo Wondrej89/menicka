@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T13:11:22.317Z",
+  "generatedAt": "2026-05-15T15:33:41.293Z",
   "weekday": 5,
   "menus": [
     {
@@ -33,32 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "soup",
-          "name": "Špenátová krém s vejcem a krutony",
+          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Grilovaný kuřecí stehenní steak, pestrá zelenina, bylinkový kuskus",
+          "name": "Frankfurtská hovězí pečeně, houskové knedlíky/ rýže",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Uzená vepřová kýta, hrachová kaše, smažená cibulka, okurka",
+          "name": "Smažený holandský řízek, bramborová kaše, okurka",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Smažené vepřové řízky, rakouský bramborový salát/ kaše",
+          "name": "Krůtí nudličky s hlívou, špenátem a cizrnou, dušená rýže",
+          "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Bramborové noky s pancettou, chilli, rajčaty, česnekem, červeným vínem, bazalkou a parmazánem",
           "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Dukátové buchtičky s vanilkovým šodó",
-          "price": 169
         }
       ]
     },
@@ -66,34 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
-          "type": "main",
-          "name": "JIHOČESKÁ BRAMBORAČKA S HOUBAMI",
-          "price": 69
+          "type": "soup",
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "CAPELLINI AGLIO OLIO S ITALSKOU PANCETTOU, PETRŽELKOU A PARMEZÁNEM",
+          "name": "Spaghetti Bolognese",
           "price": 185
         },
         {
           "type": "main",
-          "name": "BOWL S GRILOVANÝMI KREVETAMI, RÝŽÍ, ZELENINOU, TONKATSU OMÁČKOU A ČERNÝM SEZAMEM",
+          "name": "Pizza Prosciutto",
           "price": 195
-        },
-        {
-          "type": "main",
-          "name": "POMALU PEČENÁ HOVĚZÍ ROŠTĚNÁ NA PEPŘI S BRAMBOROVOU KAŠÍ",
-          "price": 230
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S BBQ, MOZZARELLOU, ANGLICKOU SLANINOU, KUŘECÍM MASEM A JARNÍ CIBULOU",
-          "price": 185
         }
       ]
     },
@@ -134,6 +124,31 @@
           "type": "main",
           "name": "Domácí lívance s omáčkou z lesních plodů a zakysanou smetanou",
           "price": 149
+        },
+        {
+          "type": "soup",
+          "name": "Kukuřičný krém s chilli a krutony",
+          "price": 49
+        },
+        {
+          "type": "main",
+          "name": "Ražniči z kuřecích prsíček s americkým bramborem a chipotle majonézou",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Medailonky z vepřové panenky na grilu s pečenou zeleninou a pestem",
+          "price": 199
+        },
+        {
+          "type": "main",
+          "name": "Salát con Gamberi – grilované krevety na římském salátu s krutony, caesar dresinkem a hoblinkami sýru Gran Moravia",
+          "price": 199
+        },
+        {
+          "type": "main",
+          "name": "Hovězí burger s camembertem – listový salát, rajče, camembert, karamelizovaná cibulka a brusinková majonéza, hranolky",
+          "price": 259
         }
       ]
     },
