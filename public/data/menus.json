@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-05-19T12:24:43.508Z",
+  "generatedAt": "2026-05-19T15:54:45.303Z",
   "weekday": 2,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Hrstková polévka s uzeninou",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Hovězí pečeně, křenová omáčka, houskové knedlíky",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Bitky po kozácku, opečené brambory, ajvar, cibulka",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Salát s grilovanými kousky tuňáka, limetkový dip",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Krůtí špíz se šunkou, hranolky, zauzená majonéza",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,31 +33,36 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "main",
-          "name": "Hrachová s uzeninou",
+          "name": "Dršťková z hlívy",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Burgundské hovězí ragú, špecle",
+          "name": "Grilovaná krůtí prsa, tarhoňa se středomořskou zeleninou",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Smažené kuřecí stripsy v cornflakes, šťouchané brambory, coleslaw",
+          "name": "Vepřový gyros, pečené brambory, pita chléb, tzatziky",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Vepřová játra na slanině, dušená rýže",
-          "price": 169
+          "name": "Špikované králičí stehno na smetaně, karlovarské knedlíky",
+          "price": 175
         },
         {
-          "type": "soup",
-          "name": "Krémové risotto s kozím sýrem, zeleným chřestem, sušenými rajčaty, bílým vínem a parmazánem",
+          "type": "main",
+          "name": "Caesar salát s grilovanými krevetami, rozpečená ciabatta",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Quattro formaggi",
           "price": 175
         }
       ]
@@ -76,34 +71,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "PÓRKOVÁ POLÉVKA VICHYSSOISE S KRUTONY A PETRŽELKOVÝM OLEJEM",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "BRAMBOROVÉ GNOCCHI S KOUSKY KUŘECÍHO MASA, BROKOLICÍ, GORGONZOLOU, TOMATOVO-SMETANOVOU OMÁČKOU A PARMEZÁNEM",
+          "name": "Spaghetti Bolognese",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "Pizza Prosciutto",
           "price": 195
-        },
-        {
-          "type": "main",
-          "name": "BRAMBORA PLNĚNÁ SMĚSÍ MLETÉHO MASA, KUKUŘICÍ, PAPRIKOU A CIBULÍ, ZAPEČENÁ CHEDDAREM, LISTOVÝ SALÁTEK",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "GRILOVANÝ TELECÍ SPIDER STEAK SE SMETANOVOU OMÁČKOU S LIŠKAMI, ŠŤOUCHANÝMI BRAMBORY S JARNÍ CIBULKOU A PEČENÝMI CHERRY RAJČATY",
-          "price": 230
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, GORGONZOLOU, HRUŠKAMI A VLAŠSKÝMI OŘECHY",
-          "price": 185
         }
       ]
     },
