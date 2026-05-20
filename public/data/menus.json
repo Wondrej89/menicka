@@ -1,29 +1,39 @@
 {
-  "generatedAt": "2026-05-19T15:54:45.303Z",
-  "weekday": 2,
+  "generatedAt": "2026-05-20T08:54:43.128Z",
+  "weekday": 3,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Silný hovězí vývar s masem a nudlemi",
+          "name": "Drůbkový krém se zeleninou",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
-          "price": 189
+          "name": "Kynuté jahodové knedlíky, zakysaná smetana, jahody, máta",
+          "price": 174
         },
         {
           "type": "main",
-          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
-          "price": 175
+          "name": "Zapečené cukety se zeleninou a sýrem, tomatová omáčka",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Thajské kuřecí kari, zázvor, kokosové mléko, jasmínová rýže",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Hovězí steak na grilu, houbovo–smetanová omáčka, gratinované brambory",
+          "price": 238
         }
       ]
     },
@@ -33,7 +43,7 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "main",
@@ -71,24 +81,34 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Rajčatová polévka s bazalkou",
-          "price": 45
+          "name": "POMALU TAŽENÝ DRŮBEŽÍ VÝVAR S MASEM, KROUPAMI A ZELENINOU",
+          "price": 69
         },
         {
           "type": "main",
-          "name": "Spaghetti Bolognese",
+          "name": "SPAGHETTI CORLEONE S LILKEM, OLIVAMI, KOUSKY FLANK STEAKU, KAPARY, RUKOLOU A PARMEZÁNEM",
           "price": 185
         },
         {
           "type": "main",
-          "name": "Pizza Prosciutto",
-          "price": 195
+          "name": "CIZRNOVÝ HUMMUS S LISTOVÝM SALÁTEM, OLIVAMI, GRILOVANÝM SÝREM HALLOUMI A CITRUSOVÝMI SEGMENTY",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "SMAŽENÝ VEPŘOVÝ ŘÍZEK S LEHKÝM BRAMBOROVÝM SALÁTEM",
+          "price": 210
+        },
+        {
+          "type": "main",
+          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S MOZZARELLOU, SUŠENÝMI RAJČATY, KOZÍM SÝREM, GRILOVANOU CUKETOU A ČESNEKEM",
+          "price": 185
         }
       ]
     },
@@ -101,28 +121,28 @@
       "message": "Načteno.",
       "items": [
         {
-          "type": "main",
-          "name": "Staročeská bramboračka s houbami",
+          "type": "soup",
+          "name": "Brokolicový krém s krutony",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Dýňové risotto s hráškem, bílým vínem a sýrem Gran Moravia",
-          "price": 179
+          "name": "Bramborové noky s trhaným kachním masem, kořenovou zeleninou, švestkovými povidly, balsamikem a vídeňskou cibulkou",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Salát s vepřovou panenkou, listovým salátem, rajčetem, salátovou okurkou, paprikou, opečenými brambůrkami, zelenými fazolkami, smetanovým křenem a česnekovým dresinkem",
-          "price": 199
+          "name": "Vepřová kýta na žampionech s jasmínovou rýží",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Krůtí medailonky na grilu s pepřovou omáčkou a bramborovými kroketami",
-          "price": 199
+          "name": "Kuřecí prsíčko plněné nivou a sušenými rajčaty se šťouchaným bramborem a silnou šťávou",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Hovězí burger Smíchovna – listový salát, rajče, slanina, čedar, karamelizovaná cibulka, kyselá okurka a česneková majonéza, hranolky",
+          "name": "Hovězí burger se sázeným vejcem – listový salát, rajče, sázené vejce, červená cibulka a chipotle majonéza, hranolky",
           "price": 259
         },
         {
@@ -141,34 +161,34 @@
       "message": "Načteno.",
       "items": [
         {
-          "type": "main",
-          "name": "česnečka s krutony",
+          "type": "soup",
+          "name": "hráškový krém s krutony",
           "price": 45
         },
         {
           "type": "main",
-          "name": "Kuřecí stehenní plátek na paprice, těstoviny",
+          "name": "Kotlíkový guláš s domácím chlebem",
+          "price": 175
+        },
+        {
+          "type": "main",
+          "name": "Pečená selečí roláda se špenátem, bramb. kn.",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "Kuřecí steak s čedarovou omáčkou, jalapeňos papričkou, hranolky",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "Smažený karbanátek, bramborová kaše, okurkový salát",
           "price": 179
         },
         {
           "type": "main",
-          "name": "Francouzské brambory, kyselá okurka",
-          "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Smažený hermelín, brusinková majonéza, vařené brambory",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "t. hranolky",
+          "name": "Pikantní směs tři barev, bramboráčky",
           "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Pečené kachní stehno, červené zelí, variace knedlíků",
-          "price": 219
         }
       ]
     },
