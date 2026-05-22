@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T11:38:43.272Z",
+  "generatedAt": "2026-05-22T14:21:18.678Z",
   "weekday": 5,
   "menus": [
     {
@@ -12,27 +12,27 @@
       "items": [
         {
           "type": "main",
-          "name": "Valašská kyselice s klobásou",
+          "name": "Bramboračka s houbami",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Vepřové dušené v kapustě, pažitkové brambory",
+          "name": "Smažený karbanátek, bramborová kaše, kyselá okurka",
           "price": 174
         },
         {
           "type": "main",
-          "name": "Pečené kuřecí stehno na tymiánu a másle, rýže",
+          "name": "Lasagne, šunka, sýr, rajčata, oregano, tomatová omáčka",
           "price": 184
         },
         {
           "type": "main",
-          "name": "Salát s restovanými krevetami, limetkový dip, bylinková bageta",
+          "name": "Kuřecí soté, žampiony, pórek, jasmínová rýže",
           "price": 184
         },
         {
           "type": "main",
-          "name": "Smažená vepřová krkovice, bramborový salát, citron",
+          "name": "Pstruh na grilu, holandská omáčka, chřest, pečené brambůrky",
           "price": 218
         }
       ]
@@ -43,31 +43,31 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "main",
-          "name": "Zelná s uzeninou",
+          "type": "soup",
+          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Plněný paprikový lusk s rajskou omáčkou, dušená rýže",
-          "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Brynzové halušky se slaninou a smaženou cibulkou",
+          "name": "Štěpánská hovězí pečeně, houskové knedlíky/ rýže",
           "price": 175
         },
         {
           "type": "main",
-          "name": "mrkvový salát",
+          "name": "Grilovaná pljeskavica, vařené brambory, ajvar, nakládaná cibule",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Kynutý rakouský germknödel s vanilkovou omáčkou a mákem",
+          "name": "Indické Butter Chicken, rýže basmati",
+          "price": 175
+        },
+        {
+          "type": "main",
+          "name": "Penne aglio olio s parmazánem",
           "price": 169
         }
       ]
@@ -82,27 +82,27 @@
       "items": [
         {
           "type": "soup",
-          "name": "GULÁŠOVÁ POLÉVKA S BRAMBOREM",
+          "name": "DRŠŤKOVÁ POLÉVKA Z HLÍVY ÚSTŘIČNÉ",
           "price": 69
         },
         {
           "type": "main",
-          "name": "LINGUINE SE SLÁVKAMI, BÍLÝM VÍNEM, ČESNEKEM A PETRŽELKOU V TOMATOVÉ OMÁČCE",
+          "name": "CAPELLINI S KOUSKY HOVĚZÍHO MASA, ROZMARÝNEM, SUŠENÝMI RAJČATY, ČESNEKEM A PARMEZÁNEM",
           "price": 190
         },
         {
           "type": "main",
-          "name": "TRHANÉ LISTY ŘÍMSKÉHO A LEDOVÉHO SALÁTU S KOUSKY KRŮTÍHO MASA, VAŘENÝM VAJÍČKEM, KRUTONY, CHERRY RAJČATY A MAJONÉZOVÝM DRESINKEM",
-          "price": 195
+          "name": "TRHANÉ LISTOVÉ SALÁTY S PLÁTKY LOSOSA GRAVLAX, CHERRY RAJČÁTKY, OKURKOU, JAHODAMI A MEDOVO-HOŘČIČNÝM DRESINKEM",
+          "price": 215
         },
         {
           "type": "main",
-          "name": "KUŘECÍ SALTIMBOCCA S PEČENÝMI GRENAILLEMI, DEMI GLACE A LISTOVÝM SALÁTKEM",
+          "name": "GRILOVANÝ SEKANÝ MÁSLOVÝ ŘÍZEK S BRAMBOROVOU KAŠÍ A MALÝM ZELENINOVÝM SALÁTKEM S BALKÁNSKÝM SÝREM",
           "price": 220
         },
         {
           "type": "main",
-          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S MOZZARELLOU, KUŘECÍM MASEM, KARI, PAPRIKOU A BAZALKOU",
+          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, PANCETTOU, OLIVAMI A GORGONZOLOU",
           "price": 185
         }
       ]
@@ -144,6 +144,31 @@
           "type": "main",
           "name": "Domácí lívance s omáčkou z lesních plodů a zakysanou smetanou",
           "price": 149
+        },
+        {
+          "type": "soup",
+          "name": "Studená jahodová polévka se zakysanou smetanou",
+          "price": 49
+        },
+        {
+          "type": "main",
+          "name": "Velký těstovinový salát s kousky kuřecího masa, rajčetem, salátovou okurkou, vařeným vejcem, římským salátem, červenou cibulkou a majonézovým dresinkem s dijonskou hořčicí, medem a křenem",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Ražniči z vepřové panenky s americkým bramborem a česnekovým dipem",
+          "price": 199
+        },
+        {
+          "type": "main",
+          "name": "Štěpánská hovězí pečeně s jasmínovou rýží",
+          "price": 199
+        },
+        {
+          "type": "main",
+          "name": "Caesar burger s kuřecím prsem – listový salát, rajče, slanina, čedar a caesar dresink, hranolky",
+          "price": 249
         }
       ]
     },
