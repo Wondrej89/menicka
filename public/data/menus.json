@@ -1,29 +1,39 @@
 {
-  "generatedAt": "2026-05-21T15:54:01.462Z",
-  "weekday": 4,
+  "generatedAt": "2026-05-22T08:50:28.538Z",
+  "weekday": 5,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
-          "type": "soup",
-          "name": "Silný hovězí vývar s masem a nudlemi",
+          "type": "main",
+          "name": "Valašská kyselice s klobásou",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
-          "price": 189
+          "name": "Vepřové dušené v kapustě, pažitkové brambory",
+          "price": 174
         },
         {
           "type": "main",
-          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
-          "price": 175
+          "name": "Pečené kuřecí stehno na tymiánu a másle, rýže",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Salát s restovanými krevetami, limetkový dip, bylinková bageta",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Smažená vepřová krkovice, bramborový salát, citron",
+          "price": 218
         }
       ]
     },
@@ -33,7 +43,7 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "main",
@@ -66,24 +76,34 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Rajčatová polévka s bazalkou",
-          "price": 45
+          "name": "GULÁŠOVÁ POLÉVKA S BRAMBOREM",
+          "price": 69
         },
         {
           "type": "main",
-          "name": "Spaghetti Bolognese",
-          "price": 185
+          "name": "LINGUINE SE SLÁVKAMI, BÍLÝM VÍNEM, ČESNEKEM A PETRŽELKOU V TOMATOVÉ OMÁČCE",
+          "price": 190
         },
         {
           "type": "main",
-          "name": "Pizza Prosciutto",
+          "name": "TRHANÉ LISTY ŘÍMSKÉHO A LEDOVÉHO SALÁTU S KOUSKY KRŮTÍHO MASA, VAŘENÝM VAJÍČKEM, KRUTONY, CHERRY RAJČATY A MAJONÉZOVÝM DRESINKEM",
           "price": 195
+        },
+        {
+          "type": "main",
+          "name": "KUŘECÍ SALTIMBOCCA S PEČENÝMI GRENAILLEMI, DEMI GLACE A LISTOVÝM SALÁTKEM",
+          "price": 220
+        },
+        {
+          "type": "main",
+          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S MOZZARELLOU, KUŘECÍM MASEM, KARI, PAPRIKOU A BAZALKOU",
+          "price": 185
         }
       ]
     },
@@ -96,28 +116,28 @@
       "message": "Načteno.",
       "items": [
         {
-          "type": "main",
-          "name": "Moravská zelnice s klobásou a bramborem",
+          "type": "soup",
+          "name": "Kukuřičný krém s chilli a krutony",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Přírodní řecké biftečky s balkánským sýrem, podávané s bramborovou kaší a salátkem tzatziki",
-          "price": 189
-        },
-        {
-          "type": "soup",
-          "name": "Salát s kuřecím prsíčkem, avokádem, vařeným vejcem, mixem salátů, rajčetem, salátovou okurkou, paprikou a krémovým čedarovým dresinkem, rozpečená tortilla",
+          "name": "Ražniči z kuřecích prsíček s americkým bramborem a chipotle majonézou",
           "price": 189
         },
         {
           "type": "main",
-          "name": "Křenová omáčka s hovězí pečení a houskovým knedlíkem",
+          "name": "Medailonky z vepřové panenky na grilu s pečenou zeleninou a pestem",
           "price": 199
         },
         {
           "type": "main",
-          "name": "Hovězí Gangster burger – listový salát, rajče, čedar, slanina, jalapeňos a chipotle majonéza, hranolky",
+          "name": "Salát con Gamberi – grilované krevety na římském salátu s krutony, caesar dresinkem a hoblinkami sýru Gran Moravia",
+          "price": 199
+        },
+        {
+          "type": "main",
+          "name": "Hovězí burger s camembertem – listový salát, rajče, camembert, karamelizovaná cibulka a brusinková majonéza, hranolky",
           "price": 259
         },
         {
@@ -131,24 +151,34 @@
       "id": "smichovska-formanka",
       "name": "Smíchovská Formanka",
       "url": "http://smichovskaformanka.cz/",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (online zdroj je dočasně nedostupný).",
+      "message": "Načteno.",
       "items": [
         {
-          "type": "soup",
-          "name": "Bramboračka",
-          "price": 42
+          "type": "main",
+          "name": "minestrone s parmezánem",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "Segedínský guláš, houskový knedlík",
-          "price": 175
+          "name": "Smažený kuřecí řízek, domácí bramborový salát, citrón",
+          "price": 185
         },
         {
           "type": "main",
-          "name": "Kuřecí nudličky na kari, rýže",
-          "price": 172
+          "name": "Selečí roláda s bramborovou kaší, tomatový salátek",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "Hovězí loupana plec na žampionech, jasmínová rýže",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "Salátový talíř Caesar s kuřecím masem, slaninou, krutony a parmezánem",
+          "price": 185
         }
       ]
     },
