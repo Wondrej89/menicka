@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T09:38:18.344Z",
+  "generatedAt": "2026-05-29T12:42:30.352Z",
   "weekday": 5,
   "menus": [
     {
@@ -144,6 +144,31 @@
           "type": "main",
           "name": "Domácí lívance s omáčkou z lesních plodů a zakysanou smetanou",
           "price": 149
+        },
+        {
+          "type": "soup",
+          "name": "Frankfurtská polévka s uzeninou",
+          "price": 49
+        },
+        {
+          "type": "main",
+          "name": "Kuřecí stehno na paprice se zakysanou smetanou a jasmínovou rýží",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Domácí halušky s trhaným kachním masem, smetanou, baby špenátem a vídeňskou cibulkou",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Retro katův šleh z vepřové panenky s domácími bramboráčky",
+          "price": 199
+        },
+        {
+          "type": "main",
+          "name": "Hovězí burger se sázeným vejcem – listový salát, rajče, sázené vejce, červená cibulka a chipotle majonéza, hranolky",
+          "price": 259
         }
       ]
     },
