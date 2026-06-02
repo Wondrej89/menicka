@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T10:07:22.429Z",
+  "generatedAt": "2026-06-02T14:34:53.135Z",
   "weekday": 2,
   "menus": [
     {
@@ -8,7 +8,7 @@
       "url": "https://www.restauraceandel.cz/denni-nabidka",
       "status": "ok",
       "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (online zdroj je dočasně nedostupný).",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
@@ -33,31 +33,36 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "soup",
-          "name": "Bramborový krém s houbami a krutóny",
+          "type": "main",
+          "name": "Uzená s kroupami a zeleninou",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Rozlítaný španělský ptáček, dušená rýže/ houskové knedlíky",
-          "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Smažený hermelín, vařené brambory, tatarská omáčka",
+          "name": "Vepřové nudličky „Katův šleh“, bramboráčky",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Pečené kuřecí stehno, zeleninový kuskus",
+          "name": "Pečené krůtí prso s cuketou, kukuřicí a sušenými rajčaty, šťouchané brambory",
           "price": 175
         },
         {
-          "type": "soup",
-          "name": "Krémové hříbkové risotto s bílým vínem, hladkolistou petrželí a parmazánem",
+          "type": "main",
+          "name": "Hovězí uzený jazyk, křenová omáčka, karlovarské knedlíky",
+          "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Variace listových salátů s grilovaným kozím sýrem, červenou řepou, hruškou, medovým dresinkem, dýňovými semínky a kukuřičnou polentou",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "rajčata, mozzarella, salám, kukuřice, cibule",
           "price": 175
         }
       ]
@@ -141,39 +146,24 @@
       "id": "smichovska-formanka",
       "name": "Smíchovská Formanka",
       "url": "http://smichovskaformanka.cz/",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
-          "type": "main",
-          "name": "gulášová",
-          "price": 45
+          "type": "soup",
+          "name": "Bramboračka",
+          "price": 42
         },
         {
           "type": "main",
-          "name": "Kuřecí špíz, šťouchané brambory, rajčatový salátek",
-          "price": 185
+          "name": "Segedínský guláš, houskový knedlík",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Smažené žampiony, vařené brambory, tatarka",
-          "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Gnocchi Aglio olio e pepperoncino s kuř. masem, parmezán",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Vepřový steak s pepřovou omáčkou, hranolky",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "Jehněčí plec na česneku, špenát, variace knedlíků",
-          "price": 189
+          "name": "Kuřecí nudličky na kari, rýže",
+          "price": 172
         }
       ]
     },
