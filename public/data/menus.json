@@ -1,29 +1,39 @@
 {
-  "generatedAt": "2026-06-05T15:48:33.138Z",
-  "weekday": 5,
+  "generatedAt": "2026-06-08T10:19:51.085Z",
+  "weekday": 1,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Silný hovězí vývar s masem a nudlemi",
+          "name": "Rajská polévka s písmenky",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
-          "price": 189
+          "name": "Flíčky, uzené maso, vejce, hlávkové zelí, kyselá okurka",
+          "price": 174
         },
         {
           "type": "main",
-          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
-          "price": 175
+          "name": "Smažený hermelín, vařené brambory s máslem a pažitkou, tatarská omáčka",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Italské risoto, panenka, cuketa, sušená rajčata, chřest, tymián, sýr",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Kuřecí supreme na grilu, žampiónová omáčka, baby karotka, jasmínová rýže",
+          "price": 218
         }
       ]
     },
@@ -33,7 +43,7 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
@@ -71,28 +81,28 @@
       "message": "Načteno.",
       "items": [
         {
-          "type": "main",
-          "name": "ITALSKÁ MINESTRONE S PARMEZÁNEM",
+          "type": "soup",
+          "name": "ŠPENÁTOVÝ KRÉM S LOSOSEM GRAVLAX",
           "price": 69
         },
         {
           "type": "main",
-          "name": "RIGATONI S KUŘECÍM MASEM, KARI KOŘENÍM, LÍSKOVÝMI OŘÍŠKY, SMETANOU A PARMEZÁNEM",
+          "name": "LINGUINE S KOUSKY HOVĚZÍHO MASA, ŽAMPIÓNY, BAZALKOU, ČESNEKEM A ČERNÝMI OLIVAMI V TOMATOVÉ OMÁČCE, PARMEZÁN",
           "price": 189
         },
         {
           "type": "main",
-          "name": "TRHANÉ LISTOVÉ SALÁTY S GRILOVANÝMI KREVETAMI, CHERRY RAJČATY, KRUTONY A ORIGINÁLNÍM CAESAR DRESINKEM",
+          "name": "TRHANÉ LISTOVÉ SALÁTY SE ZELENINOU, ŠLEHANÝM KOZÍM SÝREM A VLAŠSKÝMI OŘECHY",
           "price": 209
         },
         {
           "type": "main",
-          "name": "PEČENÝ KRŮTÍ STEHENNÍ PLÁTEK NA SLANINĚ A CIBULI, PEČENÁ JASMÍNOVÁ RÝŽE",
+          "name": "GRILOVANÝ KRŮTÍ STEAK SE SMETANOVOU TARHOŇOU, ITALSKOU RICOTTOU A ŠPENÁTOVÝM PESTEM",
           "price": 219
         },
         {
           "type": "main",
-          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, VEPŘOVOU ŠUNKOU, KUKUŘICÍ A OLIVAMI",
+          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, SALÁMEM MILANO, CIBULÍ A PARMEZÁNEM",
           "price": 189
         }
       ]
@@ -107,53 +117,33 @@
       "items": [
         {
           "type": "soup",
-          "name": "Frankfurtská polévka s uzeninou",
+          "name": "Česnekový krém s krutony",
           "price": 49
         },
         {
+          "type": "soup",
+          "name": "Kynuté jahodové knedlíky se zakysanou smetanou, cukrem a máslem",
+          "price": 179
+        },
+        {
           "type": "main",
-          "name": "Kuřecí stehno na paprice se zakysanou smetanou a jasmínovou rýží",
+          "name": "Kuřecí prso na salátu ala Waldorf (celer, jablko, majonéza, citron, rajče, ořechy), rozpečená bageta",
           "price": 189
         },
         {
           "type": "main",
-          "name": "Domácí halušky s trhaným kachním masem, smetanou, baby špenátem a vídeňskou cibulkou",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Retro katův šleh z vepřové panenky s domácími bramboráčky",
+          "name": "Rajská omáčka s hovězí pečení a houskovým knedlíkem",
           "price": 199
         },
         {
           "type": "main",
-          "name": "Hovězí burger se sázeným vejcem – listový salát, rajče, sázené vejce, červená cibulka a chipotle majonéza, hranolky",
+          "name": "Hovězí Texas burger – listový salát, rajče, cibulové kroužky, tekutý čedar a dijonská majonéza, hranolky",
           "price": 259
         },
         {
           "type": "main",
           "name": "Domácí lívance s omáčkou z lesních plodů a zakysanou smetanou",
           "price": 149
-        },
-        {
-          "type": "soup",
-          "name": "Dršťková polévka lehce pikantní",
-          "price": 49
-        },
-        {
-          "type": "main",
-          "name": "Smažené žampiony s vařeným bramborem a naší tatarskou omáčkou",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Pečená vepřová krkovička na česneku s bílým zelím, bramborovými špalíčky a vídeňskou cibulkou",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Asijský salát s kuřecím prsem, rýžovými nudlemi, rajčetem, salátovou okurkou, červenou cibulkou, čínským zelím, sójovou omáčkou a sweet chilli majonézou",
-          "price": 189
         }
       ]
     },
@@ -161,24 +151,39 @@
       "id": "smichovska-formanka",
       "name": "Smíchovská Formanka",
       "url": "http://smichovskaformanka.cz/",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
+      "message": "Načteno.",
       "items": [
         {
-          "type": "soup",
-          "name": "Bramboračka",
-          "price": 42
+          "type": "main",
+          "name": "boršč se zakysanou smetanou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "Segedínský guláš, houskový knedlík",
-          "price": 175
+          "name": "Pikantní bůčková roláda, bramborová kaše, kyselá okurka",
+          "price": 179
         },
         {
           "type": "main",
-          "name": "Kuřecí nudličky na kari, rýže",
-          "price": 172
+          "name": "Kuřecí nudličky s pórkem a smetanou, jasmínová rýže",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Halušky s brynzou a špekem, smaž. cibulka",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Salátový talíř s gril. hermelínem, brusink. dressing, bageta",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Poutin – trhaná vepřová krkovička, čedar, jalapeňos papričky, nakládaná cibule, uzená majonéza, hranolky",
+          "price": 189
         }
       ]
     },
