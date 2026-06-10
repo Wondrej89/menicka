@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T09:41:49.884Z",
+  "generatedAt": "2026-06-10T12:49:12.351Z",
   "weekday": 3,
   "menus": [
     {
@@ -81,34 +81,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "POMALU TAŽENÝ TELECÍ VÝVAR SE ZELENINOU, CELESTÝNSKÝMI NUDLEMI A PETRŽELKOU",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "ORECCHIETTE S KOUSKY KRŮTÍCH PRSÍČEK, BROKOLICÍ, KONFITOVANÝM ČESNEKEM A SMETANOU, PARMEZÁN",
-          "price": 189
+          "name": "Spaghetti Bolognese",
+          "price": 185
         },
         {
           "type": "main",
-          "name": "BRUSCHETTA S RUKOLOU, PEČENÝMI SICILSKÝMI CHERRY RAJČÁTKY, NAKLÁDANOU ČERVENOU CIBULKOU, BURRATOU, BALSAMIKOVOU REDUKCÍ A MICROGREENS",
-          "price": 199
-        },
-        {
-          "type": "main",
-          "name": "GRILOVANÁ KAMBALA SE SMETANOVOU OMÁČKOU S KOPEREM, BÍLÝM VÍNEM A ŠALOTKOU, VAŘENÉ GRENAILLE S MÁSLEM A PAŽITKOU",
-          "price": 229
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, SUŠENÝMI RAJČATY, KAPARY, OLIVAMI, BROKOLICÍ A RUKOLOU",
-          "price": 189
+          "name": "Pizza Prosciutto",
+          "price": 195
         }
       ]
     },
