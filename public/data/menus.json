@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-06-10T12:49:12.351Z",
+  "generatedAt": "2026-06-10T16:29:06.898Z",
   "weekday": 3,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Čočková polévka",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Záhorácký závitek, vařené brambory, vepřová šťáva",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Chřest na másle, holandská omáčka, opečené grenaille, čerstvá pažitka",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Variace salátových listů, zelenina, grilovaný oštiepok, pečená anglická slanina, medovo-hořčičný dip",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Hovězí steak na grilu, pečené batáty s červenou cibulkou, demi glace, koriandrová majonéza",
-          "price": 238
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,36 +33,36 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "soup",
-          "name": "Hráškový krém s uzeninou",
+          "type": "main",
+          "name": "Mexická s hovězím masem, zakysaná smetana",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Hovězí nudličky s paprikami a cizrnou, dušená rýže",
-          "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Špalíky vepřové panenky, omáčka ze zeleného pepře, šťouchané brambory",
-          "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Zapečené šunkofleky, červená řepa",
+          "name": "Vepřové výpečky, bílé kysané zelí, bramborové knedlíky",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Salát z rýžových nudlí s grilovanými krevetami, křupavou zeleninou, řasy wakame a sezamem",
-          "price": 185
+          "name": "Trhané hovězí zapečené čedarem, pečené brambory s rozmarýnem, jalapeňos majonéza",
+          "price": 179
         },
         {
           "type": "main",
-          "name": "Rajčata, mozzarella, šunka, ananas",
+          "name": "Pečené krůtí prso, ratatouille zelenina, kuskus",
+          "price": 175
+        },
+        {
+          "type": "main",
+          "name": "Grilovaný okouník, dýňové pyré s estragonem, salsa z červené řepy",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Smetana, mozzarella, gorgonzola, anglická slanina, chilli",
           "price": 175
         }
       ]
