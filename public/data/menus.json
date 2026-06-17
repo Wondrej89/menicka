@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-06-17T10:27:43.585Z",
+  "generatedAt": "2026-06-17T14:07:01.317Z",
   "weekday": 3,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Chřestový krém, balkánský sýr, pečená slanina",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Domácí sekaná, bramborová kaše, kyselá okurka",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Italské hráškové risoto, máta, grilované halloumi, sýr",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Quesadilla s kuřecím masem, slanina, salát, rajčata, hranolky, česnekový dip",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Hovězí steak, grilovaná baby karotka a kapustička, grenaille, pepřová omáčka",
-          "price": 238
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,36 +33,36 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "soup",
-          "name": "Česnekový krém se zeleninou a krutóny",
+          "type": "main",
+          "name": "Kulajda",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Pečené krůtí prso, grilovaná zelenina, bylinkový kuskus",
+          "name": "Hovězí na česneku, listový špenát, bramborové knedlíky",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Boloňské lasagne, rajčatová polpa",
+          "name": "Pečená vepřová BBQ žebra, kukuřice, rozmarýnové brambory, česnekový dip",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Kachní prso s omáčkou z červeného kari, kokosového mléka a zeleniny, jasmínová rýže",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Uzená vepřové plec, čočka na kyselo, sázené vejce, okukra",
-          "price": 169
+          "name": "Steak z tuňáka žlutoploutvého, lehce pikantní salát z červené čočky",
+          "price": 199
         },
         {
           "type": "main",
-          "name": "Grilovaná krkovice Duroc, mangové chutney, pečené grenaile",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Rajčata, mozzarella, šunka od kosti, sušená rajčata, bazalkové pesto",
+          "name": "Rajčata, mozzarella, salám, hermelín, červená cibule",
           "price": 175
         }
       ]
