@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-06-18T10:07:33.016Z",
+  "generatedAt": "2026-06-18T13:45:27.528Z",
   "weekday": 4,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
-          "type": "main",
-          "name": "Kulajda",
+          "type": "soup",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Gratinované brambory, zelenina, chřest, sýrová omáčka, rajčatový salátek",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Dušené vepřové v mrkvi, vařené brambory s pažitkou",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Farmářský salát, slanina, vařené vejce, medovo-hořčičný dresink",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Noky, kousky lososa, mascarpone, baby špenát, sušená rajčata, sýr",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,37 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "main",
-          "name": "Kulajda",
+          "name": "Minestrone",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Hovězí na česneku, listový špenát, bramborové knedlíky",
+          "name": "Vepřová játra na slanině, dušená rýže",
+          "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Kuřecí paprikáš, bramborové halušky",
+          "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Smažený krůtí řízek v sezamové strouhance, bramborová kaše, šopský salát",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Pečená vepřová BBQ žebra, kukuřice, rozmarýnové brambory, česnekový dip",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Kachní prso s omáčkou z červeného kari, kokosového mléka a zeleniny, jasmínová rýže",
-          "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Steak z tuňáka žlutoploutvého, lehce pikantní salát z červené čočky",
-          "price": 199
-        },
-        {
-          "type": "main",
-          "name": "Rajčata, mozzarella, salám, hermelín, červená cibule",
-          "price": 175
+          "name": "3ks Kynuté meruňkové knedlíky, strouhaný tvaroh, máslo",
+          "price": 169
         }
       ]
     },
@@ -81,34 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
-          "type": "main",
-          "name": "ČESNEČKA Z UZENÉHO ŽEBRA S VEJCEM, BRAMBOREM A CHLEBOVÝMI KRUTONY",
-          "price": 69
-        },
-        {
           "type": "soup",
-          "name": "KRÉMOVÉ ŠAFRÁNOVÉ RISOTTO S GRILOVANOU VEPŘOVOU PANENKOU, CHERRY RAJČATY, PARMEZÁNEM A MICRO GREENS",
-          "price": 209
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "209 Kč",
-          "price": 209
+          "name": "Spaghetti Bolognese",
+          "price": 185
         },
         {
           "type": "main",
-          "name": "GRILOVANÉ KUŘECÍ SOUVLAKI S PEČENÝMI GRENAILLEMI S OLIVAMI, SUŠENÝMI RAJČATY A OREGÁNEM, ŘECKÉ TZATZIKI",
-          "price": 219
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, SALÁMEM MILANO, CHILLI, ČERVENOU CIBULÍ A MEDEM",
-          "price": 189
+          "name": "Pizza Prosciutto",
+          "price": 195
         }
       ]
     },
