@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-06-26T11:39:28.552Z",
+  "generatedAt": "2026-06-26T14:06:16.113Z",
   "weekday": 5,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
           "type": "soup",
-          "name": "Špenátová polévka s krutóny",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Kapustový karbanátek s masem, bramborová kaše, kyselá okurka",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Bramborové noky, quattro formaggi, chřest",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Kynuté jahodové knedlíky, zakysaná smetana, jahody, máta",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Medailonky z panenky, šťouchané brambory, karamelizovaná cibulka, demi glace s tymiánem",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -76,34 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
-          "type": "main",
-          "name": "JIHOČESKÁ KULAJDA S BRAMBOREM, HOUBAMI, KOPREM A VEJCEM",
-          "price": 69
+          "type": "soup",
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "SPAGHETTI S VEPŘOVÝM MASEM, JARNÍ CIBULKOU, ČERSTVÝM PEPŘEM A PARMEZÁNEM, ZJEMNĚNÉ ŽLOUTKY",
-          "price": 189
+          "name": "Spaghetti Bolognese",
+          "price": 185
         },
         {
           "type": "main",
-          "name": "BOWL S KREVETAMI, ZELENINOU, TERIYAKI OMÁČKOU, JASMÍNOVOU RÝŽÍ, ŘASOU WAKAME A ČERNÝM SEZAMEM",
-          "price": 219
-        },
-        {
-          "type": "main",
-          "name": "PEČENÁ KUŘECÍ ROLÁDA S BRAMBOROVOU KAŠÍ A MALÝM ŠOPSKÝM SALÁTEM",
-          "price": 229
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S MOZZARELLOU, BOLOŇSKÝM RAGÚ A JARNÍ CIBULKOU",
-          "price": 189
+          "name": "Pizza Prosciutto",
+          "price": 195
         }
       ]
     },
