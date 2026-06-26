@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T08:51:48.536Z",
+  "generatedAt": "2026-06-26T11:39:28.552Z",
   "weekday": 5,
   "menus": [
     {
@@ -144,6 +144,31 @@
           "type": "soup",
           "name": "Kynuté borůvkové knedlíky s máslem, cukrem a zakysanou smetanou",
           "price": 159
+        },
+        {
+          "type": "soup",
+          "name": "Rajčatový krém s pestem a sýrem Gran Moravia",
+          "price": 49
+        },
+        {
+          "type": "soup",
+          "name": "Krémové risotto s pečenou hruškou, trhaným kozím sýrem a redukcí z červeného vína",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Kuřecí Enchiladas v tortille zapečená čedarem, podávaná se zakysanou smetanou",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Svíčková na smetaně s hovězí pečení, brusinkami a houskovým knedlíkem",
+          "price": 199
+        },
+        {
+          "type": "main",
+          "name": "Hovězí Texas burger – listový salát, rajče, cibulové kroužky, tekutý čedar a dijonaská majonéza, hranolky",
+          "price": 259
         }
       ]
     },
