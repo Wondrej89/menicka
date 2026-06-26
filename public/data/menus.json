@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T14:06:16.113Z",
+  "generatedAt": "2026-06-26T16:30:40.483Z",
   "weekday": 5,
   "menus": [
     {
@@ -33,32 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "main",
-          "name": "Indická čočková",
+          "type": "soup",
+          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Hovězí nudličky „Stroganoff“, dušená rýže",
+          "name": "Cikánská hovězí pečeně, houskové knedlíky/ rýže",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Špikované králičí stehno na smetaně, karlovarské knedlíky",
-          "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Smažený kuřecí řízek, bramborový salát/ kaše",
-          "price": 175
-        },
-        {
-          "type": "main",
-          "name": "3ks Kynuté lívance s lesním ovocem a šlehačkou",
+          "name": "Rozpečený hermelín, vařené brambory, brusinková majonéza",
           "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Grilované kuřecí prso, arašídová omáčka, rýže basmati",
+          "price": 175
+        },
+        {
+          "type": "main",
+          "name": "Bramborové noky s pancettou, rajčaty, chilli, česnekem, červeným vínem, bazalkou a parmazánem",
+          "price": 175
         }
       ]
     },
@@ -156,34 +156,24 @@
       "id": "smichovska-formanka",
       "name": "Smíchovská Formanka",
       "url": "http://smichovskaformanka.cz/",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
           "type": "soup",
-          "name": "hráškový krém s krutonky",
-          "price": 45
+          "name": "Bramboračka",
+          "price": 42
         },
         {
           "type": "main",
-          "name": "Smažený kuřecí řízek s vídeňským bramborovým salátem",
-          "price": 185
+          "name": "Segedínský guláš, houskový knedlík",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Chilli con carne s jasmínovou rýží a zakysanou smetanou",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "Vepřový steak se zeleninovým cous-cousem a salsou verde",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Filírované kachní prsíčko s asijským nudlovým salátem",
-          "price": 199
+          "name": "Kuřecí nudličky na kari, rýže",
+          "price": 172
         }
       ]
     },
