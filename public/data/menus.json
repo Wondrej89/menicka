@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T13:15:10.360Z",
+  "generatedAt": "2026-07-02T15:37:41.351Z",
   "weekday": 4,
   "menus": [
     {
@@ -33,32 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "soup",
-          "name": "Žampiónový krém s krutóny",
+          "type": "main",
+          "name": "Maďarská rybí",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Moravský vrabec, listový špenát, bramborové knedlíky",
+          "name": "Bramborové halušky s uzeným masem, kysaným zelím a smaženou cibulkou",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Grilované kuřecí prso, sýrová omáčka, bramborové krokety",
+          "name": "Kuřecí nudličky s paprikami, ananasem, karotkou a chilli, dušená rýže",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Asijské hovězí nudličky, jasmínová rýže",
+          "name": "Smažené krůtí řízky v bylinkové strouhance, bramborová kaše, řecký salát",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Grilovaná filátka ze pstruha, pečená rajčata, hráškové pyré",
-          "price": 195
+          "name": "Dukátové buchtičky s vanilkovým šodó",
+          "price": 169
         }
       ]
     },
@@ -134,6 +134,26 @@
           "type": "soup",
           "name": "Kynuté borůvkové knedlíky s máslem, cukrem a zakysanou smetanou",
           "price": 159
+        },
+        {
+          "type": "soup",
+          "name": "Pórkový krém se smetanou a krutony",
+          "price": 49
+        },
+        {
+          "type": "main",
+          "name": "Smažené karbanátky s bramborovou kaší a okurkovým salátem",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Noky s kuřecím masem a žampiony ve smetanovo sýrové omáčce",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Velký těstovinový salát s kousky vepřové panenky, vařeným vejcem, rajčetem, salátovou okurkou, rukolou, červenou cibulkou a francouzským dresinkem",
+          "price": 199
         }
       ]
     },
