@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-07-03T11:26:35.754Z",
+  "generatedAt": "2026-07-03T13:18:51.850Z",
   "weekday": 5,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
           "type": "soup",
-          "name": "Brokolicový krém, krutony",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Míchaný listový salát, zelenina, grilovaný hermelín, brusinkový vinaigrette",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Smažený sýrový špíz, vařený brambor, tatarská omáčka",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Pečené vykostěné vepřové koleno, špenát, bramborové knedlíky",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí saltimboca, grilovaný chřest, žlutá mrkev, růžičková kapusta, kuřecí jus",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -103,6 +93,31 @@
         {
           "type": "main",
           "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, KUŘECÍM MASEM A PAPRIKOU",
+          "price": 189
+        },
+        {
+          "type": "soup",
+          "name": "PIKANTNÍ GULÁŠOVÁ POLÉVKA",
+          "price": 69
+        },
+        {
+          "type": "main",
+          "name": "FUSILLI S RESTOVANÝMI ŽAMPIONY, ŠALOTKOU, BÍLÝM VÍNEM A OREGANEM V TOMATOVO-SMETANOVÉ OMÁČCE, PARMEZÁN",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "BURGER S TRHANÝM TELECÍM MASEM, OPEČENOU SLANINOU, SMAŽENOU CIBULKOU, RAJČETEM, CHEDDAREM, SALÁTEM, KEČUPEM A MAJONÉZOU V MÁSLOVÉ BRIOŠCE, HRANOLKY",
+          "price": 219
+        },
+        {
+          "type": "main",
+          "name": "MIX GRIL – HOVĚZÍ SPIDER STEAK, KUŘECÍ PRSO A VEPŘOVÉ KARÉ S DEMI GLACE OMÁČKOU, HRANOLKY A CHIPOTLE MAJONÉZOU",
+          "price": 229
+        },
+        {
+          "type": "main",
+          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S RAJČATOVÝM PESTEM, MOZZARELLOU, MASCARPONE, PANCETTOU A SMAŽENOU CIBULKOU",
           "price": 189
         }
       ]
