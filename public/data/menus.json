@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T13:18:51.850Z",
+  "generatedAt": "2026-07-03T15:31:57.789Z",
   "weekday": 5,
   "menus": [
     {
@@ -33,32 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "main",
-          "name": "Maďarská rybí",
+          "type": "soup",
+          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Bramborové halušky s uzeným masem, kysaným zelím a smaženou cibulkou",
-          "price": 169
+          "name": "Špikované hovězí se svíčkovou omáčkou, houskové knedlíky, brusinky",
+          "price": 179
         },
         {
           "type": "main",
-          "name": "Kuřecí nudličky s paprikami, ananasem, karotkou a chilli, dušená rýže",
+          "name": "Vepřové nudličky „Katův šleh“, bramboráčky",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Smažené krůtí řízky v bylinkové strouhance, bramborová kaše, řecký salát",
+          "name": "Kuřecí prso s omáčkou z lišek, smetany a tymiánu, divoká rýže",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Dukátové buchtičky s vanilkovým šodó",
-          "price": 169
+          "name": "Penne s tyrolským špekem, omáčkou z pečených paprik, rukolou a parmazánem",
+          "price": 175
         }
       ]
     },
@@ -70,31 +70,6 @@
       "status": "ok",
       "message": "Načteno.",
       "items": [
-        {
-          "type": "soup",
-          "name": "HRSTKOVÁ POLÉVKA S KLOBÁSOU A KOŘENOVOU ZELENINOU",
-          "price": 69
-        },
-        {
-          "type": "main",
-          "name": "SPAGHETTI S KUŘECÍM MASEM, CITRONOVOU ŠŤÁVOU, BAZALKOU A PARMEZÁNEM, ZJEMNĚNÉ MÁSLEM",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "NAŠE FOCACCIA S LOSOSEM GRAVLAX, RUKOLOU, RAJČATY, ČESNEKEM, ČERVENOU CIBULKOU, KAPARY A LÍSTKY BAZALKY",
-          "price": 209
-        },
-        {
-          "type": "main",
-          "name": "TELECÍ MAMINHA STEAK NA GRILU SE SMETANOVOU OMÁČKOU S HOUBAMI, ŠŤOUCHANÉ BRAMBORY S CIBULKOU, LISTOVÝ SALÁTEK",
-          "price": 229
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, KUŘECÍM MASEM A PAPRIKOU",
-          "price": 189
-        },
         {
           "type": "soup",
           "name": "PIKANTNÍ GULÁŠOVÁ POLÉVKA",
