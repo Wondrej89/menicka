@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T09:58:34.537Z",
+  "generatedAt": "2026-07-06T13:44:37.165Z",
   "weekday": 1,
   "menus": [
     {
@@ -68,7 +68,7 @@
       "url": "https://www.corleone.cz/poledni-menu-andel",
       "status": "ok",
       "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (online zdroj je dočasně nedostupný).",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
