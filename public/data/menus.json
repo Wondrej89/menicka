@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T09:20:26.603Z",
+  "generatedAt": "2026-07-10T12:11:34.183Z",
   "weekday": 5,
   "menus": [
     {
@@ -144,6 +144,31 @@
           "type": "soup",
           "name": "Kynuté borůvkové knedlíky s máslem, cukrem a zakysanou smetanou",
           "price": 159
+        },
+        {
+          "type": "soup",
+          "name": "Cuketový krém se smetanou, chilli a krutony",
+          "price": 49
+        },
+        {
+          "type": "main",
+          "name": "Špekové knedlíky s bílým zelím, vyškvařenou slaninou a vídeňskou cibulkou",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Kuřecí stripsy ala kfc s bramborovými hranolky, česnekovým dipem a salátkem Coleslaw",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Salát s vepřovou panenkou na grilu, mixem listových salátů, trhaným camembertem, žlutým melounem, rajčetem, salátovou okurkou a limetkovou emulzí s medem a olivovým olejem, opečený toast",
+          "price": 199
+        },
+        {
+          "type": "main",
+          "name": "Hovězí Texas burger – listový salát, rajče, cibulové kroužky, tekutý čedar a dijonská majonéza, hranolky",
+          "price": 259
         }
       ]
     },
