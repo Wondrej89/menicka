@@ -1,29 +1,39 @@
 {
-  "generatedAt": "2026-07-13T16:45:11.598Z",
-  "weekday": 1,
+  "generatedAt": "2026-07-14T07:48:52.021Z",
+  "weekday": 2,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
-          "type": "soup",
-          "name": "Silný hovězí vývar s masem a nudlemi",
+          "type": "main",
+          "name": "Francouzská cibulačka, parmezánové krutony",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
-          "price": 189
+          "name": "Štěpánská hovězí pečeně, rýže",
+          "price": 174
         },
         {
           "type": "main",
-          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
-          "price": 175
+          "name": "Vepřová pečeně zapečená slaninou a sýrem, hranolky, vepřová šťáva",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Míchaný asijský salát s rýžovými nudlemi, sezam, uzené tofu",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Smažená kuřecí křídla v cornflakes, bramborová kaše, okurkový salátek",
+          "price": 218
         }
       ]
     },
@@ -33,7 +43,7 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
@@ -66,24 +76,34 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Rajčatová polévka s bazalkou",
-          "price": 45
+          "name": "STUDENÁ OKURKOVÁ POLÉVKA S JOGURTEM A KOPREM",
+          "price": 69
         },
         {
           "type": "main",
-          "name": "Spaghetti Bolognese",
-          "price": 185
+          "name": "BRAMBOROVÉ NOKY S KOUSKY VEPŘOVÉ PANENKY, SUŠENÝMI RAJČATY, BROKOLICÍ, BYLINKOVÝM MÁSLEM A PARMEZÁNEM",
+          "price": 209
         },
         {
           "type": "main",
-          "name": "Pizza Prosciutto",
-          "price": 195
+          "name": "LÍVANCE S LESNÍM OVOCEM, MASCARPONE A VANILKOVOU ZMRZLINOU",
+          "price": 199
+        },
+        {
+          "type": "main",
+          "name": "GRILOVANÝ STEAK Z VYZRÁLÉHO HOVĚZÍHO OŘECHU S CHIMICHURRI OMÁČKOU A PEČENÝMI GRENAILLEMI S CIBULKOU",
+          "price": 229
+        },
+        {
+          "type": "main",
+          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S MOZZARELLOU, SALSICCIOU, VEJCEM A JARNÍ CIBULKOU",
+          "price": 189
         }
       ]
     },
@@ -97,27 +117,27 @@
       "items": [
         {
           "type": "soup",
-          "name": "Petrželovo celerový krém s ořechy",
+          "name": "Hrstková polévka se zeleninou",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Vepřový kotlíkový guláš s klobásou a bramborem, jasmínová rýže",
+          "name": "Naše linquine po uhlířsku se slaninou, smetanou, žloutkem a sýrem Gran Moravia",
           "price": 189
         },
         {
           "type": "main",
-          "name": "Salát s filírovaným kuřecím prsíčkem na grilu, mixem listových salátů, rajčetem, salátovou okurkou, avokádem, vařeným vejcem a dipem z majonézy, modrého sýru a citronové šťávy, opečená tortilla",
+          "name": "Salát s kuřecím prsem, mixem listových salátů, rajčetem, salátovou okurkou, mangem, čerstvým chilli, červenou cibulkou a dresinkem z majonézy, zakysané smetany a medu, rozpečená bagetka",
           "price": 189
         },
         {
           "type": "main",
-          "name": "Smažené krůtí řízečky s bramborovou kaší a okurkovým salátkem",
+          "name": "Medailonky z vepřové panenky na grilu s houbovým ragú a šťouchaným bramborem",
           "price": 199
         },
         {
           "type": "main",
-          "name": "Hovězí burger se sázeným vejcem – listový salát, rajče, sázené vejce, červená cibulka a chipotle majonéza, hranolky",
+          "name": "Hovězí burger Smíchovna – listový salát, rajče, slanina, čedar, karamelizovaná cibulka, kyselá okurka a česneková majonéza, hranolky",
           "price": 259
         },
         {
@@ -137,32 +157,27 @@
       "items": [
         {
           "type": "main",
-          "name": "minestrone",
-          "price": 45
+          "name": "Hovězí ořech v koprové omáčce, houskové knedlíky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Segedínský guláš, houskové knedlíky",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí směs se zeleninou, bramboráčky",
+          "name": "Portobello plněné mletým masem a sýrem, peč. grenaille, hořčičná majonéza",
           "price": 185
         },
         {
           "type": "main",
-          "name": "Salátový talíř caprese s bylinkovou bagetou",
+          "name": "Smažený hermelín, vařené brambory, tatarka",
           "price": 179
         },
         {
           "type": "main",
-          "name": "Burrito se zakysanou smetanou a zeleninovým salátem",
-          "price": 185
+          "name": "Gnocchi s kuřecím masem, rajčata, špenát, víno, parmezán",
+          "price": 179
         },
         {
           "type": "main",
-          "name": "Smažené fish and chips, majonéza",
+          "name": "Grilované vepřová panenka s houbovou omáčkou, hranolky",
           "price": 189
         }
       ]
