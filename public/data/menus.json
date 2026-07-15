@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-07-15T12:48:13.972Z",
+  "generatedAt": "2026-07-15T14:42:18.936Z",
   "weekday": 3,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Hovězí vývar, zelenina, maso, smažený hrášek",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Vepřová plec po bratislavsku, karlovarské knedlíky",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Smažený květák, vařené brambory, tatarská omáčka",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Italské řepné rizoto, kozí sýr, rukola, piniové oříšky",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Hovězí steak, hranolky, hříbková omáčka",
-          "price": 238
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,32 +33,27 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "soup",
-          "name": "Krém z pečené zeleniny s kokosovým mlékem a krutóny",
+          "type": "main",
+          "name": "Zelná s klobásou",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Špalíky z vepřové panenky, švestková omáčka, pečené brambory",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Brynzové halušky se slaninou a smaženou cibulkou",
+          "name": "Hovězí na česneku, listový špenát, bramborové knedlíky",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Pečené kuřecí stehno, tarhoňa se zeleninou",
-          "price": 169
+          "name": "Zapečené šunkofleky, červená řepa",
+          "price": 179
         },
         {
           "type": "main",
-          "name": "Caesar salát s grilovanými krevetami a rozpečenou ciabattou",
-          "price": 189
+          "name": "Kuřecí nudličky na červeném kari, se zeleninou a jasmínovou rýží",
+          "price": 175
         }
       ]
     },
@@ -76,39 +61,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "POMALU VAŘENÝ TELECÍ VÝVAR SE ZELENINOU, MASEM A VAJEČNOU OMELETOU",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "FUSILLI S ITALSKOU SLANINOU, ARTYČOKY, ČESNEKEM ,CHILLI, TOMATOVOU OMÁČKOU, BAZALKOU A PARMEZÁNEM",
-          "price": 189
+          "name": "Spaghetti Bolognese",
+          "price": 185
         },
         {
           "type": "main",
-          "name": "VELKÝ ŘECKÝ SALÁT S GRILOVANÝMI KUŘECÍMI SOUVLAKI, FETA SÝREM A OLIVAMI",
-          "price": 209
-        },
-        {
-          "type": "main",
-          "name": "KUŘECÍ VINDALOO S JASMÍNOVOU RÝŽÍ",
-          "price": 209
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, KUŘECÍM MASEM, PAPRIKOU A ŠPENÁTOVÝM PESTEM",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "LÍVANCE S LESNÍM OVOCEM, MASCARPONE A VANILKOVOU ZMRZLINOU",
-          "price": 199
+          "name": "Pizza Prosciutto",
+          "price": 195
         }
       ]
     },
