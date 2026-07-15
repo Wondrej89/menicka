@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T07:52:02.882Z",
+  "generatedAt": "2026-07-15T09:52:21.847Z",
   "weekday": 3,
   "menus": [
     {
@@ -104,6 +104,11 @@
           "type": "main",
           "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, KUŘECÍM MASEM, PAPRIKOU A ŠPENÁTOVÝM PESTEM",
           "price": 189
+        },
+        {
+          "type": "main",
+          "name": "LÍVANCE S LESNÍM OVOCEM, MASCARPONE A VANILKOVOU ZMRZLINOU",
+          "price": 199
         }
       ]
     },
