@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-07-16T11:57:05.744Z",
+  "generatedAt": "2026-07-16T13:43:22.089Z",
   "weekday": 4,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Celerový krém s jablky a vlašskými ořechy",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Řecký salát s pita chlebem",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Uzený hovězí jazyk, křenová omáčka, houskové knedlíky",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Švédské masové kuličky, hranolky, hrášek, brusinky",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Čínské nudle, kuřecí maso, arašídy, stir-fry zelenina",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,27 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "main",
-          "name": "Zelná s klobásou",
+          "type": "soup",
+          "name": "Kuřecí vývar se zeleninou a tarhoňou",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Hovězí na česneku, listový špenát, bramborové knedlíky",
+          "name": "Hovězí nudličky s hlívou a špenátem, dušená rýže",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Zapečené šunkofleky, červená řepa",
-          "price": 179
+          "name": "Krůtí prso, salsa z červené řepy, bulgur",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Kuřecí nudličky na červeném kari, se zeleninou a jasmínovou rýží",
+          "name": "Smažené kuřecí řízky, bramborová kaše, rajčatový salát",
           "price": 175
+        },
+        {
+          "type": "soup",
+          "name": "Švestkové knedlíky s mákem, máslem a cukrem",
+          "price": 169
         }
       ]
     },
