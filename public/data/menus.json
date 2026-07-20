@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T08:42:38.702Z",
+  "generatedAt": "2026-07-20T11:36:53.691Z",
   "weekday": 1,
   "menus": [
     {
@@ -151,34 +151,34 @@
       "message": "Načteno.",
       "items": [
         {
-          "type": "main",
-          "name": "pórková s bramborem a vejcem",
+          "type": "soup",
+          "name": "karotkový krém s kokosovým mlékem a chilli",
           "price": 45
         },
         {
           "type": "main",
-          "name": "Vepřová kýta na paprice s těstovinami",
+          "name": "Kuřecí Codon bleu plněné šunkou a sýrem, bramb. kaše, okurkový salátek",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Drůbeží játra na slanině, jasmínová rýže",
+          "price": 175
+        },
+        {
+          "type": "main",
+          "name": "Kuřecí roláda se sušenými rajčaty, šťouchané brambory",
           "price": 179
         },
         {
           "type": "main",
-          "name": "Kuřecí souvlaki, tzatziki, zeleninový salát, domácí focaccia",
+          "name": "Salátový talíř Caesar s kuřecím masem, slaninou a krutonky",
           "price": 185
         },
         {
           "type": "main",
-          "name": "Vepřové Tonkatsu se zelným salátem, jasmínová rýže, asijská BBQ omáčka",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "Řecký salát s opečeným toustem",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Grilovaná tylápie s omáčkou choron, brambory greanaille",
-          "price": 185
+          "name": "Grilovaná vepřová panenka s hořčičnou omáčkou, hranolky",
+          "price": 189
         }
       ]
     },
