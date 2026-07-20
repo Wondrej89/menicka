@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T13:49:55.411Z",
+  "generatedAt": "2026-07-20T15:45:07.085Z",
   "weekday": 1,
   "menus": [
     {
@@ -66,34 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "KRÉM Z PEČENÉHO KVĚTÁKU S KARI A KRUTONY",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "LINGUINE S KOUSKY VEPŘOVÉHO MASA, HOUBAMI, SUŠENÝMI RAJČATY, JARNÍ CIBULKOU, PETRŽELKOU A PARMEZÁNEM",
-          "price": 189
+          "name": "Spaghetti Bolognese",
+          "price": 185
         },
         {
           "type": "main",
-          "name": "PEČENÝ LILEK S BOLOŇSKÝM RAGÚ, RAJČATY A BAZALKOU, ZAPEČENÝ MOZZARELLOU A PARMEZÁNEM",
-          "price": 199
-        },
-        {
-          "type": "main",
-          "name": "GRILOVANÝ KUŘECÍ STEAK „CAPRESE“ S PLÁTKY RAJČAT A BAZALKOU, ZAPEČENÝ MOZZARELLOU, S HRANOLKY A ZELENINOVÝM SALÁTKEM",
-          "price": 219
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ SE SALÁMEM MILANO, KUKUŘICÍ, PARMEZÁNEM, ČESNEKEM A MOZZARELLOU",
-          "price": 189
+          "name": "Pizza Prosciutto",
+          "price": 195
         }
       ]
     },
