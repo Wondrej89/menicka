@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-07-22T12:22:05.767Z",
+  "generatedAt": "2026-07-22T14:31:33.390Z",
   "weekday": 3,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Pikantní kuřecí polévka s kimchi a tofu",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Vepřové na paprice, houskový knedlík",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Noky s grilovanou zeleninou, chorizem, bazalkovým pestem, sýr",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Pokebowl se zeleninou, kachním prsem a hoisin omáčkou",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Hovězí steak na grilu, gorgonzolová omáčka, opečené grenaile",
-          "price": 238
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,36 +33,31 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "soup",
-          "name": "Žampiónový krém s krutóny",
+          "type": "main",
+          "name": "Špenátová s vejcem",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Pečené kuřecí stehno s omáčkou z hrubozrnné hořčice a estragonu, rozmarýnové brambory",
+          "name": "Vepřové výpečky, bílé kysané zelí, bramborové knedlíky",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Srbské vepřové rizoto, strouhaný sýr, okurka",
-          "price": 169
+          "name": "Trhané hovězí, hranolky, čedarová omáčka, smažená cibulka",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Gratinovaná cuketa plněná masovým ragú, kuskus, rajčatová polpa",
+          "name": "Kuřecí nudličky s paprikami a klíčky mungo, dušená rýže",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Variace listových salátů s červenou řepou, grilovaným kozím sýrem, hruškou, medovým dresinkem a kukuřičnou polentou",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "Quattro formaggi",
+          "name": "Rajčata, mozzarella, paprikový salám, červená cibule, chilli",
           "price": 175
         }
       ]
@@ -81,34 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "PÓRKOVÁ POLÉVKA S KOŘENOVOU ZELENINOU, VEJCEM A KRUPICÍ",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "RIGATONI S ITALSKOU SLANINOU, CUKETOU, ČESNEKEM A PETRŽELKOU VE SMETANOVÉ OMÁČCE, PARMEZÁN",
-          "price": 189
+          "name": "Spaghetti Bolognese",
+          "price": 185
         },
         {
           "type": "main",
-          "name": "GRILOVANÉ KALAMÁRY NA BRUSCHETTĚ Z ŽITNÉHO CHLEBA S RAJČATY, ČESNEKEM, BAZALKOU A BALZAMIKOVOU ZÁLIVKOU",
-          "price": 199
-        },
-        {
-          "type": "main",
-          "name": "199 Kč",
-          "price": 229
-        },
-        {
-          "type": "main",
-          "name": "229 Kč",
-          "price": 189
+          "name": "Pizza Prosciutto",
+          "price": 195
         }
       ]
     },
