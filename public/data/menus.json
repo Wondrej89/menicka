@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T10:31:15.217Z",
+  "generatedAt": "2026-07-24T12:13:40.562Z",
   "weekday": 5,
   "menus": [
     {
@@ -144,6 +144,26 @@
           "type": "soup",
           "name": "Kynuté borůvkové knedlíky s máslem, cukrem a zakysanou smetanou",
           "price": 159
+        },
+        {
+          "type": "soup",
+          "name": "Kapustová polévka s bramborem a klobásou",
+          "price": 49
+        },
+        {
+          "type": "main",
+          "name": "Smažený sýr eidam s vařeným bramborem a naší tatarskou omáčkou",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Plněné cukety kuřecím masem, jasmínovou rýží, smetanou a bylinkami, zapečená mozzarellou, pesto",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Svíčková na smetaně s brusinkami a houskovým knedlíkem",
+          "price": 209
         }
       ]
     },
