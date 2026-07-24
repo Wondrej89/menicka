@@ -1,29 +1,39 @@
 {
-  "generatedAt": "2026-07-23T16:20:34.223Z",
-  "weekday": 4,
+  "generatedAt": "2026-07-24T08:09:53.777Z",
+  "weekday": 5,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Silný hovězí vývar s masem a nudlemi",
+          "name": "Sýrový krém s krutóny",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
-          "price": 189
+          "name": "Smažený karbanátek, bramborová kaše, okurka",
+          "price": 174
         },
         {
           "type": "main",
-          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
-          "price": 175
+          "name": "Gratinované papriky se zeleninovým kuskusem sýrem a tomatovou omáčkou",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Krkovice na grilu, pepřová omáčka, pečené brambory s cibulí",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Caesar wrap s krůtím masem, slaninou, sýrem, míchaný zeleninový salátek",
+          "price": 218
         }
       ]
     },
@@ -33,7 +43,7 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "main",
@@ -66,24 +76,34 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
-          "type": "soup",
-          "name": "Rajčatová polévka s bazalkou",
-          "price": 45
+          "type": "main",
+          "name": "BORŠČ S KOPREM A ZAKYSANOU SMETANOU",
+          "price": 69
         },
         {
           "type": "main",
-          "name": "Spaghetti Bolognese",
-          "price": 185
+          "name": "ŠPAGETY S KOUSKY KUŘECÍHO MASA, CHERRY RAJČATY, ČESNEKEM, BAZALKOU A PARMEZÁNEM",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Pizza Prosciutto",
-          "price": 195
+          "name": "BOWL S MARINOVANÝM LOSOSEM, ZELENINOU, ŘASOU WAKAME A SEZAMEM",
+          "price": 219
+        },
+        {
+          "type": "main",
+          "name": "POMALU PEČENÉ KACHNÍ STEHÝNKO SE STAROČESKOU LEPENICÍ",
+          "price": 229
+        },
+        {
+          "type": "main",
+          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ SE SLANINOU, ŠUNKOU, SALÁMEM A MOZZARELLOU",
+          "price": 189
         }
       ]
     },
@@ -97,27 +117,27 @@
       "items": [
         {
           "type": "soup",
-          "name": "Čočková polévka s uzeninou",
+          "name": "Brokolicový krém s krutony",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Salát s kuřecím prsíčkem, červeným melounem, mixem listových salátů, baby mozzarellou, krutony a dresinkem z balsamika, medu a citronové šťávy",
+          "name": "Velký řecký salát s rajčetem, salátovou okurkou, paprikou, nakládanou cizrnou, slaným sýrem, olivami a olivovým olejem s konfitovaným česnekem",
           "price": 189
         },
         {
           "type": "main",
-          "name": "Grilované medailonky z vepřové krkovičky s omáčkou z demi glace, dijonské hořčice a smetany, bramborové krokety",
+          "name": "Segedínský vepřový guláš s houskovým knedlíkem",
           "price": 189
         },
         {
-          "type": "soup",
-          "name": "Krémové risotto s kousky lososa, bílým vínem, zeleným hráškem a rukolovým pestem",
+          "type": "main",
+          "name": "Kuřecí medailonky s omáčkou ze švestkových povidel a červeného vína, šťouchaný brambor",
           "price": 199
         },
         {
           "type": "main",
-          "name": "Hovězí Gangster burger – listový salát, rajče, čedar, slanina, jalapeňos a chipotle majonéza, hranolky",
+          "name": "Hovězí Texas burger – listový salát, rajče, cibulové kroužky, tekutý čedar a dijonská majonéza, hranolky",
           "price": 259
         },
         {
@@ -136,34 +156,29 @@
       "message": "Načteno.",
       "items": [
         {
-          "type": "soup",
-          "name": "slepičí vývar s masem zeleninou a nudlemi",
+          "type": "main",
+          "name": "bramboračka s houbami",
           "price": 45
         },
         {
           "type": "main",
-          "name": "Rozlítaný ptáček, dušená jasmínová rýže/ housk.kn.",
+          "name": "Smažený vepřový řízek z panenky s domácím bramborovým salátem, citrón",
           "price": 189
         },
         {
           "type": "main",
-          "name": "Pikantní kuřecí směs s bramboráčky",
-          "price": 185
+          "name": "Hovězí kýta s křenovou omáčkou, houskové knedlíky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Smažené žampiony, vařené brambory, tatarka",
-          "price": 169
+          "name": "Gnocchi s kuřecím masem a omáčkou z modrého sýra",
+          "price": 179
         },
         {
           "type": "main",
-          "name": "Hovězí burger s čedarovou omáčkou, hranolky, majonéza",
-          "price": 195
-        },
-        {
-          "type": "main",
-          "name": "Grilovaný tuňák s těstovinovým salátem, jogurtový dressing",
-          "price": 219
+          "name": "Kuřecí steak s žampionovou omáčkou, hranolky",
+          "price": 189
         }
       ]
     },
