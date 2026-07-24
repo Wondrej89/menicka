@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-07-24T12:13:40.562Z",
+  "generatedAt": "2026-07-24T14:18:09.907Z",
   "weekday": 5,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
           "type": "soup",
-          "name": "Sýrový krém s krutóny",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Smažený karbanátek, bramborová kaše, okurka",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Gratinované papriky se zeleninovým kuskusem sýrem a tomatovou omáčkou",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Krkovice na grilu, pepřová omáčka, pečené brambory s cibulí",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Caesar wrap s krůtím masem, slaninou, sýrem, míchaný zeleninový salátek",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,32 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "main",
-          "name": "Bramboračka s houbami",
+          "type": "soup",
+          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Boloňské špagety, parmazán",
-          "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí paprikáš, bramborové halušky, zakysaná smetana",
+          "name": "Špikované hovězí s koprovou omáčkou a vejcem, houskové knedlíky/ brambory",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Smažené vepřové řízky, bramborový salát/ kaše",
+          "name": "Pečené BBQ šunka od kosti, křenová kaše, zelný salát",
+          "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Kuřecí nudličky Kung Pao, dušená rýže",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Rakouský GERMKNÖDEL s vanilkovým šodó a mákem",
-          "price": 169
+          "name": "Penne s parmskou šunkou, sušenými rajčaty, bazalkovým pestem a parmazánem",
+          "price": 175
         }
       ]
     },
@@ -82,27 +72,27 @@
       "items": [
         {
           "type": "main",
-          "name": "BORŠČ S KOPREM A ZAKYSANOU SMETANOU",
+          "name": "BRAMBORAČKA S HOUBAMI",
           "price": 69
         },
         {
           "type": "main",
-          "name": "ŠPAGETY S KOUSKY KUŘECÍHO MASA, CHERRY RAJČATY, ČESNEKEM, BAZALKOU A PARMEZÁNEM",
+          "name": "RIGATONI S MORTADELLOU, HRÁŠKEM A SUŠENÝMI RAJČATY VE SMETANOVÉ OMÁČCE, PARMEZÁN",
           "price": 189
         },
         {
           "type": "main",
-          "name": "BOWL S MARINOVANÝM LOSOSEM, ZELENINOU, ŘASOU WAKAME A SEZAMEM",
+          "name": "SMAŽENÉ ŽAMPIONY S VAŘENÝMI GRENAILLE BRAMBŮRKY A TATARSKOU OMÁČKOU",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "189 Kč",
           "price": 219
         },
         {
           "type": "main",
-          "name": "POMALU PEČENÉ KACHNÍ STEHÝNKO SE STAROČESKOU LEPENICÍ",
-          "price": 229
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ SE SLANINOU, ŠUNKOU, SALÁMEM A MOZZARELLOU",
+          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S MOZZARELLOU, ŠPENÁTEM, SLANINOU A VEJCEM",
           "price": 189
         }
       ]
