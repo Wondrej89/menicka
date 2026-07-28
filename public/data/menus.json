@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-07-28T12:49:22.405Z",
+  "generatedAt": "2026-07-28T15:12:22.879Z",
   "weekday": 2,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Kuřecí vývar, maso, zelenina, nudle",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Grilovaný hermelín, restovaná zelenina, brusinková omáčka",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Smažený holandský řízek, bramborová kaše, kyselá okurka",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Pečená selská krkovice, bílé zelí, houskové knedlíky",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Salát Niçoise, grilovaný tuňák",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -76,34 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "ŽAMPIONOVÝ KRÉM S PÓRKEM A RESTOVANOU SLANINOU",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "BRAMBOROVÉ NOKY S KOUSKY KRŮTÍHO MASA, BROKOLICÍ A GORGONZOLOU V TOMATOVO-SMETANOVÉ OMÁČCE, PARMEZÁN",
-          "price": 209
+          "name": "Spaghetti Bolognese",
+          "price": 185
         },
         {
           "type": "main",
-          "name": "CAESAR WRAP S GRILOVANÝM KUŘECÍM MASEM, SLANINOU, PARMEZÁNEM, ORIGINÁLNÍM CAESAR DRESINKEM, HRANOLKY A UZENOU MAJONÉZOU",
-          "price": 209
-        },
-        {
-          "type": "main",
-          "name": "GRILOVANÁ VEPŘOVÁ PANENKA, FILÍROVANÁ, SE SALSOU VERDE, ŠŤOUCHANÉ BRAMBORY S JARNÍ CIBULKOU",
-          "price": 219
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S ČESNEKEM, MOZZARELLOU, SALÁMY MILANO A TOSCANO, CIBULÍ, JALAPEÑO A UZENÝM SÝREM",
-          "price": 189
+          "name": "Pizza Prosciutto",
+          "price": 195
         }
       ]
     },
