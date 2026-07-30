@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T14:38:38.632Z",
+  "generatedAt": "2026-07-30T16:20:45.833Z",
   "weekday": 4,
   "menus": [
     {
@@ -66,24 +66,34 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (online zdroj je dočasně nedostupný).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Rajčatová polévka s bazalkou",
-          "price": 45
+          "name": "POMALU TAŽENÝ SLEPIČÍ VÝVAR SE ZELENINOU, JASMÍNOVOU RÝŽÍ, HRÁŠKEM A PETRŽELKOU",
+          "price": 69
+        },
+        {
+          "type": "soup",
+          "name": "KRÉMOVÉ RISOTTO S ČERVENOU ŘEPOU, GRILOVANÝM KOZÍM SÝREM, RUKOLOU A PISTÁCIEMI",
+          "price": 209
         },
         {
           "type": "main",
-          "name": "Spaghetti Bolognese",
-          "price": 185
+          "name": "QUESADILLA S RESTOVANÝM KUŘECÍM MASEM, KUKUŘICÍ, ŠPENÁTEM A SLANINOU, ZAPEČENÁ CHEDDAREM, TOMATOVÁ SALSA A ZAKYSANÁ SMETANA",
+          "price": 209
         },
         {
           "type": "main",
-          "name": "Pizza Prosciutto",
-          "price": 195
+          "name": "209 Kč",
+          "price": 209
+        },
+        {
+          "type": "main",
+          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S ČESNEKEM, MOZZARELLOU, PESTEM ZE SUŠENÝCH RAJČAT, CHERRY RAJČATY, KUKUŘICÍ, PAPRIKOU, BURRATOU A RUKOLOU",
+          "price": 189
         }
       ]
     },
@@ -131,39 +141,24 @@
       "id": "smichovska-formanka",
       "name": "Smíchovská Formanka",
       "url": "http://smichovskaformanka.cz/",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
           "type": "soup",
-          "name": "hovězí vývar s masem, zeleninou a nudlemi",
-          "price": 45
+          "name": "Bramboračka",
+          "price": 42
         },
         {
           "type": "main",
-          "name": "Smažená gouda, vařené brambory, tatarka",
-          "price": 179
+          "name": "Segedínský guláš, houskový knedlík",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Kotlíkový vepřový guláš s domácím chlebem",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí stir-fry s jasmínovou rýží",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Gnocchi Aglio olio e pepperoncino s kuřecím masem",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Hovězí cheeseburger s vejcem, hranolky, sladkokyselá om.",
-          "price": 195
+          "name": "Kuřecí nudličky na kari, rýže",
+          "price": 172
         }
       ]
     },
