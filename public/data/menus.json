@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T13:11:29.212Z",
+  "generatedAt": "2026-07-31T15:34:55.368Z",
   "weekday": 5,
   "menus": [
     {
@@ -33,32 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "main",
-          "name": "Uzená s masem, zeleninou, krupičkou a vejcem",
+          "type": "soup",
+          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Pikantní vepřová jatýrka, bramboráčky",
-          "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí nudličky v mangové omáčce, rýže basmati",
+          "name": "Znojemská hovězí pečeně, houskové knedlíky/ rýže",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Smažené krůtí řízky v sezamové strouhance, bramborová kaše",
+          "name": "Steak z vepřové krkovice, pikantní cukrová kukuřice s chorizem, pečená brambora ve slupce, zakysaná smetana",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Kynuté jahodové knedlíky, sladká zakysaná smetana, máslo",
+          "name": "Tofu s brokolicí a cizrnou, dušená rýže",
           "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Tortiglioni s tyrolským špekem, rajčaty, smetanou, česnekem, bazalkou a parmazánem",
+          "price": 175
         }
       ]
     },
@@ -66,24 +66,34 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Rajčatová polévka s bazalkou",
-          "price": 45
+          "name": "DRŠŤKOVÁ POLÉVKA",
+          "price": 69
         },
         {
           "type": "main",
-          "name": "Spaghetti Bolognese",
-          "price": 185
+          "name": "PAPPARDELLE SE ŠPANĚLSKÝM CHORIZEM, ARTYČOKY, ČESNEKEM, BAZALKOU A PARMEZÁNEM",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Pizza Prosciutto",
-          "price": 195
+          "name": "TRHANÝ ŘÍMSKÝ A LEDOVÝ SALÁT S RUKOLOU, POLNÍČKEM, GRILOVANOU VEPŘOVOU PANENKOU, CHERRY RAJČATY, STŘÍBŘITÝMI CIBULKAMI, OLIVAMI, SLANINOU A MAJONÉZOVÝM DRESINKEM",
+          "price": 199
+        },
+        {
+          "type": "main",
+          "name": "HOVĚZÍ ROŠTĚNÁ NA PEPŘI S JASMÍNOVOU RÝŽÍ A VÍDEŇSKOU CIBULKOU",
+          "price": 219
+        },
+        {
+          "type": "main",
+          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S MOZZARELLOU, SLANINOU, ŠPENÁTEM A KUKUŘICÍ",
+          "price": 189
         }
       ]
     },
@@ -158,7 +168,7 @@
       "url": "http://smichovskaformanka.cz/",
       "status": "ok",
       "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
+      "message": "Zobrazeno ukázkové menu (online zdroj je dočasně nedostupný).",
       "items": [
         {
           "type": "soup",
