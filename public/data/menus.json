@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-08-04T11:00:55.845Z",
+  "generatedAt": "2026-08-04T13:14:00.587Z",
   "weekday": 2,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Hovězí vývar, zelenina, maso, rýže, hrášek",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Srbské risoto, mleté maso, sýr, kyselá okurka",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Míchaný zeleninový salát, smažené kuřecí stripsy, sweet chilli majonéza",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Tagliatelle aglio oglio, sýr",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Špikované králičí stehno na smetaně, karlovarské knedlíky, brusinky",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -76,34 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "TRADIČNÍ ANDALUSKÁ STUDENÁ POLÉVKA „SALMOREJO“",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "BRAMBOROVÉ NOKY S ITALSKOU PANCETTOU A OMÁČKOU QUATTRO FORMAGGI, GRATINOVANÉ MOZZARELLOU, ČERSTVÁ RUKOLA",
-          "price": 209
+          "name": "Spaghetti Bolognese",
+          "price": 185
         },
         {
           "type": "main",
-          "name": "ITALSKÁ PIADINA S GRILOVANÝM KRŮTÍM PRSÍČKEM, PLÁTKY RAJČAT, RUKOLOU, POLNÍČKEM, STRACCIATELLOU A BAZALKOVÝM PESTEM",
-          "price": 199
-        },
-        {
-          "type": "main",
-          "name": "STEAK Z VYKOSTĚNÉHO KUŘECÍHO STEHNA NA GRILU S TEPLOU MEXICKOU SALSOU SE SLANINOU, JALAPEÑO PAPRIČKAMI, OREGANEM A SMETANOU, SMAŽENÉ RÝŽOVÉ KROKETY S CHEDDAREM",
-          "price": 219
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA BBQ ZÁKLADĚ S KUŘECÍM MASEM, MOZZARELLOU A PANCETTOU",
-          "price": 189
+          "name": "Pizza Prosciutto",
+          "price": 195
         }
       ]
     },
