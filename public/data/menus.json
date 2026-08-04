@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T13:14:00.587Z",
+  "generatedAt": "2026-08-04T15:43:16.818Z",
   "weekday": 2,
   "menus": [
     {
@@ -33,32 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "soup",
-          "name": "Polévka: Hráškový krém s krutóny",
+          "type": "main",
+          "name": "Frankfurtská",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Vepřová plec na paprice, houskové knedlíky/ těstoviny",
-          "price": 169
+          "name": "Špalíky z vepřové panenky, pepřová omáčka, šťouchané brambory",
+          "price": 179
         },
         {
           "type": "main",
-          "name": "Smažený květák, vařené brambory, tatarka",
-          "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Pečené kuřecí stehno, pestrá zelenina, dušená rýže",
+          "name": "Jelení ragú na smetaně, karlovarské knedlíky",
           "price": 175
         },
         {
           "type": "main",
-          "name": "m vínem, hladkolistou petrželí a parmazánem",
+          "name": "Pečené krůtí prso, ratatouille zelenina, kuskus",
           "price": 175
+        },
+        {
+          "type": "main",
+          "name": "Caesar salát s grilovanými krevetami, rozpečená ciabatta",
+          "price": 189
         }
       ]
     },
@@ -131,34 +131,24 @@
       "id": "smichovska-formanka",
       "name": "Smíchovská Formanka",
       "url": "http://smichovskaformanka.cz/",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
-          "type": "main",
-          "name": "Vařený hovězí krk, vařené brambory, tatarská omáčka",
-          "price": 185
+          "type": "soup",
+          "name": "Bramboračka",
+          "price": 42
         },
         {
           "type": "main",
-          "name": "Smaž. kuřecí játra na zeleninovém salátu, bylinkový dressing",
-          "price": 179
+          "name": "Segedínský guláš, houskový knedlík",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Krůtí guláš s těstovinami/ housk.kn.",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí steak s grilovanou zeleninou, brambory Grenaille, majonéza ze sušených rajčat",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Langoš s trhanou vepřovou krkovičkou a čedarem, uzená majonéza, nakládaná cibule a jalapeňos",
-          "price": 189
+          "name": "Kuřecí nudličky na kari, rýže",
+          "price": 172
         }
       ]
     },
