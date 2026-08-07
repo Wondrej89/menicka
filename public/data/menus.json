@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T07:00:55.084Z",
+  "generatedAt": "2026-08-07T08:32:46.065Z",
   "weekday": 5,
   "menus": [
     {
@@ -111,24 +111,39 @@
       "id": "smichovna",
       "name": "Smíchovna",
       "url": "https://www.smichovna.cz/tydenni-nabidka",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (online zdroj je dočasně nedostupný).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Hovězí vývar s nudlemi",
-          "price": 45
+          "name": "Hráškový krém s krutony",
+          "price": 49
         },
         {
           "type": "main",
-          "name": "Svíčková na smetaně, houskový knedlík",
+          "name": "Fajitas con pollo – restované kuřecí maso, paprika a červená cibulka, podávané se zakysanou smetanou, rajčatovou salsou a pšeničnou tortillou",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Grilovaná vepřová panenka na římském salátu s rajčaty, salátovou okurkou, černými olivami, pečeným česnekem, krutony, balzamikovou redukcí a hoblinkami sýru Gran Moravia",
           "price": 199
         },
         {
           "type": "main",
-          "name": "Vepřový řízek, bramborový salát",
-          "price": 189
+          "name": "Hovězí Stroganoff se žampiony, jasmínová rýže",
+          "price": 209
+        },
+        {
+          "type": "main",
+          "name": "Hovězí Texas burger – listový salát, rajče, cibulové kroužky, tekutý čedar a dijonská majonéza, hranolky",
+          "price": 259
+        },
+        {
+          "type": "main",
+          "name": "Domácí lívance s omáčkou z lesních plodů a zakysanou smetanou",
+          "price": 149
         }
       ]
     },
