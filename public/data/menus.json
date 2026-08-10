@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-08-10T12:08:03.846Z",
+  "generatedAt": "2026-08-10T13:51:06.617Z",
   "weekday": 1,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Rajská polévka s těstovinou",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Smažené rybí filé, bramborová kaše, okurkový salátek",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Chilli con carne, rýže, koriandr",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Špecle s kuřecím masem, omáčka z pečených paprik, baby špenát, sýr",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Tortilla plněná trhanou vepřovou krkovicí, slanina, čedar, zelenina, salátek",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,26 +33,26 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "soup",
-          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
+          "type": "main",
+          "name": "Kulajda",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Špikované hovězí se svíčkovou omáčkou, houskové knedlíky",
+          "name": "Rozlítaný španělský ptáček, dušená rýže/ houskové knedlíky",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Kuřecí nudličky Tikka Masala, rýže basmati",
+          "name": "Smažené kuřecí stripsy, šťouchané brambory, coleslaw",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Smažený karbanátek, bramborová kaše, okurka",
+          "name": "Pečený květák na kari a kokosovém mléce, rýže basmati",
           "price": 169
         }
       ]
@@ -146,39 +136,24 @@
       "id": "smichovska-formanka",
       "name": "Smíchovská Formanka",
       "url": "http://smichovskaformanka.cz/",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
-          "type": "main",
-          "name": "cizrnová s klobásou a bramborami",
-          "price": 45
+          "type": "soup",
+          "name": "Bramboračka",
+          "price": 42
         },
         {
           "type": "main",
-          "name": "Vařený hovězí krk v koprové omáčce, vejce, housk. knedlíky",
-          "price": 185
+          "name": "Segedínský guláš, houskový knedlík",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Smažená mortadela, vařené brambory, tatarka",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí nudličky se sýrovou omáčkou, špagetami a polníčkem",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Quesadilla s vepřovým masem, jalapeňos paprickami, koriandr se zakysanou smetanou , zeleninový salátek",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí gyros, tzatziki, zeleninový salát, hranolky, pita chleba",
-          "price": 189
+          "name": "Kuřecí nudličky na kari, rýže",
+          "price": 172
         }
       ]
     },
