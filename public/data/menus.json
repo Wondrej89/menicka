@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-08-11T12:05:22.551Z",
+  "generatedAt": "2026-08-11T13:50:05.182Z",
   "weekday": 2,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Fazolová polévka s klobásou",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Řecký salát s pita chlebem",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Maďarský hovězí guláš, houskové knedlíky",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Krůtí nudličky na kari se zeleninou, tarhoňa",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí supreme, pečené grenaille, bylinková omáčka, růžičková kapusta",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,27 +33,27 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "main",
-          "name": "Kulajda",
+          "name": "Pórková s vejcem",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Rozlítaný španělský ptáček, dušená rýže/ houskové knedlíky",
-          "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Smažené kuřecí stripsy, šťouchané brambory, coleslaw",
-          "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Pečený květák na kari a kokosovém mléce, rýže basmati",
+          "name": "Uzená vepřová plec, čočka na kyselo, sázené vejce, okurka",
           "price": 169
+        },
+        {
+          "type": "soup",
+          "name": "Pečené krůtí prso, tymiánové krémové žampiony, špecle",
+          "price": 175
+        },
+        {
+          "type": "main",
+          "name": "Trhané hovězí zapečené čedarem, rozmarýnové brambory, jalapeňos majonéza",
+          "price": 179
         }
       ]
     },
