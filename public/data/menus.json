@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-08-12T12:48:42.577Z",
+  "generatedAt": "2026-08-12T14:14:48.540Z",
   "weekday": 3,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Hovězí vývar, játrová rýže, zelenina",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Italské tomatové rizoto s mozzarellou, bazalkové pesto, cherry rajčata, rukola",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Vepřové na houbách, rýže",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Pečená treska s bylinkovým máslem, cizrnová kaše, pečená zelenina",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Hovězí steak, opečené brambory, omáčka z bílého vína, rajčata, kapary",
-          "price": 238
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,27 +33,27 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "main",
-          "name": "Pórková s vejcem",
+          "name": "Uzená s kroupami a zeleninou",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Uzená vepřová plec, čočka na kyselo, sázené vejce, okurka",
+          "name": "Moravský vrabec, bílé kysané zelí, bramborové knedlíky",
           "price": 169
         },
         {
-          "type": "soup",
-          "name": "Pečené krůtí prso, tymiánové krémové žampiony, špecle",
-          "price": 175
+          "type": "main",
+          "name": "Grilované kuřecí prso, sýrová omáčka, krokety",
+          "price": 179
         },
         {
           "type": "main",
-          "name": "Trhané hovězí zapečené čedarem, rozmarýnové brambory, jalapeňos majonéza",
-          "price": 179
+          "name": "Chilli con Carné, divoká rýže, zakysaná smetana, koriandr",
+          "price": 175
         }
       ]
     },
@@ -71,34 +61,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "THAJSKÁ KUŘECÍ POLÉVKA S ČERVENÝM CURRY, ZELENINOU, KOKOSOVÝM MLÉKEM, KORIANDREM A LIMETKOU",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "FUSILLI S VEPŘOVOU ŠUNKOU, HRÁŠKEM, ŽAMPIONY A SMETANOU, GRATINOVANÉ MOZZARELLOU",
-          "price": 189
+          "name": "Spaghetti Bolognese",
+          "price": 185
         },
         {
           "type": "main",
-          "name": "TRHANÉ LISTOVÉ SALÁTY S POLNÍČKEM A RED CHARD SALÁTEM, KOUSKY GRILOVANÉHO TUŇÁKA, VAŘENÝM VEJCEM, JARNÍ CIBULKOU, OKURKOU, RAJČATY A LIMETKOVOU AIOLI",
-          "price": 209
-        },
-        {
-          "type": "main",
-          "name": "SMAŽENÝ KAPUSTOVÝ KARBANÁTEK Z MLETÉHO MIXU S BRAMBOROVOU KAŠÍ A OKURKOVÝM SALÁTKEM",
-          "price": 209
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S MOZZARELLOU, PROVOLONE, ŠUNKOU, KUKUŘICÍ A JARNÍ CIBULKOU",
-          "price": 189
+          "name": "Pizza Prosciutto",
+          "price": 195
         }
       ]
     },
