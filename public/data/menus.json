@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T10:54:18.475Z",
+  "generatedAt": "2026-08-13T11:40:02.745Z",
   "weekday": 4,
   "menus": [
     {
@@ -77,7 +77,7 @@
       "items": [
         {
           "type": "soup",
-          "name": "THAJSKÁ KUŘECÍ POLÉVKA S ČERVENÝM CURRY, ZELENINOU, KOKOSOVÝM MLÉKEM, KORIANDREM A LIMETKOU",
+          "name": "PÓRKOVÁ POLÉVKA S KOŘENOVOU ZELENINOU A VAJEČNOU OMELETOU S PARMEZÁNEM",
           "price": 69
         },
         {
@@ -98,6 +98,26 @@
         {
           "type": "main",
           "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, SALÁMEM MILANO, CIBULÍ, CHILLI A PARMEZÁNEM",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "RISOTTO S KOUSKY VEPŘOVÉ PANENKY, HOUBAMI, JARNÍ CIBULKOU, CHILLI, ČESNEKEM, PETRŽELKOU A PARMEZÁNEM",
+          "price": 209
+        },
+        {
+          "type": "main",
+          "name": "GRILOVANÉ PLÁTKY LILKU S RAJČATY, KUŘECÍM MASEM, BAZALKOU A ČESNEKEM, GRATINOVANÉ PARMEZÁNEM A MOZZARELLOU",
+          "price": 199
+        },
+        {
+          "type": "main",
+          "name": "BURGER S GRILOVANÝM MLETÝM HOVĚZÍM KRKEM, CHEDDAREM, SLANINOVOU MAJONÉZOU, NAKLÁDANOU OKURKOU, LISTOVÝM SALÁTEM A HRANOLKY",
+          "price": 219
+        },
+        {
+          "type": "main",
+          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, OLIVAMI, CIBULÍ A TUŇÁKEM",
           "price": 189
         }
       ]
