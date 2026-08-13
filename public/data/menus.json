@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T14:16:40.090Z",
+  "generatedAt": "2026-08-13T15:28:20.255Z",
   "weekday": 4,
   "menus": [
     {
@@ -124,6 +124,26 @@
           "type": "main",
           "name": "Domácí lívance s omáčkou z lesních plodů a zakysanou smetanou",
           "price": 149
+        },
+        {
+          "type": "main",
+          "name": "Moravská zelnice s klobásou a bramborem",
+          "price": 49
+        },
+        {
+          "type": "soup",
+          "name": "Krémové risotto s cuketou, anglickou slaninou, česnekem a tekutým čedarem",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Salát s kuřecím prsíčkem, mixem listových salátů, baby špenátem, rajčetem, salátovou okurkou, jahodami, balkánským sýrem a dresinkem z olivového oleje, medu, dijonské hořčice a pomerančové šťávy",
+          "price": 199
+        },
+        {
+          "type": "main",
+          "name": "Medailonky z vepřové panenky na grilu s gratinovaným bramborem a pepřovou omáčkou",
+          "price": 209
         }
       ]
     },
