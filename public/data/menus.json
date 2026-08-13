@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-08-13T12:50:13.384Z",
+  "generatedAt": "2026-08-13T14:16:40.090Z",
   "weekday": 4,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Řepný krém s kozím sýrem a krutony",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Květákový mozeček, vařené brambory",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Cikánská hovězí pečeně, houskové knedlíky",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Vepřový řízek, hranolky, tatarská omáčka",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Pražená thajská rýže s kuřecím masem, arašídy, zelenina",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,26 +33,21 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "main",
-          "name": "Uzená s kroupami a zeleninou",
+          "name": "Drůbeží s krupičkou a vejcem",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Moravský vrabec, bílé kysané zelí, bramborové knedlíky",
-          "price": 169
+          "name": "Brynzové halušky se slaninou a smaženou cibulkou",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Grilované kuřecí prso, sýrová omáčka, krokety",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Chilli con Carné, divoká rýže, zakysaná smetana, koriandr",
+          "name": "Plněná paprika s rajskou omáčkou, dušená rýže",
           "price": 175
         }
       ]
@@ -79,26 +64,6 @@
           "type": "soup",
           "name": "PÓRKOVÁ POLÉVKA S KOŘENOVOU ZELENINOU A VAJEČNOU OMELETOU S PARMEZÁNEM",
           "price": 69
-        },
-        {
-          "type": "soup",
-          "name": "KRÉMOVÉ RISOTTO S GRILOVANOU VEPŘOVOU PANENKOU, ARTYČOKY A PARMEZÁNOVÝM CHIPSEM",
-          "price": 209
-        },
-        {
-          "type": "main",
-          "name": "LASAGNE S KOUSKY LOSOSA, ŠPENÁTEM, ČESNEKEM A BEŠAMELOVOU OMÁČKOU, ZAPEČENÉ MOZZARELLOU",
-          "price": 209
-        },
-        {
-          "type": "main",
-          "name": "KUŘECÍ PRSÍČKO V PARMEZÁNOVÉM TĚSTÍČKU SE ŠŤOUCHANÝM BRAMBOREM S JARNÍ CIBULKOU, MLADÝM ŠPENÁTEM A SMETANOU",
-          "price": 219
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, SALÁMEM MILANO, CIBULÍ, CHILLI A PARMEZÁNEM",
-          "price": 189
         },
         {
           "type": "main",
