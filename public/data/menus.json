@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T11:37:24.508Z",
+  "generatedAt": "2026-08-14T12:44:14.457Z",
   "weekday": 5,
   "menus": [
     {
@@ -70,31 +70,6 @@
       "status": "ok",
       "message": "Načteno.",
       "items": [
-        {
-          "type": "soup",
-          "name": "KRÉM ZE ŽLUTÉHO HRACHU S RESTOVANOU SLANINOU",
-          "price": 69
-        },
-        {
-          "type": "main",
-          "name": "LINGUINE S KRŮTÍM MASEM, SUŠENÝMI RAJČATY, OLIVAMI, SMETANOU, BAZALKOU A PARMEZÁNEM",
-          "price": 199
-        },
-        {
-          "type": "main",
-          "name": "VELKÝ ŘECKÝ ZELENINOVÝ SALÁT S GRILOVANÝMI KUŘECÍMI KOUSKY, OLIVAMI, OREGANEM A TZATZIKI",
-          "price": 209
-        },
-        {
-          "type": "main",
-          "name": "ZVĚŘINOVÉ RAGÚ S NAŠIMI BRAMBORÁČKY",
-          "price": 219
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S MOZZARELLOU, VEPŘOVOU PANENKOU, PANCETTOU A PAPRIKOU",
-          "price": 189
-        },
         {
           "type": "soup",
           "name": "GULÁŠOVÁ POLÉVKA",
