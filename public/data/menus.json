@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-08-14T12:44:14.457Z",
+  "generatedAt": "2026-08-14T14:09:25.125Z",
   "weekday": 5,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
-          "type": "main",
-          "name": "Minestrone",
+          "type": "soup",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Míchaný zeleninový salát s grilovaným hermelínem a brusinkovým dresingem",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Špenátové lasagne s lososem, zeleninový salátek",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Pečená kuřecí roláda na tymiánu a slanině, rýže",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí steak zapečený broskví a sýrem, krokety, tatarská omáčka",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,21 +33,31 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "main",
-          "name": "Drůbeží s krupičkou a vejcem",
+          "type": "soup",
+          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Brynzové halušky se slaninou a smaženou cibulkou",
+          "name": "Frankfurtská hovězí pečeně, houskové knedlíky/ dušená rýže",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Plněná paprika s rajskou omáčkou, dušená rýže",
+          "name": "Grilované kuřecí prso, arašídová omáčka, rýže basmati, koriandr",
+          "price": 175
+        },
+        {
+          "type": "main",
+          "name": "Rozpečený hermelín, vařené brambory, brusinková majonéza",
+          "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Bramborové noky s rajčaty, pancettou, chilli, červeným vínem, česnekem, bazalkou a parmazánem",
           "price": 175
         }
       ]
