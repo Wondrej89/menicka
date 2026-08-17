@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-08-17T12:25:18.115Z",
+  "generatedAt": "2026-08-17T13:13:46.375Z",
   "weekday": 1,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Tomatová polévka, hlíva ústřičná, sušená rajčata",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Čočka na kyselo, klobása, vejce, cibulka",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Vepřový pivovarský tokáň, rýže, uzený sýr",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Pečené kuřecí paličky v BBQ marinádě, hranolky, coleslaw",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Smažené krůtí prso v cornflakes, bramborová kaše, okurkový salátek",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
