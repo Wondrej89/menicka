@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T13:13:46.375Z",
+  "generatedAt": "2026-08-17T13:58:45.066Z",
   "weekday": 1,
   "menus": [
     {
@@ -33,31 +33,31 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "soup",
-          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
+          "type": "main",
+          "name": "Tomatová se zeleninou",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Frankfurtská hovězí pečeně, houskové knedlíky/ dušená rýže",
+          "name": "Hovězí guláš, houskové knedlíky, těstoviny",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Grilované kuřecí prso, arašídová omáčka, rýže basmati, koriandr",
-          "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Rozpečený hermelín, vařené brambory, brusinková majonéza",
+          "name": "Smažený sýr, vařené brambory, tatarka",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Bramborové noky s rajčaty, pancettou, chilli, červeným vínem, česnekem, bazalkou a parmazánem",
+          "name": "Pečené krůtí prso, teplý salát z černé čočky Beluga, rukola",
+          "price": 175
+        },
+        {
+          "type": "soup",
+          "name": "Krémové hříbkové risotto s bílým vínem, hladkolistou petrželí a parmazánem",
           "price": 175
         }
       ]
@@ -66,34 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "KRÉM Z PEČENÉHO KVĚTÁKU S RESTOVANÝM CHORIZEM A KRUTONY",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "LINGUINE S KOUSKY HOVĚZÍHO RUMP STEAKU, ROZMARÝNEM, ČESNEKEM, PETRŽELKOU, MÁSLEM, RUKOLOU A PARMEZÁNEM",
-          "price": 189
+          "name": "Spaghetti Bolognese",
+          "price": 185
         },
         {
           "type": "main",
-          "name": "TRHANÉ LISTOVÉ SALÁTY S PARMSKOU ŠUNKOU, ŽLUTÝM MELOUNEM, CHERRY RAJČATY, OKURKOU A BALZAMIKOVOU REDUKCÍ S GRANÁTOVÝM JABLÍČKEM",
-          "price": 209
-        },
-        {
-          "type": "main",
-          "name": "LOSOS NA GRILU S GRILOVANOU ZELENINOU, PEČENÝMI BRAMBORAMI S BYLINKAMI A OMÁČKOU Z ČERVENÝCH POMERANČŮ",
-          "price": 229
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ SE SALSICCIOU, MOZZARELLOU, VENTRICINOU, KUKUŘICÍ A GORGONZOLOU",
-          "price": 189
+          "name": "Pizza Prosciutto",
+          "price": 195
         }
       ]
     },
