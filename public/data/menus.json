@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-08-18T12:27:10.847Z",
+  "generatedAt": "2026-08-18T13:22:58.233Z",
   "weekday": 2,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Gobova juha (slovinská houbová polévka)",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Penne, kuřecí maso, špenátová omáčka, sýr",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Chilli sin carne, rýže",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Kovbojský měšec, šťouchané brambory, vepřová šťáva",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Vepřová panenka v sezamové krustě, grilovaná zelenina, bylinková omáčka",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,32 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "main",
-          "name": "Tomatová se zeleninou",
+          "type": "soup",
+          "name": "Žampiónový krém s krutóny",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Hovězí guláš, houskové knedlíky, těstoviny",
+          "name": "Boloňské lasagne, tomatová polpa",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Smažený sýr, vařené brambory, tatarka",
+          "name": "Grilovaný sýr Halloumi, rozmarýnové brambory, marinovaný lilek, omáčka z pečených paprik",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Pečené kuřecí stehno, pestrá zelenina, dušená rýže",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Pečené krůtí prso, teplý salát z černé čočky Beluga, rukola",
-          "price": 175
-        },
-        {
-          "type": "soup",
-          "name": "Krémové hříbkové risotto s bílým vínem, hladkolistou petrželí a parmazánem",
-          "price": 175
+          "name": "Grilované vepřové karé Duroc, šťouchané brambory, pečená hlíva, omáčka z červeného vína",
+          "price": 195
         }
       ]
     },
