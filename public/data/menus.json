@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T07:59:33.371Z",
+  "generatedAt": "2026-08-19T08:40:25.900Z",
   "weekday": 3,
   "menus": [
     {
@@ -47,7 +47,7 @@
       "items": [
         {
           "type": "soup",
-          "name": "Žampiónový krém s krutóny",
+          "name": "Polévka: Žampiónový krém s krutóny",
           "price": 38
         },
         {
@@ -64,11 +64,6 @@
           "type": "main",
           "name": "Pečené kuřecí stehno, pestrá zelenina, dušená rýže",
           "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Grilované vepřové karé Duroc, šťouchané brambory, pečená hlíva, omáčka z červeného vína",
-          "price": 195
         }
       ]
     },
