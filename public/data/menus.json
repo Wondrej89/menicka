@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T11:49:21.856Z",
+  "generatedAt": "2026-08-21T12:28:30.155Z",
   "weekday": 5,
   "menus": [
     {
@@ -169,6 +169,31 @@
           "type": "main",
           "name": "Domácí lívance s omáčkou z lesních plodů a zakysanou smetanou",
           "price": 149
+        },
+        {
+          "type": "soup",
+          "name": "Brokolicový krém se smetanou a krutony",
+          "price": 49
+        },
+        {
+          "type": "main",
+          "name": "Smažený sýr eidam s vařeným bramborem a tatarskou omáčkou",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Rarášci – kuřecí kousky v bramboráku se zelným salátkem s karotkou",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Caesar con Gamberi – grilované krevety na římském salátu s krutony a caesar dresinkem, hoblinky sýru Gran Moravia",
+          "price": 209
+        },
+        {
+          "type": "main",
+          "name": "Hovězí burger Mexicana – listový salát, rajče, slanina, čedar, chilli papričky a guacamole salsa, nachos",
+          "price": 259
         }
       ]
     },
