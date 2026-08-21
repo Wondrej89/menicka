@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T15:00:51.901Z",
+  "generatedAt": "2026-08-21T15:55:53.800Z",
   "weekday": 5,
   "menus": [
     {
@@ -70,31 +70,6 @@
       "status": "ok",
       "message": "Načteno.",
       "items": [
-        {
-          "type": "soup",
-          "name": "GULÁŠOVÁ POLÉVKA",
-          "price": 69
-        },
-        {
-          "type": "soup",
-          "name": "KRÉMOVÉ ŠPAGETY ALFREDO S MÁSLEM, PETRŽELKOU A PARMEZÁNEM",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "TRHANÉ LISTOVÉ SALÁTY S GRILOVANÝM ŠPÍZEM S KUŘECÍM MASEM, CIBULKOU A SLANINOU, RAJČATY, GRILOVANOU NAKLÁDANOU PAPRIKOU A JOGURTOVÝM DRESINKEM",
-          "price": 209
-        },
-        {
-          "type": "main",
-          "name": "SMAŽENÝ VEPŘOVÝ ŘÍZEK S BRAMBOROVOU KAŠÍ A SALÁTKEM Z ČERVENÉHO ZELÍ",
-          "price": 209
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S MOZZARELLOU, ŠPENÁTEM A LOSOSEM",
-          "price": 189
-        },
         {
           "type": "main",
           "name": "ZELŇAČKA S KLOBÁSOU HOUBAMI A BRAMBOREM",
