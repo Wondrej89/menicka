@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T13:31:05.622Z",
+  "generatedAt": "2026-08-24T14:32:47.719Z",
   "weekday": 1,
   "menus": [
     {
@@ -33,31 +33,31 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "soup",
-          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
+          "type": "main",
+          "name": "Bramboračka",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Znojemská hovězí pečeně, houskové knedlíky/ dušená rýže",
+          "name": "Hovězí na houbách, houskové knedlíky, těstoviny",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Pečená šunka od kosti na medu, bramborová kaše, zelný salát s křenem",
-          "price": 175
+          "name": "Smažený květák, vařené brambory, tatarka",
+          "price": 169
         },
         {
           "type": "main",
-          "name": "Grilovaný kuřecí steak, omáčka z lišek a tymiánu, bramborové krokety",
+          "name": "Uzená vepřová kýta, čočka na kyselo, volské oko, okurka",
           "price": 175
         },
         {
-          "type": "main",
-          "name": "Penne s tyrolským špekem, sušenými rajčaty, brokolicí, smetanou, bazalkou a parmazánem",
+          "type": "soup",
+          "name": "Krémové risotto s parmskou šunkou, rajčaty, kapary, hladkolistou petrželí, bílým vínem a parmazánem",
           "price": 175
         }
       ]
