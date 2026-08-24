@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T14:32:47.719Z",
+  "generatedAt": "2026-08-24T15:30:47.250Z",
   "weekday": 1,
   "menus": [
     {
@@ -66,34 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "JEMNÝ HRÁŠKOVÝ KRÉM S MÁTOU, CITRONEM A KRUTONY",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "LINGUINE „ALLA NORMA“ SE SMAŽENÝM LILKEM, RAJČATY, BAZALKOU, RICOTTOU A PARMEZÁNEM",
-          "price": 189
+          "name": "Spaghetti Bolognese",
+          "price": 185
         },
         {
           "type": "main",
-          "name": "SALÁT S GRILOVANÝMI KOUSKY HOVĚZÍHO MASA, RUKOLOU, CHERRY RAJČATY, HOBLINKAMI PARMEZÁNU A ZÁKLADNÍM DRESINKEM",
-          "price": 199
-        },
-        {
-          "type": "main",
-          "name": "PEČENÉ KUŘECÍ STEHÝNKO NA ČESNEKU A ROZMARÝNU S KARI RÝŽÍ",
-          "price": 209
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA BBQ ZÁKLADĚ S MOZZARELLOU, VENTRICINOU, SLANINOU A CHEDARREM",
-          "price": 189
+          "name": "Pizza Prosciutto",
+          "price": 195
         }
       ]
     },
