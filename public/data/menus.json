@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-08-25T12:30:27.947Z",
+  "generatedAt": "2026-08-25T13:41:07.305Z",
   "weekday": 2,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
-          "type": "main",
-          "name": "Slovenská kapustnica",
+          "type": "soup",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Smažené žampióny, vařené brambory, tatarská omáčka",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Uzená krkovice, hrachová kaše, cibulka, kyselá okurka",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Hovězí znojemská pečeně, houskové knedlíky",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Gnocchi s lososem, smetana, sušená rajčata, baby špenát, sýr",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,32 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "main",
-          "name": "Bramboračka",
+          "name": "Uzená s kroupami",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Hovězí na houbách, houskové knedlíky, těstoviny",
+          "name": "Vepřový gyros, hranolky, tzatziky",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Smažený květák, vařené brambory, tatarka",
-          "price": 169
+          "name": "Zapečená cuketa s trhaným krůtím masem, tomatová polpa, kuskus",
+          "price": 179
         },
         {
           "type": "main",
-          "name": "Uzená vepřová kýta, čočka na kyselo, volské oko, okurka",
+          "name": "Hovězí nudličky „Stroganoff“, dušená rýže",
           "price": 175
         },
         {
-          "type": "soup",
-          "name": "Krémové risotto s parmskou šunkou, rajčaty, kapary, hladkolistou petrželí, bílým vínem a parmazánem",
-          "price": 175
+          "type": "main",
+          "name": "Variace listových salátů s grilovaným kozím sýrem, řepou, hruškou, medovým dresinkem a kukuřičnou polentou",
+          "price": 185
         }
       ]
     },
