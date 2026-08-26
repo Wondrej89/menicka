@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-08-26T12:33:15.004Z",
+  "generatedAt": "2026-08-26T13:46:19.040Z",
   "weekday": 3,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
-          "type": "main",
-          "name": "Bramboračka",
+          "type": "soup",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Salát z červené čočky a zeleniny, citrusový vinaigrette, grilované halloumi",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Vepřová játra na cibulce, rýže",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí Cordon Bleu, bramborová kaše, rajčatový salátek",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Hovězí steak, opečené grenaille, kukuřice, chimichurri",
-          "price": 238
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,32 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "main",
-          "name": "Uzená s kroupami",
+          "name": "Tomatová s bulgurem",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Vepřový gyros, hranolky, tzatziky",
+          "name": "Pečené kuřecí stehno alá bažant, červené zelí, bramborové knedlíky",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Zapečená cuketa s trhaným krůtím masem, tomatová polpa, kuskus",
-          "price": 179
+          "name": "Srbské vepřové rizoto, strouhaný sýr, červená řepa",
+          "price": 169
         },
         {
           "type": "main",
-          "name": "Hovězí nudličky „Stroganoff“, dušená rýže",
-          "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Variace listových salátů s grilovaným kozím sýrem, řepou, hruškou, medovým dresinkem a kukuřičnou polentou",
+          "name": "Grilované kachní prso, omáčka ze sušených švestek, šťouchané brambory",
           "price": 185
+        },
+        {
+          "type": "main",
+          "name": "Steak z tuňáka žlutoploutvého, lehce pikantní salát z červené čočky",
+          "price": 199
         }
       ]
     },
