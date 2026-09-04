@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T14:26:20.861Z",
+  "generatedAt": "2026-09-04T17:41:14.314Z",
   "weekday": 5,
   "menus": [
     {
@@ -71,28 +71,28 @@
       "message": "Načteno.",
       "items": [
         {
-          "type": "soup",
-          "name": "FRANKFURTSKÁ POLÉVKA S KLOBÁSOU A BRAMBOREM",
+          "type": "main",
+          "name": "FRANCOUZSKÁ CIBULAČKA SE SÝROVÝMI KRUTONY",
           "price": 69
         },
         {
           "type": "main",
-          "name": "RIGATONI S ITALSKOU KLOBÁSOU SALSICCIA, HOUBAMI A JARNÍ CIBULKOU V TOMATOVO-SMETANOVÉ OMÁČCE S PETRŽELKOU A PARMEZÁNEM",
+          "name": "RIGATONI S ITALSKOU PANCETTOU, ČERVENOU CIBULKOU, BÍLÝM VÍNEM, CHILLI A BAZALKOU V TOMATOVÉ OMÁČCE, SYPANÉ PECORINEM",
           "price": 189
         },
         {
           "type": "main",
-          "name": "TRHANÉ LISTOVÉ SALÁTY S GRILOVANÝM SÝREM HALLOUMI, MLADÝM ŠPENÁTEM, BAREVNÝMI CHERRY RAJČATY, ČERVENÝM VÍNEM, KRUTONY A ZÁLIVKOU",
-          "price": 199
+          "name": "SALÁT S PROSCIUTTEM, HRUŠKOU A PARMEZÁNEM — RUKOLA, PROSCIUTTO DI PARMA, ČERSTVÁ HRUŠKA, OŘECHY, HOBLINY PARMEZÁNU, MEDOVO-BALSAMIKOVÝ DRESINK",
+          "price": 209
         },
         {
           "type": "main",
-          "name": "GRILOVANÉ MEDAILONKY Z HOVĚZÍHO RUMP STEAKU S REDUKOVANOU OMÁČKOU A PEČENÝMI BRAMBORAMI S CIBULKOU",
-          "price": 229
+          "name": "POMALU PEČENÁ HOVĚZÍ KÝTA NA ČERVENÉM VÍNĚ S KOŘENOVOU ZELENINOU A BRAMBOROVOU KAŠÍ",
+          "price": 219
         },
         {
           "type": "main",
-          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S MOZZARELLOU, SALÁMEM MILANO, PAPRIKOU A PARMEZÁNEM",
+          "name": "219 Kč",
           "price": 189
         }
       ]
