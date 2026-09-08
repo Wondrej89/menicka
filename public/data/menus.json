@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T14:39:46.096Z",
+  "generatedAt": "2026-09-08T18:12:04.008Z",
   "weekday": 2,
   "menus": [
     {
@@ -68,7 +68,7 @@
       "url": "https://www.corleone.cz/poledni-menu-andel",
       "status": "ok",
       "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
@@ -131,39 +131,24 @@
       "id": "smichovska-formanka",
       "name": "Smíchovská Formanka",
       "url": "http://smichovskaformanka.cz/",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "kuřecí vývar s kapáním",
-          "price": 45
+          "name": "Bramboračka",
+          "price": 42
         },
         {
           "type": "main",
-          "name": "Smažená rýže s kuřecím masem, chilli, koriandr",
-          "price": 179
+          "name": "Segedínský guláš, houskový knedlík",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Kuře na paprice s těstoviny",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Mac and cheese (makaróny se sýrem)",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Grilovaná vepřová panenka, šťouch. brambor, hořčičná om.",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Pljeskavica s tzazikami, hranolky, zeleninový salát",
-          "price": 189
+          "name": "Kuřecí nudličky na kari, rýže",
+          "price": 172
         }
       ]
     },
