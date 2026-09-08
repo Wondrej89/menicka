@@ -1,29 +1,39 @@
 {
-  "generatedAt": "2026-09-07T16:33:29.093Z",
-  "weekday": 1,
+  "generatedAt": "2026-09-08T10:19:44.263Z",
+  "weekday": 2,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Silný hovězí vývar s masem a nudlemi",
+          "name": "Hráškový krém s mátou, krutony",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
-          "price": 189
+          "name": "Květákové placky se sýrem, vařené brambory, bylinková majonéza",
+          "price": 174
         },
         {
           "type": "main",
-          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
-          "price": 175
+          "name": "Nastavovaná kaše s kroupami, uzené maso, kyselá okurka",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Hovězí kostky na pepři, rýže",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Vepřový Texas steak, kukuřice, focaccia, vepřová šťáva",
+          "price": 218
         }
       ]
     },
@@ -33,7 +43,7 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
@@ -66,24 +76,34 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Rajčatová polévka s bazalkou",
-          "price": 45
+          "name": "ŠPENÁTOVÝ KRÉM S KRUTONY A LOSOSEM GRAVLAX",
+          "price": 69
         },
         {
           "type": "main",
-          "name": "Spaghetti Bolognese",
-          "price": 185
+          "name": "BRAMBOROVÉ NOKY S KOUSKY VEPŘOVÉ PANENKY, SUŠENÝMI RAJČATY, BAZALKOVÝM PESTEM A PARMAZÁNEM",
+          "price": 209
+        },
+        {
+          "type": "soup",
+          "name": "SALÁT S GRILOVANOU ZELENINOU A BURRATOU — CUKETA, LILEK, PAPRIKA, CHERRY RAJČATA, UPROSTŘED KRÉMOVÁ BURRATA, PESTO",
+          "price": 219
         },
         {
           "type": "main",
-          "name": "Pizza Prosciutto",
-          "price": 195
+          "name": "PEČENÁ SEKANÁ S MÁSLOVÝMI BRAMBORAMI S PETRŽELKOU, RAJČATOVÝ SALÁTEK",
+          "price": 199
+        },
+        {
+          "type": "main",
+          "name": "PIZZA · TOMATO, ČESNEK, MOZZARELLA, SALSICCIA, KAPARY, JARNÍ CIBULKA",
+          "price": 189
         }
       ]
     },
@@ -97,28 +117,28 @@
       "items": [
         {
           "type": "soup",
-          "name": "Delikátní rukolový krém se smetanou a krutony",
+          "name": "Mexická fazolová polévka s klobásou a bramborem",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Zapečené těstoviny „fleky“ s uzeným masem a vejcem, kyselá okurka",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Salát s vepřovou panenkou, mixem listových salátů, melounem Cantaloupe, rajčetem, salátovou okurkou, paprikou a dresinkem z olivového oleje, limetkové šťávy a medu, opečená tortilla",
+          "name": "Smažený kuřecí řízek „Cordon bleu“ s vepřovou šunkou a sýrem Gouda, podávaný s bramborovou kaší a okurkovým salátkem",
           "price": 199
         },
         {
           "type": "main",
-          "name": "Koprová omáčka s hovězí pečení a houskovým knedlíkem",
-          "price": 209
+          "name": "Naše linguine s vepřovou panenkou, česnekem, rajčatovou salsou, čerstvým chilli, baby špenátem a sýrem Gran Moravia",
+          "price": 199
         },
         {
           "type": "main",
-          "name": "Caesar burger – kuřecí prso, listový salát, rajče, čedar, slanina a caesar dresink, hranolky",
-          "price": 249
+          "name": "Salát s trhaným kachním masem, mixem listových salátů, rýžovými nudlemi, rajčetem, salátovou okurkou, granátovým jablkem a medovo hořčičným dresinkem s pomerančovou šťávou a chilli",
+          "price": 199
+        },
+        {
+          "type": "main",
+          "name": "Hovězí burger Smíchovna – listový salát, rajče, slanina, čedar, karamelizovaná cibulka, kyselá okurka a česneková majonéza",
+          "price": 259
         },
         {
           "type": "main",
@@ -136,34 +156,34 @@
       "message": "Načteno.",
       "items": [
         {
-          "type": "main",
-          "name": "frankfurtská",
+          "type": "soup",
+          "name": "kuřecí vývar s kapáním",
           "price": 45
         },
         {
           "type": "main",
-          "name": "Vařený hovězí krk, koprová omáčka, vejce, housk. knedlík",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Smažený květák, vařené brambory, tatarka",
-          "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí steak, zeleninový kuskus, pesto ze sušených rajčat",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Vepřové výpečky, bram. knedlík, kysané zelí",
+          "name": "Smažená rýže s kuřecím masem, chilli, koriandr",
           "price": 179
         },
         {
           "type": "main",
-          "name": "Grilovaný losos, omáčka beurre blank, grenaille, špenát",
-          "price": 229
+          "name": "Kuře na paprice s těstoviny",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Mac and cheese (makaróny se sýrem)",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Grilovaná vepřová panenka, šťouch. brambor, hořčičná om.",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Pljeskavica s tzazikami, hranolky, zeleninový salát",
+          "price": 189
         }
       ]
     },
