@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-09-09T10:28:07.178Z",
+  "generatedAt": "2026-09-09T14:43:17.722Z",
   "weekday": 3,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Mexická fazolová polévka s mletým masem",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Cizrnové kari se zeleninou, rýže",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Hovězí pečeně na slanině, houskové knedlíky",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Pečené vepřové žebro s BBQ marinádou, hranolky, coleslaw",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Hovězí steak, gratinované česnekové brambory, pepřová omáčka, zeleninový salátek",
-          "price": 238
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,31 +33,31 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "main",
-          "name": "Bramboračka",
+          "type": "soup",
+          "name": "Bramborový krém s pórkem",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Lehce pikantní kuřecí jatýrka se zeleninou a dušenou rýží",
+          "name": "¼ Pečené kachny, červené zelí, bramborové knedlíky",
+          "price": 195
+        },
+        {
+          "type": "main",
+          "name": "Zapečené šunkofleky, okurka",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Grilovaný sýr Halloumi, cizrnové pyré, marinovaný lilek, rukola",
+          "name": "Chilli con Carné, divoká rýže, zakysaná smetana, koriandr",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Špalíky z vepřové panenky, čedarová omáčka, bramborové krokety",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Salát z rýžových nudlí s krevetami, křupavou zeleninou a sezamem",
+          "name": "Grilovaná treska tmavá, salsa z červené řepy, celerové pyré",
           "price": 189
         }
       ]
