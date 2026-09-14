@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-09-14T11:19:12.076Z",
+  "generatedAt": "2026-09-14T16:59:38.723Z",
   "weekday": 1,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Čočková polévka s uzeninou",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Tagliatelle pomodoro, bazalka, mozzarella",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Rozlítaný ptáček, dušená rýže",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Plněné bramborové knedlíky uzeným masem, bílé zelí, cibulka",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Fish and chips, citronová majonéza",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -76,34 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "KRÉMOVÁ KUKUŘIČNÁ POLÉVKA S CHILLI, KOKOSOVÝM MLÉKEM A GRILOVANOU KREVETOU",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "ŠPAGETY S KOUSKY HOVĚZÍHO RUMP STEAKU, OLIVAMI, LILKEM A BAZALKOU V TOMATOVÉ OMÁČCE, PARMAZÁN",
-          "price": 199
+          "name": "Spaghetti Bolognese",
+          "price": 185
         },
         {
           "type": "main",
-          "name": "TRHANÉ LISTOVÉ SALÁTY S GRILOVANÝM CAMEMBERTEM, ČERVENÝM JABLÍČKEM, CHERRY RAJČATY, RUKOLOU, LÍSKOVÝMI OŘÍŠKY A BRUSINKOVOU OMÁČKOU",
-          "price": 199
-        },
-        {
-          "type": "main",
-          "name": "VEPŘOVÉ VÝPEČKY SE SMETANOVÝM ŠPENÁTEM A BRAMBOROVÝMI ŠPALÍČKY",
-          "price": 199
-        },
-        {
-          "type": "main",
-          "name": "PIZZA · TOMATO, MOZZARELLA, TUŇÁK, OLIVY, CIBULE",
-          "price": 189
+          "name": "Pizza Prosciutto",
+          "price": 195
         }
       ]
     },
