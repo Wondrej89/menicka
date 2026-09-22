@@ -1,29 +1,39 @@
 {
-  "generatedAt": "2026-09-21T17:30:43.019Z",
-  "weekday": 1,
+  "generatedAt": "2026-09-22T10:39:05.892Z",
+  "weekday": 2,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Silný hovězí vývar s masem a nudlemi",
+          "name": "Kuřecí vývar se zeleninou, maso, kapání",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
-          "price": 189
+          "name": "Segedínský guláš, houskové knedlíky",
+          "price": 174
         },
         {
           "type": "main",
-          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
-          "price": 175
+          "name": "Italské dýňové rizoto, baby špenát, perličky kozího sýra",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Farmářský salát, slanina, vejce, vepřová panenka",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Butter chicken, bylinkový kuskus",
+          "price": 218
         }
       ]
     },
@@ -33,7 +43,7 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
@@ -66,24 +76,34 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Rajčatová polévka s bazalkou",
-          "price": 45
+          "name": "BROKOLICOVÝ KRÉM S KRUTONY",
+          "price": 69
         },
         {
           "type": "main",
-          "name": "Spaghetti Bolognese",
-          "price": 185
+          "name": "RIGATONI S KOUSKY VEPŘOVÉ PANENKY, JARNÍ CIBULKOU, HOUBAMI, ČESNEKEM A SUŠENÝMI RAJČATY, PARMAZÁN",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Pizza Prosciutto",
-          "price": 195
+          "name": "FARMÁŘSKÝ SALÁT S RESTOVANÝMI FAZOLKAMI SE SLANINOU, SÁZENÝM VEJCEM, PEČENÝMI BRAMBORAMI A MEDOVO-HOŘČICOVÝM DRESINKEM",
+          "price": 209
+        },
+        {
+          "type": "main",
+          "name": "209 Kč",
+          "price": 209
+        },
+        {
+          "type": "main",
+          "name": "PIZZA · TOMATO, ČESNEK, MOZZARELLA, SALSICCIA, ŠUNKA",
+          "price": 189
         }
       ]
     },
@@ -96,28 +116,28 @@
       "message": "Načteno.",
       "items": [
         {
-          "type": "soup",
-          "name": "Česnekový krém zjemněný smetanou s krutony z opečeného chleba",
+          "type": "main",
+          "name": "Staročeská kulajda s bramborem a vejci",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Pečené baby kuřátko na másle s bramborovou kaší a okurkovým salátkem",
+          "name": "Krajová specialita “Oznické halušky“ s uzeným masem a kysaným zelím, zapečené se zakysanou smetanou s koprem",
           "price": 189
         },
         {
           "type": "main",
-          "name": "Naše linguine s boloňským ragú a sýrem Gran Moravia",
-          "price": 189
+          "name": "Kuřecí závitek plněný klobásou a anglickou slaninou, šťouchaný brambor a silná šťáva",
+          "price": 199
         },
         {
           "type": "main",
-          "name": "Křenová omáčka s hovězí pečení a houskovým knedlíkem",
-          "price": 209
+          "name": "Grilovaná vepřová panenka na římském salátu s pečenou dýní Hokaido, pečenými cherry rajčaty, salátovou okurkou, červenou cibulkou, balkánským sýrem a hořčičným dresinkem s medem, opečená tortilla",
+          "price": 199
         },
         {
           "type": "main",
-          "name": "Hovězí Texas burger – listový salát, rajče, cibulové kroužky, tekutý čedar a dijonská majonéza, hranolky",
+          "name": "Hovězí burger Smíchovna – listový salát, rajče, slanina, čedar, karamelizovaná cibulka, kyselá okurka a česneková majonéza",
           "price": 259
         },
         {
@@ -137,32 +157,32 @@
       "items": [
         {
           "type": "main",
-          "name": "pórková s bramborem a vejcem",
+          "name": "dršťková",
           "price": 45
         },
         {
           "type": "main",
-          "name": "Králičí stehno na smetaně, houskové knedlíky",
+          "name": "Španělský ptáček, jasmínová rýže / housk.kn.",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Smažené kuřecí stripsy, bramborová kaše, rajčatový salátek",
           "price": 185
         },
         {
           "type": "main",
-          "name": "Vepřový plátek na houbách, dušená jasmínová rýže",
+          "name": "Krůtí guláš s těstovinami",
           "price": 185
         },
         {
           "type": "main",
-          "name": "Tortelloni plněné vepřovým masem, omáčka z modrého sýra",
-          "price": 179
+          "name": "Grilovaný kozí sýr s pečenou červenou řepou, hruškou, ořechy, balsamico dressing",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Salátový talíř Caesar s kuřecím masem, slaninou a krutony",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Cordon bleu, bramborová kaše, okurkový salát",
+          "name": "Medailónky z vepř. Panenky, pepřová omáčka, hranolky",
           "price": 189
         }
       ]
