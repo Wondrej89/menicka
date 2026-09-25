@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-09-25T10:52:44.312Z",
+  "generatedAt": "2026-09-25T15:41:06.386Z",
   "weekday": 5,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
           "type": "soup",
-          "name": "Frankfurtská polévka s párkem",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Míchaný salát s cizrnou, citrónový vinaigrette, grilované halloumi",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Pečené rybí filé, bylinkové pesto, šťouchané brambory, rajčatový salátek",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Záhorácký závitek, bramborové knedlíky",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Filírovaná vepřová panenka, tagliatelle, sušená rajčata, rukola, hobliny sýra",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,32 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "main",
-          "name": "MINESTRONE",
+          "type": "soup",
+          "name": "Kuřecí vývar s masem, zeleninou a nudlemi",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Halušky s uzeným masem a kysaným zelím, smažená cibulka",
-          "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Jelení ragú na smetaně, karlovarský knedlík",
+          "name": "Znojemská hovězí pečeně, houskové knedlíky/ rýže",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Smažené vepřové řízky, rakouský bramborový salát/ kaše",
-          "price": 175
+          "name": "Grilované kachní prso, teriyaki omáčka, brokolice, dušená rýže, sezam",
+          "price": 179
         },
         {
-          "type": "soup",
-          "name": "3ks Meruňkové knedlíky se strouhaným tvarohem, máslem a cukrem",
+          "type": "main",
+          "name": "Pečená vinná klobása, bramborová kaše, červená řepa",
           "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Tortigllioni s cuketou, pestem z pečených paprik, rukolou a ovčím sýrem Pecorino",
+          "price": 175
         }
       ]
     },
@@ -80,31 +70,6 @@
       "status": "ok",
       "message": "Načteno.",
       "items": [
-        {
-          "type": "soup",
-          "name": "DRŠŤKOVÁ POLÉVKA Z HLÍVY ÚSTŘIČNÉ",
-          "price": 69
-        },
-        {
-          "type": "main",
-          "name": "LINGUINE S PARMSKOU ŠUNKOU, CHERRY RAJČÁTKY, BAZALKOU A RUKOLOU, ZJEMNĚNÉ MÁSLEM, PARMAZÁN",
-          "price": 199
-        },
-        {
-          "type": "main",
-          "name": "199 Kč",
-          "price": 219
-        },
-        {
-          "type": "main",
-          "name": "GRILOVANÉ KACHNÍ PRSÍČKO S DEMI-GLACE OMÁČKOU S VIŠNĚMI A BATÁTOVÝM PYRÉ",
-          "price": 229
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S MOZZARELLOU, ŠPENÁTEM A LOSOSEM",
-          "price": 189
-        },
         {
           "type": "soup",
           "name": "MEXICKÁ FAZOLOVÁ POLÉVKA S JALAPEÑO PAPRIČKAMI A ZAKYSANOU SMETANOU",
@@ -169,6 +134,31 @@
           "type": "main",
           "name": "Domácí lívance s omáčkou z lesních plodů a zakysanou smetanou",
           "price": 149
+        },
+        {
+          "type": "main",
+          "name": "Cibulačka s bílým vínem zjemněná smetanou, krutony z opečeného chleba",
+          "price": 49
+        },
+        {
+          "type": "main",
+          "name": "Salát s grilovaným kuřecím prsíčkem, římským salátem, rukolou, rajčetem, paprikou, černými olivami, pečeným česnekem, krutony, balzamikovou redukcí a hoblinkami sýru Gran Moravia",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Retro katův šleh z vepřové panenky se zeleninou podávaný s bramboráčky",
+          "price": 199
+        },
+        {
+          "type": "main",
+          "name": "Halušky s trhaným kachním masem, smetanou, baby špenátem, kachní šťávou a vídeňskou cibulkou",
+          "price": 199
+        },
+        {
+          "type": "main",
+          "name": "Hovězí Blue cheese burger – listový salát, rajče, modrý sýr a česneková majonéza, hranolky",
+          "price": 259
         }
       ]
     },
@@ -176,29 +166,24 @@
       "id": "smichovska-formanka",
       "name": "Smíchovská Formanka",
       "url": "http://smichovskaformanka.cz/",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
-          "type": "main",
-          "name": "Smažený kuřecí řízek s bramborovým salátek",
-          "price": 185
+          "type": "soup",
+          "name": "Bramboračka",
+          "price": 42
         },
         {
           "type": "main",
-          "name": "koktejlová majonéza",
-          "price": 189
+          "name": "Segedínský guláš, houskový knedlík",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Gnocchi s kuřecím masem, cuketou česnek, bílé víno, kapary, parmezán",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Hovězí svíčková na smetaně s houskovým knedlíkem",
-          "price": 195
+          "name": "Kuřecí nudličky na kari, rýže",
+          "price": 172
         }
       ]
     },
