@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-25T15:41:06.386Z",
-  "weekday": 5,
+  "generatedAt": "2026-09-28T12:27:29.290Z",
+  "weekday": 1,
   "menus": [
     {
       "id": "andel-restaurant",
@@ -8,7 +8,7 @@
       "url": "https://www.restauraceandel.cz/denni-nabidka",
       "status": "ok",
       "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
@@ -66,34 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
           "type": "soup",
-          "name": "MEXICKÁ FAZOLOVÁ POLÉVKA S JALAPEÑO PAPRIČKAMI A ZAKYSANOU SMETANOU",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "69 Kč",
-          "price": 189
+          "name": "Spaghetti Bolognese",
+          "price": 185
         },
         {
           "type": "main",
-          "name": "BOWL S KREVETAMI, ZELENINOU, JASMÍNOVOU RÝŽÍ, WAKAME SALÁTEM, SEZAMEM, TONKATSU OMÁČKOU A WASABI MAJONÉZOU",
-          "price": 209
-        },
-        {
-          "type": "main",
-          "name": "HOVĚZÍ STROGANOV S JASMÍNOVOU RÝŽÍ",
-          "price": 209
-        },
-        {
-          "type": "main",
-          "name": "PIZZA NA SMETANOVÉM ZÁKLADĚ S MOZZARELLOU, SALÁMY TOSCANO A VENTRICINA A PANCETTOU",
-          "price": 189
+          "name": "Pizza Prosciutto",
+          "price": 195
         }
       ]
     },
@@ -101,64 +91,24 @@
       "id": "smichovna",
       "name": "Smíchovna",
       "url": "https://www.smichovna.cz/tydenni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Týdenní menu pro dnešní den není dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Čočkový krém se zeleninou, vyškvařeným špekem a zakysanou smetanou",
-          "price": 49
+          "name": "Hovězí vývar s nudlemi",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "Vepřové kotletky bez kosti s fazolkami, šťouchaným bramborem a silnou šťávou",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Salát s kuřecím prsíčkem, mixem listových salátů, rajčetem, salátovou okurkou, pečenými bramborami Grenaille, paprikou, vařeným vejcem, červenou cibulkou a francouzským dresinkem",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Maďarský hovězí guláš s pečenou paprikou, čerstvou cibulkou a houskovým knedlíkem",
-          "price": 209
-        },
-        {
-          "type": "main",
-          "name": "Hovězí Burger Mexicana – listový salát, rajče, slanina, čedar, chilli papričky a guacamole salsa, nachos chips",
-          "price": 259
-        },
-        {
-          "type": "main",
-          "name": "Domácí lívance s omáčkou z lesních plodů a zakysanou smetanou",
-          "price": 149
-        },
-        {
-          "type": "main",
-          "name": "Cibulačka s bílým vínem zjemněná smetanou, krutony z opečeného chleba",
-          "price": 49
-        },
-        {
-          "type": "main",
-          "name": "Salát s grilovaným kuřecím prsíčkem, římským salátem, rukolou, rajčetem, paprikou, černými olivami, pečeným česnekem, krutony, balzamikovou redukcí a hoblinkami sýru Gran Moravia",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Retro katův šleh z vepřové panenky se zeleninou podávaný s bramboráčky",
+          "name": "Svíčková na smetaně, houskový knedlík",
           "price": 199
         },
         {
           "type": "main",
-          "name": "Halušky s trhaným kachním masem, smetanou, baby špenátem, kachní šťávou a vídeňskou cibulkou",
-          "price": 199
-        },
-        {
-          "type": "main",
-          "name": "Hovězí Blue cheese burger – listový salát, rajče, modrý sýr a česneková majonéza, hranolky",
-          "price": 259
+          "name": "Vepřový řízek, bramborový salát",
+          "price": 189
         }
       ]
     },
@@ -168,7 +118,7 @@
       "url": "http://smichovskaformanka.cz/",
       "status": "ok",
       "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
       "items": [
         {
           "type": "soup",
