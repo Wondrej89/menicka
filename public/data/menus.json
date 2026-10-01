@@ -1,29 +1,39 @@
 {
-  "generatedAt": "2026-09-30T17:18:30.564Z",
-  "weekday": 3,
+  "generatedAt": "2026-10-01T12:07:27.175Z",
+  "weekday": 4,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Silný hovězí vývar s masem a nudlemi",
+          "name": "Uzený vývar s masem, zelenina, rýže",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
-          "price": 189
+          "name": "Jitrnicový prejt, kysané zelí, vařené brambory, beraní roh",
+          "price": 174
         },
         {
           "type": "main",
-          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
-          "price": 175
+          "name": "Míchaný zeleninový salát, hovězí roastbeef, chipotle majonéza",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Bramborové noky, kuřecí nudličky, brokolice, smetana, sýr",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Zvěřinové ragú na víně, bramborové pyré, restovaná kořenová zelenina",
+          "price": 218
         }
       ]
     },
@@ -33,7 +43,7 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "main",
@@ -66,24 +76,34 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Rajčatová polévka s bazalkou",
-          "price": 45
+          "name": "POMALU TAŽENÝ SLEPIČÍ VÝVAR S MASEM, ZELENINOU, HRÁŠKEM A JASMÍNOVOU RÝŽÍ",
+          "price": 69
+        },
+        {
+          "type": "soup",
+          "name": "KRÉMOVÉ RISOTTO S MOŘSKÝMI PLODY, RAJČATY, ČESNEKEM, PETRŽELKOU A BÍLÝM VÍNEM",
+          "price": 209
         },
         {
           "type": "main",
-          "name": "Spaghetti Bolognese",
-          "price": 185
+          "name": "209 Kč",
+          "price": 209
         },
         {
           "type": "main",
-          "name": "Pizza Prosciutto",
-          "price": 195
+          "name": "POMALU PEČENÁ VEPŘOVÁ ŽEBÍRKA MARINOVANÁ V TERIYAKI OMÁČCE S BYLINKOVOU BAGETOU A COLESLAW SALÁTKEM",
+          "price": 209
+        },
+        {
+          "type": "main",
+          "name": "PIZZA NA TOMATOVÉM ZÁKLADĚ S MOZZARELLOU, TUŇÁKEM, VEJCEM A OLIVAMI",
+          "price": 189
         }
       ]
     },
@@ -97,28 +117,28 @@
       "items": [
         {
           "type": "soup",
-          "name": "Hráškový krém s krutony",
+          "name": "Gulášová polévka s bramborem",
           "price": 49
         },
         {
+          "type": "soup",
+          "name": "Dýňové krémové risotto s hráškem a sýrem Gran Moravia (1,3,7",
+          "price": 179
+        },
+        {
           "type": "main",
-          "name": "Kuřecí stripsy ala kfc s bramborovými hranolky, česnekovým dipem a salátkem Coleslaw",
+          "name": "Pečené kuřecí stehno ala bažant s dušeným červeným zelím, bramborovými špalíčky, vídeňskou cibulkou a silnou šťávou",
           "price": 189
         },
         {
           "type": "main",
-          "name": "Salát s grilovanou vepřovou panenkou, mixem listových salátů, pečenou paprikou, pečenými cherry rajčaty, avokádem a dresinkem ze zakysané smetany, medu a červené cibulky, opečená tortilla",
+          "name": "Smažené řízečky z vepřové panenky s bramborovou kaší a okurkovým salátkem",
           "price": 199
         },
         {
           "type": "main",
-          "name": "Koprová omáčka s hovězí pečení a houskovým knedlíkem",
-          "price": 209
-        },
-        {
-          "type": "main",
-          "name": "Caesar burger – kuřecí prso, listový salát, rajče, slanina, čedar a caesar dresink, hranolky",
-          "price": 249
+          "name": "Hovězí Gangster burger – listový salát, rajče, čedar, slanina, jalapeňos a chipotle majonéza, hranolky",
+          "price": 259
         },
         {
           "type": "main",
@@ -136,34 +156,34 @@
       "message": "Načteno.",
       "items": [
         {
-          "type": "soup",
-          "name": "Kuřecí vývar se smaženým hráškem",
+          "type": "main",
+          "name": "Rajčatová s těstovinou",
           "price": 45
         },
         {
           "type": "main",
-          "name": "Smažená hlíva, vařený brambor, tatarka",
+          "name": "Segedínský guláš s houskovým knedlíkem",
           "price": 179
         },
         {
           "type": "main",
-          "name": "Špagety aglio olio e pepperoncino s parmezánem",
+          "name": "Pečené kuřecí paličky na zelenině s jasmínovou rýží",
           "price": 179
         },
         {
           "type": "main",
-          "name": "Štěpánská hovězí pečeně housk. knedlík/jasmín. rýže",
+          "name": "Kuřecí rarášci s bramborovou kaší a kyselou okurkou",
           "price": 185
         },
         {
           "type": "main",
-          "name": "Vepřová kýta na paprice s těstovinami",
+          "name": "Penné alla arrabiata s parmazánem",
           "price": 179
         },
         {
           "type": "main",
-          "name": "Kuřecí steak capresse, hranolky, bazalková majonéza",
-          "price": 189
+          "name": "Hovězí burger se sázeným vejcem, majo, okurka, salát, cibule, hranolky",
+          "price": 195
         }
       ]
     },
