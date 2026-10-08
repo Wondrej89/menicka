@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-10-08T12:31:40.083Z",
+  "generatedAt": "2026-10-08T19:04:49.123Z",
   "weekday": 4,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Mrkvový krém se zázvorem a slaninou",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Krupicová kaše, máslo, kakao, ovoce, mandle",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Cizrnový bowl se zeleninou, grilované halloumi, mátovo-koriandrový dresink",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Pomalu tažený hovězí krk na hořčici, houskové knedlíky",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Krůtí prso v parmské šunce, sýrová kaše, šalvějová omáčka, pečená mrkev",
-          "price": 218
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -43,37 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "soup",
-          "name": "Zeleninový krém s krutóny",
+          "type": "main",
+          "name": "Zelná s uzeninou",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Pečená krkovice, červené zelí, bramborové knedlíky",
+          "name": "Brynzové halušky se slaninou a smaženou cibulkou",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Boloňské lasagne, tomatová polpa",
-          "price": 175
-        },
-        {
-          "type": "soup",
-          "name": "Grilované kuřecí prso, krémová omáčka z lišek a sušených rajčat, šťouchané brambory",
+          "name": "Hovězí nudličky „Stroganoff“, dušená rýže",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Grilovaný tuňák žlutoploutvý, marinovaná křupavá zelenina, jasmínová rýže, sezam",
-          "price": 219
+          "name": "Smažené krůtí řízky v sezamové strouhance, bramborová kaše, okurkový salát",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "QUATTRO FORMAGGI",
-          "price": 175
+          "name": "Dukátové buchtičky s vanilkovým šodó",
+          "price": 169
         }
       ]
     },
