@@ -1,39 +1,29 @@
 {
-  "generatedAt": "2026-10-14T10:54:36.885Z",
+  "generatedAt": "2026-10-14T15:38:26.508Z",
   "weekday": 3,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
-          "type": "main",
-          "name": "Kuřecí Tom Yum",
+          "type": "soup",
+          "name": "Silný hovězí vývar s masem a nudlemi",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Hovězí pečeně, rajská omáčka, houskové knedlíky",
-          "price": 174
+          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Špagety s krevetami, cuketa, sušená rajčata, česnek, rukola",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Grilovaný halloumi sýr, pečené brambory se zeleninou, bylinkový dip",
-          "price": 184
-        },
-        {
-          "type": "main",
-          "name": "Hovězí steak se sázeným vejcem, demi-glace, hranolky, zauzená majonéza",
-          "price": 238
+          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
+          "price": 175
         }
       ]
     },
@@ -156,39 +146,24 @@
       "id": "smichovska-formanka",
       "name": "Smíchovská Formanka",
       "url": "http://smichovskaformanka.cz/",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
-          "price": 45
+          "name": "Bramboračka",
+          "price": 42
         },
         {
           "type": "main",
-          "name": "Vepřová líčka na červeném víně restovanou zeleninou a bramborovou kaší",
-          "price": 185
+          "name": "Segedínský guláš, houskový knedlík",
+          "price": 175
         },
         {
           "type": "main",
-          "name": "Plněný paprikový lusk s jasmínovou rýží/ houskový knedlík",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Pečené kuřecí stehno na špeku s červeným medovým zelí a bramborovým knedlíkem",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Gnocchi s vepřovou panenkou, špenátem, smetanou a parmazánem",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Quesadilla s hovězím masem, cheddar, jalapeňo papričky se zeleninovým salátem a zakysanou smetanou",
-          "price": 189
+          "name": "Kuřecí nudličky na kari, rýže",
+          "price": 172
         }
       ]
     },
