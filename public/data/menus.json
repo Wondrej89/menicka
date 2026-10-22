@@ -1,29 +1,39 @@
 {
-  "generatedAt": "2026-10-21T15:45:40.209Z",
-  "weekday": 3,
+  "generatedAt": "2026-10-22T10:53:48.441Z",
+  "weekday": 4,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
-          "type": "soup",
-          "name": "Silný hovězí vývar s masem a nudlemi",
+          "type": "main",
+          "name": "Minestrone",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
-          "price": 189
+          "name": "Mrkvové placičky, vařené brambory, bylinkový dresink",
+          "price": 174
         },
         {
           "type": "main",
-          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
-          "price": 175
+          "name": "Smažený holandský řízek, bramborová kaše, okurkový salátek",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Vepřová játra na cibulce, rýže",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Krůtí prso na grilu zapečené slaninou a vejcem, hranolky, cheddar, slanina",
+          "price": 218
         }
       ]
     },
@@ -33,7 +43,7 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "main",
@@ -71,24 +81,34 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Rajčatová polévka s bazalkou",
-          "price": 45
+          "name": "SILNÝ HOVĚZÍ VÝVAR S JÁTROVOU ZAVÁŘKOU, ZELENINOU A NUDLEMI",
+          "price": 69
         },
         {
           "type": "main",
-          "name": "Spaghetti Bolognese",
-          "price": 185
+          "name": "linguine with chicken pieces, basil pesto and pine nuts, topped with parmesan",
+          "price": 199
         },
         {
           "type": "main",
-          "name": "Pizza Prosciutto",
-          "price": 195
+          "name": "BOWL S MARINOVANÝM LOSOSEM, SUSHI RÝŽÍ, RŮŽOVÝM ZÁZVOREM, FAZOLKAMI EDAMAME, OKURKOU, MUNGO KLÍČKY, ŘEDKVIČKAMI, WASABI MAJONÉZOU A SEZAMEM",
+          "price": 219
+        },
+        {
+          "type": "main",
+          "name": "GRILOVANÝ TELECÍ MAMINHA STEAK S DEMI-GLACE OMÁČKOU A HRÁŠKOVÝM PYRÉ S TYMIÁNEM",
+          "price": 229
+        },
+        {
+          "type": "main",
+          "name": "PIZZA S TOMATOVÝM ZÁKLADEM, BBQ OMÁČKOU, MOZZARELLOU, KUŘECÍM MASEM A PARMAZÁNEM",
+          "price": 199
         }
       ]
     },
@@ -96,39 +116,24 @@
       "id": "smichovna",
       "name": "Smíchovna",
       "url": "https://www.smichovna.cz/tydenni-nabidka",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (online zdroj je dočasně nedostupný).",
       "items": [
         {
           "type": "soup",
-          "name": "Čočková polévka s uzeninou",
-          "price": 49
+          "name": "Hovězí vývar s nudlemi",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "Opečená vinná klobása se šťouchaným bramborem, vídeňskou cibulkou a silnou šťávou",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí Enchiladas – plněná tortilla trhaným kuřecím masem, zapečená čedarem, zakysaná smetana",
+          "name": "Svíčková na smetaně, houskový knedlík",
           "price": 199
         },
         {
           "type": "main",
-          "name": "Svíčková na smetaně s hovězí pečení, brusinkami a houskovým knedlíkem",
-          "price": 209
-        },
-        {
-          "type": "main",
-          "name": "Hovězí Blue cheese burger – listový salát, rajče, modrý sýr a česneková majonéza, hranolky",
-          "price": 259
-        },
-        {
-          "type": "main",
-          "name": "Domácí lívance s omáčkou z lesních plodů a zakysanou smetanou",
-          "price": 149
+          "name": "Vepřový řízek, bramborový salát",
+          "price": 189
         }
       ]
     },
@@ -142,33 +147,33 @@
       "items": [
         {
           "type": "soup",
-          "name": "Kuřecí vývar s masem, zeleninou a kapáním",
+          "name": "Krémová kyselíce s bramborami a špekem",
           "price": 45
         },
         {
           "type": "main",
-          "name": "Smažený karbanátek se sýrem cheddar, jalapeňo papričky s bramborovou kaší salátem coleslaw",
+          "name": "Hovězí na česneku se špenátem a bramborový knedlík",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Kuřecí stripsy s bramborovou kaší a rajčatovým salátem",
           "price": 185
         },
         {
           "type": "main",
-          "name": "Bún bò Nam Bô",
-          "price": 185
+          "name": "Lečo s klobásou a domácím chlebem",
+          "price": 169
         },
         {
           "type": "main",
-          "name": "Pečená kuřecí křidélka na medu s česnekovou bagetkou, listovým salátem a variací dipů",
+          "name": "Špagety po uhlířsku s parmazánem",
           "price": 179
         },
         {
           "type": "main",
-          "name": "Pečené vepřové kolínko s kysaným zelí a variací knedlíků",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "Vepřový steak se sázeným vajíčkem, tatarskou omáčkou a šťouchaným bramborem",
-          "price": 189
+          "name": "Korejský kuřecí burger s domácí nakládanou okurkou, ledovým salátem, hranolkami a majonézou",
+          "price": 195
         }
       ]
     },
