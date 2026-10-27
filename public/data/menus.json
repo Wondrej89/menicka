@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T11:18:54.563Z",
+  "generatedAt": "2026-10-27T16:45:21.246Z",
   "weekday": 2,
   "menus": [
     {
@@ -8,7 +8,7 @@
       "url": "https://www.restauraceandel.cz/denni-nabidka",
       "status": "ok",
       "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (online zdroj je dočasně nedostupný).",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
@@ -33,32 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
-          "type": "soup",
-          "name": "Polévka: Hrachová s uzeninou",
+          "type": "main",
+          "name": "Zelná s uzeninou a bramborem",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Segedínský guláš, houskové knedlíky",
+          "name": "Uzená vepřová plec, listový špenát, bramborové knedlíky",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Rozpečený hermelín, vařené brambory, brusinková majonéza",
+          "name": "Grilované kachní prso, omáčka z brusinek a červeného vína, bramborové krokety",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "Pečené kuřecí stehno, ratatouille zelenina, kuskus",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Pečená krůtí prsa, grilovaná zelenina, bulgur",
-          "price": 179
-        },
-        {
-          "type": "soup",
-          "name": "Krémové risotto s parmskou šunkou, sušenými rajčaty, hráškem a parmazánem",
-          "price": 175
+          "name": "Thajské rybí kari, rýže basmati",
+          "price": 209
         }
       ]
     },
@@ -66,34 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "LOSOSOVÝ KRÉM S KOPREM A SMETANOU",
-          "price": 69
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "BRAMBOROVÉ NOKY S KOUSKY KRŮTÍCH PRSÍČEK, BROKOLICÍ A KONFITOVANÝM ČESNEKEM VE SMETANOVÉ OMÁČCE, PARMAZÁN",
-          "price": 209
+          "name": "Spaghetti Bolognese",
+          "price": 185
         },
         {
           "type": "main",
-          "name": "PEČENÝ ŽAMPION PORTOBELLO S LISTOVÝM ŠPENÁTEM, ČESNEKEM A VAJÍČKEM, ZAPEČENÝ MOZZARELLOU, LISTOVÝ SALÁT",
-          "price": 199
-        },
-        {
-          "type": "main",
-          "name": "SMAŽENÝ HOLANDSKÝ ŘÍZEK S BRAMBOROVOU KAŠÍ A OKURKOVÝM SALÁTKEM",
-          "price": 209
-        },
-        {
-          "type": "main",
-          "name": "PIZZA S TOMATOVÝM ZÁKLADEM, ČESNEKEM, MOZZARELLOU, SALÁMEM VENTRICINA A PARMAZÁNEM",
-          "price": 189
+          "name": "Pizza Prosciutto",
+          "price": 195
         }
       ]
     },
