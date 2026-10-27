@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-26T18:09:31.008Z",
-  "weekday": 1,
+  "generatedAt": "2026-10-27T11:18:54.563Z",
+  "weekday": 2,
   "menus": [
     {
       "id": "andel-restaurant",
@@ -8,7 +8,7 @@
       "url": "https://www.restauraceandel.cz/denni-nabidka",
       "status": "ok",
       "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Zobrazeno ukázkové menu (online zdroj je dočasně nedostupný).",
       "items": [
         {
           "type": "soup",
@@ -37,27 +37,27 @@
       "items": [
         {
           "type": "soup",
-          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
+          "name": "Polévka: Hrachová s uzeninou",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Znojemská hovězí pečeně, dušená rýže/ houskové knedlíky",
+          "name": "Segedínský guláš, houskové knedlíky",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Vepřové nudličky „Katův šleh“, bramboráčky",
-          "price": 175
-        },
-        {
-          "type": "main",
-          "name": "Kuře na paprice, špecle",
+          "name": "Rozpečený hermelín, vařené brambory, brusinková majonéza",
           "price": 169
         },
         {
           "type": "main",
-          "name": "Bramborové noky se smetanou, šunkou od kosti, listovým špenátem, sušenými rajčaty, česnekem a parmazánem",
+          "name": "Pečená krůtí prsa, grilovaná zelenina, bulgur",
+          "price": 179
+        },
+        {
+          "type": "soup",
+          "name": "Krémové risotto s parmskou šunkou, sušenými rajčaty, hráškem a parmazánem",
           "price": 175
         }
       ]
@@ -66,24 +66,34 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Rajčatová polévka s bazalkou",
-          "price": 45
+          "name": "LOSOSOVÝ KRÉM S KOPREM A SMETANOU",
+          "price": 69
         },
         {
           "type": "main",
-          "name": "Spaghetti Bolognese",
-          "price": 185
+          "name": "BRAMBOROVÉ NOKY S KOUSKY KRŮTÍCH PRSÍČEK, BROKOLICÍ A KONFITOVANÝM ČESNEKEM VE SMETANOVÉ OMÁČCE, PARMAZÁN",
+          "price": 209
         },
         {
           "type": "main",
-          "name": "Pizza Prosciutto",
-          "price": 195
+          "name": "PEČENÝ ŽAMPION PORTOBELLO S LISTOVÝM ŠPENÁTEM, ČESNEKEM A VAJÍČKEM, ZAPEČENÝ MOZZARELLOU, LISTOVÝ SALÁT",
+          "price": 199
+        },
+        {
+          "type": "main",
+          "name": "SMAŽENÝ HOLANDSKÝ ŘÍZEK S BRAMBOROVOU KAŠÍ A OKURKOVÝM SALÁTKEM",
+          "price": 209
+        },
+        {
+          "type": "main",
+          "name": "PIZZA S TOMATOVÝM ZÁKLADEM, ČESNEKEM, MOZZARELLOU, SALÁMEM VENTRICINA A PARMAZÁNEM",
+          "price": 189
         }
       ]
     },
@@ -96,28 +106,28 @@
       "message": "Načteno.",
       "items": [
         {
-          "type": "soup",
-          "name": "Dýňový krém se zázvorem a nočkem zakysané smetany",
+          "type": "main",
+          "name": "Staročeská bramboračka s houbami",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Kuřecí medailonky s pepřovou omáčkou a šťouchaným bramborem",
+          "name": "Bramborové noky s kuřecím masem, drcenými rajčaty, česnekem, slaninou, chilli, sušenými rajčaty, baby špenátem a sýrem Gran Moravia",
           "price": 189
         },
         {
           "type": "main",
-          "name": "Salát s vepřovou panenkou, listovým salátem, rajčetem, mangem, salátovou okurkou, červenou cibulkou, čerstvým chilli a dresinkem ze zakysané smetany, majonézy a citronové šťávy",
+          "name": "Filírované kachní prsíčko s bramborovou kaší a omáčkou demi glace s švestkami a červeným vínem",
           "price": 199
         },
         {
           "type": "main",
-          "name": "Rajská omáčka s hovězí pečení a houskovým knedlíkem",
+          "name": "Maďarský hovězí guláš s čerstvou cibulkou a houskovým knedlíkem",
           "price": 209
         },
         {
           "type": "main",
-          "name": "Hovězí burger s camembertem – listový salát, rajče, camembert, karamelizovaná cibulka a brusinková majonéza, hranolky",
+          "name": "Hovězí burger Smíchovna – listový salát, rajče, slanina, čedar, karamelizovaná cibulka, kyselá okurka a česneková majonéza",
           "price": 259
         },
         {
@@ -137,33 +147,33 @@
       "items": [
         {
           "type": "soup",
-          "name": "Dýňový krém s krutony",
+          "name": "Slepičí vývar s masem a fritátovými nudlemi",
           "price": 45
         },
         {
           "type": "main",
-          "name": "Záhorácký závitek se šťouchaným bramborem",
+          "name": "Jitrnicový prejt s kysaným zelí, vařený brambor a hořčice",
+          "price": 175
+        },
+        {
+          "type": "main",
+          "name": "Pikantní kuřecí směs s bramboráčky",
           "price": 185
         },
         {
           "type": "main",
-          "name": "Kachní roláda s červeným zelí a variací knedlíků",
-          "price": 195
-        },
-        {
-          "type": "main",
-          "name": "Gnocchi s vepřovou panenkou, žampiony, česnekem, smetanou a parmazánem",
+          "name": "Krůtí na paprice s těstovinami",
           "price": 185
         },
         {
           "type": "main",
-          "name": "Thajské kuřecí curry s jasmínovou rýží a coriandrem",
-          "price": 179
+          "name": "Grilovaná vepřová panenka po Burgundsku s bramborovou kaší a restovanou zeleninou",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Smažené patagonské Kalamáry s hranolkami, zeleninovým salátem a citrónovou majonézou",
-          "price": 209
+          "name": "Fish and chips ze sumečka ( bez kostí) s tatarskou omáčkou",
+          "price": 189
         }
       ]
     },
