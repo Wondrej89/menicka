@@ -1,29 +1,39 @@
 {
-  "generatedAt": "2026-10-28T17:41:42.934Z",
-  "weekday": 3,
+  "generatedAt": "2026-10-29T12:00:04.619Z",
+  "weekday": 4,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Silný hovězí vývar s masem a nudlemi",
+          "name": "Italská čočková polévka s rajčaty",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
-          "price": 189
+          "name": "Kynuté plněné jahodové knedlíky, zakysaná smetana, jahody, máta",
+          "price": 174
         },
         {
           "type": "main",
-          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
-          "price": 175
+          "name": "Pikantní vepřová směs v bramboráku, beraní rohy, cibule",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Míchaný zeleninový salát s kachním roastbeefem, hořčičný dresink",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Treska na grilu, hráškové pyré, baby karotka na másle",
+          "price": 218
         }
       ]
     },
@@ -66,24 +76,34 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
+      "message": "Načteno.",
       "items": [
         {
+          "type": "main",
+          "name": "ZELŇAČKA S KLOBÁSOU, BRAMBORAMI A ZAKYSANOU SMETANOU",
+          "price": 69
+        },
+        {
           "type": "soup",
-          "name": "Rajčatová polévka s bazalkou",
-          "price": 45
+          "name": "KRÉMOVÉ RISOTTO S ČERVENOU ŘEPOU, GRILOVANÝM KOZÍM SÝREM, OŘÍŠKY A RUKOLOU",
+          "price": 199
         },
         {
           "type": "main",
-          "name": "Spaghetti Bolognese",
-          "price": 185
+          "name": "ENCHILADA S TRHANÝM KUŘECÍM MASEM, RAJČATY, CHIPOTLE PAPRIČKOU A CIBULÍ, ZAPEČENÁ CHEDDAREM, PODÁVANÁ NA RESTOVANÝCH ZELENÝCH FAZOLKÁCH, TOMATOVÁ SALSA A ZAKYSANÁ SMETANA",
+          "price": 209
         },
         {
           "type": "main",
-          "name": "Pizza Prosciutto",
-          "price": 195
+          "name": "GRILOVANÉ MEDAILONKY Z HOVĚZÍHO RUMP STEAKU S DEMI-GLACE OMÁČKOU, LANÝŽOVÝM OLEJEM, PEČENÝMI GREN AILLE BRAMBORAMI A RUKOLOVÝM SALÁTKEM",
+          "price": 229
+        },
+        {
+          "type": "main",
+          "name": "PIZZA S TOMATOVÝM ZÁKLADEM, MOZZARELLOU, ŠUNKOU, HRÁŠKEM A KUKUŘICÍ",
+          "price": 189
         }
       ]
     },
@@ -93,7 +113,7 @@
       "url": "https://www.smichovna.cz/tydenni-nabidka",
       "status": "ok",
       "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Týdenní menu pro dnešní den není dostupné.).",
+      "message": "Zobrazeno ukázkové menu (online zdroj je dočasně nedostupný).",
       "items": [
         {
           "type": "soup",
@@ -121,9 +141,34 @@
       "message": "Načteno.",
       "items": [
         {
-          "type": "soup",
-          "name": "Polévka + hlavní jídlo",
-          "price": 229
+          "type": "main",
+          "name": "gulášová",
+          "price": 45
+        },
+        {
+          "type": "main",
+          "name": "Karamelizovaná vepřová plec , jasmínová rýže, cibulka",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Penne alla puttanesca s parmezánem",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Smažený hermelín, vařené brambory, tatarka",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Kuřecí slatimbocca, pečené brambory s cibulí",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "Hovězí burger se slaninou, majonézou, kyselou okurkou, cibulí a hranolkami",
+          "price": 195
         }
       ]
     },
