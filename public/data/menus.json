@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T14:19:21.368Z",
+  "generatedAt": "2026-11-02T22:49:35.375Z",
   "weekday": 1,
   "menus": [
     {
@@ -33,32 +33,27 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "soup",
-          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
+          "name": "Bramborový krém se žampióny, krutóny",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Špikované hovězí s rajskou omáčkou, houskové knedlíky/ těstoviny",
+          "name": "Rozlítaný španělský ptáček, dušená rýže/ houskové knedlíky",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Kuřecí nudličky Tikka Masala, rýže basmati",
-          "price": 175
+          "name": "Smažené kalamárové kroužky, pečené brambory, lehce pikantní salsa, česneková majonéza",
+          "price": 179
         },
         {
           "type": "main",
-          "name": "Pečená sekaná, bramborová kaše, okurka",
+          "name": "Zapečené šunkofleky, červená řepa",
           "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Penne s rajčaty, pancettou, chilli, červeným vínem, česnekem, bazalkou a parmazánem",
-          "price": 175
         }
       ]
     },
