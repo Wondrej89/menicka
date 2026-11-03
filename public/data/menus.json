@@ -1,29 +1,39 @@
 {
-  "generatedAt": "2026-11-02T22:49:35.375Z",
-  "weekday": 1,
+  "generatedAt": "2026-11-03T13:19:50.003Z",
+  "weekday": 2,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Silný hovězí vývar s masem a nudlemi",
+          "name": "Slepičí vývar, maso, zelenina, nudle",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
-          "price": 189
+          "name": "Salát z čočky beluga, pesto ze sušených rajčat, zelenina, grilované halloumi",
+          "price": 174
         },
         {
           "type": "main",
-          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
-          "price": 175
+          "name": "Hovězí pečeně v šípkové omáčce, bramborové šišky na sádle, kapustičky",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Vepřové soté s nivou a pórkem, rýže",
+          "price": 184
+        },
+        {
+          "type": "main",
+          "name": "Medailonky z vepřové panenky, rozmarýnové grenaille, fazolky, houbová omáčka",
+          "price": 218
         }
       ]
     },
@@ -33,7 +43,7 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
@@ -61,24 +71,34 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Rajčatová polévka s bazalkou",
-          "price": 45
+          "name": "KVĚTÁKOVÝ KRÉM S KARI A KRUTONY",
+          "price": 69
         },
         {
           "type": "main",
-          "name": "Spaghetti Bolognese",
-          "price": 185
+          "name": "BRAMBOROVÉ NOKY S KOUSKY LOSOSA, LISTOVÝM ŠPENÁTEM, ČESNEKEM A SMETANOU",
+          "price": 209
         },
         {
           "type": "main",
-          "name": "Pizza Prosciutto",
-          "price": 195
+          "name": "CAESAR WRAP S KREVETAMI, SLANINOU A PARMAZÁNEM",
+          "price": 209
+        },
+        {
+          "type": "main",
+          "name": "GRILOVANÝ HOVĚZÍ RUMP STEAK S PEPŘOVOU OMÁČKOU, HRANOLKAMI A LISTOVÝM SALÁTKEM",
+          "price": 229
+        },
+        {
+          "type": "main",
+          "name": "PIZZA S TOMATOVÝM ZÁKLADEM, ČESNEKEM, MOZZARELLOU, SLANINOU, ŠPENÁTEM A CAMEMBERTEM",
+          "price": 189
         }
       ]
     },
@@ -92,27 +112,27 @@
       "items": [
         {
           "type": "soup",
-          "name": "Špenátový krém se slaninou a krutony",
+          "name": "Kapustová polévka s moravskou klobásou a bramborem",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Pečené baby kuřátko na másle s bramborovou kaší a kyselou okurkou",
+          "name": "Krajová specialita „Oznické halušky“ s uzeným masem a kysaným zelím, zapečené zakysanou smetanou s čerstvým koprem",
           "price": 189
         },
         {
           "type": "main",
-          "name": "Naše linguine s vepřovou panenkou, česnekem, drcenými rajčaty, sladkou paprikou, smetanou, sušenými rajčaty, baby špenátem a sýrem Gran Moravia",
+          "name": "Kuřecí medailonky na grilu se šťouchaným bramborem a dýňovou omáčkou",
           "price": 199
         },
         {
           "type": "main",
-          "name": "Křenová omáčka s hovězí pečení a houskovým knedlíkem",
-          "price": 209
+          "name": "Salát s vepřovou panenkou na grilu, mixem listových salátů, avokádem, vařeným vejcem, rajčetem, salátovou okurkou a limetkovou emulzí s olivovým olejem, opečená tortilla",
+          "price": 199
         },
         {
           "type": "main",
-          "name": "Hovězí blue cheese burger – listový salát, rajče, modrý sýr a česneková majonéza, hranolky",
+          "name": "Hovězí burger Smíchovna – listový salát, rajče, slanina, čedar, karamelizovaná cibulka, kyselá okurka a česneková majonéza",
           "price": 259
         },
         {
@@ -131,34 +151,34 @@
       "message": "Načteno.",
       "items": [
         {
-          "type": "main",
-          "name": "bílá zelná se slaninou a bramborami",
+          "type": "soup",
+          "name": "risi bisi ( hovězí vývar s hráškem a rýží)",
           "price": 45
         },
         {
           "type": "main",
-          "name": "Jelení guláš s houskovým knedlíkem",
+          "name": "Hovězí v rajské omáčce, houskové knedlíky",
           "price": 185
         },
         {
           "type": "main",
-          "name": "Kuř. nudličky se zeleninou a cukrovým hráškem, jasmín. rýže",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Smažený květák, vařené brambory, tatarka",
-          "price": 169
-        },
-        {
-          "type": "main",
-          "name": "Gnocchi s vepřovou panenkou, dýní a parmezánem",
+          "name": "Vepřové tonkatsu s jasmínovou rýží a zelným salátem",
           "price": 185
         },
         {
           "type": "main",
-          "name": "Quesadilla s kuřecím masem, jalapeňos papričkami, čedar, rajčata, koriandr se zeleninovým salátem a zakysanou smetanou",
+          "name": "Grilovaná vepř. pluma s pepřovou omáčkou, šťouch. brambor",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Dýňové rizoto s kozím sýrem, rukola, dýňová semínka",
           "price": 185
+        },
+        {
+          "type": "main",
+          "name": "Kuřecí steak se šunkou a sýrem, hranolky, tatarka",
+          "price": 189
         }
       ]
     },
