@@ -1,29 +1,39 @@
 {
-  "generatedAt": "2026-11-09T14:46:19.469Z",
-  "weekday": 1,
+  "generatedAt": "2026-11-09T23:38:50.946Z",
+  "weekday": 2,
   "menus": [
     {
       "id": "andel-restaurant",
       "name": "Anděl Restaurant",
       "url": "https://www.restauraceandel.cz/denni-nabidka",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Silný hovězí vývar s masem a nudlemi",
-          "price": 49
+          "name": "Česneková polévka s vejcem",
+          "price": 55
         },
         {
           "type": "main",
-          "name": "Kuřecí steak s pepřovou omáčkou, hranolky",
-          "price": 189
+          "name": "Králičí ragú na houbách a smetaně, houskové knedlíky",
+          "price": 184
         },
         {
           "type": "main",
-          "name": "Smažený eidam, vařené brambory, tatarská omáčka",
-          "price": 175
+          "name": "Míchaný zeleninový salát, kuřecí stripsy, chilli majonéza",
+          "price": 194
+        },
+        {
+          "type": "main",
+          "name": "Špagety aglio e oglio, sýr",
+          "price": 194
+        },
+        {
+          "type": "main",
+          "name": "Losos na grilu, pečené grenaille, salsa verde, rukolový salátek, cherry rajčata",
+          "price": 224
         }
       ]
     },
@@ -33,7 +43,7 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "main",
@@ -77,22 +87,22 @@
         },
         {
           "type": "main",
-          "name": "ŠPAGETY CACIO E PEPE S GRILOVANÝM HOVĚZÍM SPIDER STEAKEM",
+          "name": "RIGATONI DI MANZO S HOVĚZÍM MASEM, CHERRY RAJČATY, ČERVENOU CIBULKOU, ČESNEKEM, PETRŽELKOU, ČERVENÝM VÍNEM, PARMAZÁNEM A CITRONEM",
           "price": 199
         },
         {
           "type": "main",
-          "name": "GRILOVANÉ HOVĚZÍ ŽEBRO S BRAMBOROVÝM PYRÉ, DEMI-GLACE, ŠPENÁTEM A SMAŽENOU CIBULKOU",
-          "price": 219
+          "name": "FISH & CHIPS S HRÁŠKOVÝM PYRÉ A BYLINKOVÝM SALÁTKEM SE ZÁLIVKOU Z VINNÉHO OCTA",
+          "price": 209
         },
         {
           "type": "main",
-          "name": "TEPLÝ MÍCHANÝ SALÁT S FILÍROVANÝM KACHNÍM PRSÍČKEM, TARHOŇOU, KARAMELIZOVANOU CIBULKOU, PETRŽELKOU, ITALSKÝM PEČIVEM A BRUSINKOVO-HOŘČIČNÝM DRESINKEM",
-          "price": 219
+          "name": "THAJSKÉ ČERVENÉ KARI S KUŘECÍM MASEM, ZELENINOU, JASMÍNOVOU RÝŽÍ, KORIANDREM A SEZAMEM",
+          "price": 209
         },
         {
           "type": "main",
-          "name": "PIZZA SE SMETANOVÝM ZÁKLADEM, DÝŇOVÝM PESTEM, MOZZARELLOU, SLANINOU A PARMAZÁNEM",
+          "name": "PIZZA S RAJČATOVÝM ZÁKLADEM, MOZZARELLOU, TUŇÁKEM, ČERVENOU CIBULÍ A ČERNÝMI OLIVAMI",
           "price": 189
         }
       ]
@@ -106,28 +116,28 @@
       "message": "Načteno.",
       "items": [
         {
-          "type": "soup",
-          "name": "Brokolicový krém se smetanou a krutony",
+          "type": "main",
+          "name": "Moravská zelnice s klobásou a bramborem",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Vepřová játra na slanině s jasmínovou rýží",
+          "name": "Bramborové noky ala Sorrentina s rajčatovou omáčkou, česnekem, bazalkou, mozzarellou a sýrem Gran Moravia",
           "price": 189
         },
         {
           "type": "main",
-          "name": "Naše linguine Aglio olio s vyškvařenou slaninou, česnekem, čerstvým chilli a sýrem Gran Moravia",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Kuřecí medailonky na grilu s omáčkou z demi glace, limetkové šťávy, kari a smetany, šťouchaný brambor",
+          "name": "Salát s kuřecím prsíčkem, mixem listových salátů, žlutým melounem, rajčetem, paprikou, salátovou okurkou, balkánským sýrem, červenou cibulkou a emulzí z citronové šťávy a medu, opečený toast",
           "price": 199
         },
         {
           "type": "main",
-          "name": "Hovězí blue cheese burger – listový salát, rajče, modrý sýr a česneková majonéza, hranolky",
+          "name": "Smažené řízečky z vepřové panenky s bramborovou kaší a kyselou okurkou",
+          "price": 199
+        },
+        {
+          "type": "main",
+          "name": "Hovězí burger Smíchovna – listový salát, rajče, slanina, čedar, karamelizovaná cibulka, kyselá okurka a česneková majonéza",
           "price": 259
         },
         {
@@ -146,34 +156,34 @@
       "message": "Načteno.",
       "items": [
         {
-          "type": "main",
-          "name": "čočková s párkem",
+          "type": "soup",
+          "name": "slepičí vývar s masem a nudlemi",
           "price": 45
         },
         {
           "type": "main",
-          "name": "Uzená krkovice se špenátem, bramborové knedlíky",
+          "name": "Vepřový guláš, houskové knedlíky",
           "price": 185
         },
         {
           "type": "main",
-          "name": "Kuřecí popcorn se zeleninovým salátem, hranolky, tatarka",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Krůtí na paprice s těstovinami",
-          "price": 185
-        },
-        {
-          "type": "main",
-          "name": "Gnocchi s kuřecím masem, špenátem a parmezánem",
+          "name": "Karameliz. kuřecí paličky s jarní cibulkou, jasmínová rýže",
           "price": 179
         },
         {
           "type": "main",
-          "name": "Grilovaná vepř. panenka s fazolkami na slanině, brambory Grenaille",
-          "price": 189
+          "name": "Pštrosí vejce (mleté maso plněné vejcem) bramborová kaše, kyselá okurka",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "Vařený hovězí spodní šál, vař. brambory, tatarka",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "Kuřecí soté, smažené bramboráčky",
+          "price": 185
         }
       ]
     },
