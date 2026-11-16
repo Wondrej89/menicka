@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-13T20:42:07.924Z",
-  "weekday": 5,
+  "generatedAt": "2026-11-16T14:22:13.985Z",
+  "weekday": 1,
   "menus": [
     {
       "id": "andel-restaurant",
@@ -8,7 +8,7 @@
       "url": "https://www.restauraceandel.cz/denni-nabidka",
       "status": "ok",
       "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
@@ -33,7 +33,7 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
@@ -66,24 +66,34 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
           "type": "soup",
-          "name": "Rajčatová polévka s bazalkou",
-          "price": 45
+          "name": "DÝŇOVÝ KRÉM S KOKOSOVÝM MLÉKEM A SMETANOU",
+          "price": 69
+        },
+        {
+          "type": "soup",
+          "name": "GRILOVANÉ KUŘECÍ PRSÍČKO S KRÉMOVOU TARHOŇOU, PARMAZÁNEM A BROKOLICÍ",
+          "price": 209
         },
         {
           "type": "main",
-          "name": "Spaghetti Bolognese",
-          "price": 185
+          "name": "RIGATONI S KRŮTÍM MASEM V RAJČATOVÉ OMÁČCE S CHILLI OLEJEM, CIBULÍ, ČESNEKEM A KADEŘAVOU PETRŽELKOU",
+          "price": 179
         },
         {
           "type": "main",
-          "name": "Pizza Prosciutto",
-          "price": 195
+          "name": "CIZRNOVÉ PYRÉ S LILKEM PEČENÝM NA BYLINKÁCH, OMÁČKOU ROMESCO A RUKOLOU",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "PIZZA SE SMETANOU, MOZZARELLOU, ŠUNKOU, CAMEMBERTEM A BRUSINKAMI",
+          "price": 199
         }
       ]
     },
@@ -96,59 +106,34 @@
       "message": "Načteno.",
       "items": [
         {
-          "type": "main",
-          "name": "Staročeská kulajda s vejci a bramborem",
+          "type": "soup",
+          "name": "Kukuřičný krém s čerstvým chilli a krutony",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Fajitas con pollo – restované kuřecí maso, paprika a červená cibulka, podávané s pšeničnou tortillou, zakysanou smetanou a rajčatovou salsou",
+          "name": "„Fleky“ – zapečené těstoviny s uzeným masem a vejci, kyselá okurka",
           "price": 189
         },
         {
           "type": "main",
-          "name": "Salát s vepřovou panenkou na grilu, římským salátem, rajčetem, salátovou okurkou, pečeným česnekem, krutony, balzamikovou redukcí a hoblinkami sýru Gran Moravia",
+          "name": "Vídeňský telecí guláš s houskovým knedlíkem",
           "price": 199
         },
         {
           "type": "main",
-          "name": "Hovězí Stroganoff se žampiony, kyselými okurkami a smetanou, jasmínová rýže",
+          "name": "Caesar con Gamberi – grilované krevety na římském salátu s caesar dresinkem, krutony a Caesar con Gamberi – grilované krevety na římském salátu s caesar dresinkem, krutony a",
           "price": 209
         },
         {
           "type": "main",
-          "name": "Hovězí burger se camembertem – listový salát, rajče, camembert, karamelizovaná cibulka a brusinková majonéza, hranolky",
-          "price": 259
+          "name": "Caesar burger – kuřecí prso, listový salát, rajče, slanina, čedar a caesar dresink, hranolky",
+          "price": 249
         },
         {
           "type": "main",
           "name": "Domácí lívance s omáčkou z lesních plodů a zakysanou smetanou",
           "price": 149
-        },
-        {
-          "type": "soup",
-          "name": "Rajčatový krém na kořenové zelenině s pestem a krutony",
-          "price": 49
-        },
-        {
-          "type": "main",
-          "name": "Smažený sýr Eidam s vařeným bramborem a naší tatarskou omáčkou",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Plněná cuketa kuřecím masem, jasmínovou rýží, smetanou a bylinkami, zapečené mozzarellou, pesto",
-          "price": 189
-        },
-        {
-          "type": "main",
-          "name": "Svíčková hovězí pečeně s brusinkami a houskovým knedlíkem",
-          "price": 209
-        },
-        {
-          "type": "main",
-          "name": "Hovězí burger s camembertem – listový salát, rajče, camembert, karamelizovaná cibulka a brusinková majonéza, hranolky",
-          "price": 259
         }
       ]
     },
@@ -156,24 +141,34 @@
       "id": "smichovska-formanka",
       "name": "Smíchovská Formanka",
       "url": "http://smichovskaformanka.cz/",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Načteno.",
       "items": [
         {
-          "type": "soup",
-          "name": "Bramboračka",
-          "price": 42
+          "type": "main",
+          "name": "gulášová",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "Segedínský guláš, houskový knedlík",
-          "price": 175
+          "name": "Hovězí na pepři s dušenou jasmínovou rýží",
+          "price": 189
         },
         {
           "type": "main",
-          "name": "Kuřecí nudličky na kari, rýže",
-          "price": 172
+          "name": "Kuřecí steak se sýrovou krustou, hranolky, jogurtový dip",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Smažený hermelín, vařené brambory, tatarka",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Čerstvé tagliatelle s lososem, cuketou a kapary, bv, parmez.",
+          "price": 189
         }
       ]
     },
