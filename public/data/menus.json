@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T23:26:43.943Z",
+  "generatedAt": "2026-11-17T15:14:30.165Z",
   "weekday": 2,
   "menus": [
     {
@@ -33,7 +33,7 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "soup",
@@ -59,6 +59,11 @@
           "type": "main",
           "name": "Tortiglioni s parmskou šunkou, rajčaty, smetanou, žampiony, česnekem, bazalkou a parmazánem",
           "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Rajčata, mozzarella, anglická slanina, gorgonzola",
+          "price": 175
         }
       ]
     },
@@ -103,7 +108,7 @@
       "url": "https://www.smichovna.cz/tydenni-nabidka",
       "status": "ok",
       "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Nepodařilo se rozpoznat položky menu.).",
+      "message": "Zobrazeno ukázkové menu (online zdroj je dočasně nedostupný).",
       "items": [
         {
           "type": "soup",
