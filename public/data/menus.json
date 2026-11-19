@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-18T22:25:42.989Z",
-  "weekday": 3,
+  "generatedAt": "2026-11-19T14:57:23.479Z",
+  "weekday": 4,
   "menus": [
     {
       "id": "andel-restaurant",
@@ -33,37 +33,32 @@
       "url": "https://biferestaurant.cz/pages/denni-menu",
       "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "message": "Načteno (stránka neobsahuje označení dnešního dne, zobrazeny rozpoznané položky).",
       "items": [
         {
           "type": "soup",
-          "name": "Hovězí vývar s masem, zeleninou a nudlemi",
+          "name": "Hříbkový krém",
           "price": 38
         },
         {
           "type": "main",
-          "name": "Špikované hovězí se svíčkovou omáčkou, houskové knedlíky, brusinky",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Pikantní vepřová jatýrka, bramboráčky",
+          "name": "Krůtí soté s brokolicí, karotkou a sušenými rajčaty, dušená rýže",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Kuřecí nudličky v kokosovém mléce se zeleninou a rýží basmati",
+          "name": "Boloňské špagety, parmazán",
+          "price": 169
+        },
+        {
+          "type": "main",
+          "name": "Smažený kuřecí řízek bramborová kaše, šopský salát",
           "price": 175
         },
         {
           "type": "main",
-          "name": "Tortiglioni s parmskou šunkou, rajčaty, smetanou, žampiony, česnekem, bazalkou a parmazánem",
-          "price": 179
-        },
-        {
-          "type": "main",
-          "name": "Rajčata, mozzarella, anglická slanina, gorgonzola",
-          "price": 175
+          "name": "Bramborové šišky s pečenými švestkami a mákem",
+          "price": 169
         }
       ]
     },
@@ -71,34 +66,24 @@
       "id": "corleone-andel",
       "name": "Corleone Anděl",
       "url": "https://www.corleone.cz/poledni-menu-andel",
-      "source": "live",
       "status": "ok",
-      "message": "Načteno.",
+      "source": "fallback",
+      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
       "items": [
         {
           "type": "soup",
-          "name": "KRÉM Z PEČENÉHO KVĚTÁKU S MISO PASTOU A RAJČATY",
-          "price": 69
-        },
-        {
-          "type": "soup",
-          "name": "PEČENÝ VEPŘOVÝ BŮČEK V CHILLI KRUSTĚ S KRÉMOVOU GORGONZOLOVOU OMÁČKOU, SMAŽENOU CIBULKOU A PAK CHOI",
-          "price": 209
+          "name": "Rajčatová polévka s bazalkou",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "LINGUINE S KUŘECÍM MASEM, ŠPENÁTEM, SMETANOU, ČESNEKEM, SMAŽENÝM ČESNEKEM A PETRŽELKOU",
-          "price": 199
+          "name": "Spaghetti Bolognese",
+          "price": 185
         },
         {
           "type": "main",
-          "name": "MÍCHANÝ SALÁT S PEČENOU PAPRIKOU, FAZOLKAMI, ZASTŘENÝM VEJCEM A SMAŽENÝMI KALAMÁRY",
-          "price": 219
-        },
-        {
-          "type": "main",
-          "name": "PIZZA SE SMETANOU, MOZZARELLOU, BOLOŇSKÝM RAGÚ A JARNÍ CIBULKOU",
-          "price": 199
+          "name": "Pizza Prosciutto",
+          "price": 195
         }
       ]
     },
@@ -112,27 +97,27 @@
       "items": [
         {
           "type": "soup",
-          "name": "Dršťková polévka z hlívy ústřičné",
+          "name": "Mexická fazolová polévka s klobásou a bramborem",
           "price": 49
         },
         {
           "type": "main",
-          "name": "Bramborové noky s kuřecím masem, houbami a smetanovou sýrovou omáčkou",
+          "name": "Naše linguine s mozzarellou, sušenými rajčaty, olivami, česnekem, rukolou a sýrem Gran Moravia",
           "price": 189
         },
         {
           "type": "main",
-          "name": "Salát s vepřovou panenkou, listovým salátem, rajčetem, ananasem, jablkem, salátovou okurkou a ořechovou majonézou s brandy, opečená tortilla",
+          "name": "Smažený holandský řízek se sýrem Gouda, bramborová kaše a kyselá okurka",
           "price": 199
         },
         {
           "type": "main",
-          "name": "Znojemská hovězí pečeně s jasmínovou rýží",
-          "price": 209
+          "name": "Salát s kuřecím prsíčkem, mixem listových salátů, cherry rajčety, salátovou okurkou, pečenou řepou, paprikou a majonézovým dreinkem s bbq omáčkou a chilli, rozpečený toast",
+          "price": 199
         },
         {
           "type": "main",
-          "name": "Hovězí Texas burger – listový salát, rajče, cibulové kroužky, tekutý čedar a dijonská majonéza, hranolky",
+          "name": "Hovězí Gangster burger – listový salát, rajče, čedar, slanina, jalapeňos a chipotle majonéza, hranolky",
           "price": 259
         },
         {
@@ -148,7 +133,7 @@
       "url": "http://smichovskaformanka.cz/",
       "status": "ok",
       "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (Menu pro dnešní den není na stránce dostupné.).",
+      "message": "Zobrazeno ukázkové menu (online zdroj je dočasně nedostupný).",
       "items": [
         {
           "type": "soup",
