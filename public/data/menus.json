@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T14:57:23.479Z",
+  "generatedAt": "2026-11-19T22:33:11.786Z",
   "weekday": 4,
   "menus": [
     {
@@ -131,24 +131,39 @@
       "id": "smichovska-formanka",
       "name": "Smíchovská Formanka",
       "url": "http://smichovskaformanka.cz/",
+      "source": "live",
       "status": "ok",
-      "source": "fallback",
-      "message": "Zobrazeno ukázkové menu (online zdroj je dočasně nedostupný).",
+      "message": "Načteno.",
       "items": [
         {
-          "type": "soup",
-          "name": "Bramboračka",
-          "price": 42
+          "type": "main",
+          "name": "frankfurtská s párkem",
+          "price": 45
         },
         {
           "type": "main",
-          "name": "Segedínský guláš, houskový knedlík",
-          "price": 175
+          "name": "Domácí sekaná, bramborová kaše, kyselá okurka",
+          "price": 179
         },
         {
           "type": "main",
-          "name": "Kuřecí nudličky na kari, rýže",
-          "price": 172
+          "name": "Boloňské špagety sypané parmezánem",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Vepřová krokvička s dušenou mrkví, vařené brambory",
+          "price": 179
+        },
+        {
+          "type": "main",
+          "name": "Kuřecí steak s žampionovou omáčkou, hranolky",
+          "price": 185
+        },
+        {
+          "type": "main",
+          "name": "Hovězí burger s vejcem a slaninou, kys. okurka, led. salát, rajče, hranolky, majonéza",
+          "price": 195
         }
       ]
     },
