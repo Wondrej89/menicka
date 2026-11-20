@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T14:39:26.365Z",
+  "generatedAt": "2026-11-20T22:03:04.064Z",
   "weekday": 5,
   "menus": [
     {
@@ -134,6 +134,26 @@
           "type": "main",
           "name": "Domácí lívance s omáčkou z lesních plodů a zakysanou smetanou",
           "price": 149
+        },
+        {
+          "type": "soup",
+          "name": "Žampionový krém zjemněný smetanou, krutony",
+          "price": 49
+        },
+        {
+          "type": "soup",
+          "name": "Velký kynutý knedlík plněný borůvkami se zakysanou smetanou, cukrem a přepuštěným máslem",
+          "price": 189
+        },
+        {
+          "type": "main",
+          "name": "Salát s kuřecím prsíčkem, mixem listových salátů, rajčetem, salátovou okurkou, avokádem, pečenou řepou a dresinkem z majonézy a modrého sýru, opečená tortilla",
+          "price": 199
+        },
+        {
+          "type": "main",
+          "name": "Fish & chips – smažená treska v pivním těstíčku s česnekovým dipem a bramborovými hranolky",
+          "price": 209
         }
       ]
     },
